@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { playfair, dmSans } from "@/app/fonts";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -34,6 +36,30 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Ganson Building & Civil Engineering Ltd",
+  url: "https://ganson.ie",
+  description:
+    "Construction company specialising in healthcare, education, commercial, and civil engineering projects.",
+  foundingDate: "2004",
+  address: [
+    {
+      "@type": "PostalAddress",
+      addressLocality: "Balbriggan",
+      addressRegion: "Co. Dublin",
+      addressCountry: "IE",
+    },
+    {
+      "@type": "PostalAddress",
+      addressLocality: "Castlewellan",
+      addressRegion: "Co. Down",
+      addressCountry: "GB",
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -41,8 +67,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-ivory text-dark-grey antialiased">
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
