@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
+  <!--
+    Ganson Building & Civil Engineering - Triangle Mark
+    Red triangle with 3 horizontal staircase cuts on the left side.
+    Peak slightly left of center, wide base.
+  -->
+  <defs>
+    <clipPath id="tri">
+      <polygon points="88,2 0,98 200,98"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tri)">
+    <!-- Full red triangle -->
+    <polygon points="88,2 0,98 200,98" fill="#d00918"/>
+
+    <!--
+      Three white cuts creating ascending staircase from left.
+      Each cut extends from the left edge; right edge steps further right going down.
+      Gap thickness ~14 units each. Steps offset ~22px each going down.
+    -->
+
+    <!-- Top cut -->
+    <rect x="-5" y="22" width="78" height="14" fill="white"/>
+
+    <!-- Middle cut -->
+    <rect x="-5" y="47" width="102" height="14" fill="white"/>
+
+    <!-- Bottom cut -->
+    <rect x="-5" y="72" width="126" height="14" fill="white"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <!--
+    Ganson Building & Civil Engineering - Full Logo (White variant)
+    White triangle mark + white "GANSON" text below, for dark backgrounds.
+  -->
+  <defs>
+    <mask id="staircase-mask-logo">
+      <polygon points="88,2 0,98 200,98" fill="white"/>
+      <rect x="-5" y="22" width="78" height="14" fill="black"/>
+      <rect x="-5" y="47" width="102" height="14" fill="black"/>
+      <rect x="-5" y="72" width="126" height="14" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Triangle mark (white with transparent cuts) -->
+  <rect x="0" y="0" width="200" height="100" fill="#ffffff" mask="url(#staircase-mask-logo)"/>
+
+  <!-- "GANSON" text in white -->
+  <text
+    x="100"
+    y="140"
+    text-anchor="middle"
+    font-family="'DM Sans', 'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="40"
+    letter-spacing="3"
+    fill="#ffffff"
+  >GANSON</text>
+</svg>

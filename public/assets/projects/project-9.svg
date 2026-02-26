@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <!--
+    Ganson Project Placeholder 9
+    Placeholder image for project photography.
+  -->
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#3d3d3d"/>
+  
+    <!-- Structural triangles -->
+    <defs>
+      <pattern id="tri-9" width="80" height="70" patternUnits="userSpaceOnUse">
+        <polygon points="40,5 5,65 75,65" fill="none" stroke="#d00918" stroke-width="0.4" opacity="0.1"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="800" fill="url(#tri-9)"/>
+    <!-- Large structural elements -->
+    <polygon points="600,100 200,700 1000,700" fill="none" stroke="#d00918" stroke-width="2" opacity="0.15"/>
+    <line x1="600" y1="100" x2="600" y2="700" stroke="#d00918" stroke-width="1" opacity="0.1"/>
+    <line x1="200" y1="700" x2="1000" y2="700" stroke="#d00918" stroke-width="1" opacity="0.1"/>
+
+  <!-- Project number -->
+  <text
+    x="600"
+    y="380"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Playfair Display', Georgia, serif"
+    font-weight="700"
+    font-size="180"
+    fill="white"
+    opacity="0.08"
+  >09</text>
+
+  <!-- Label text -->
+  <text
+    x="600"
+    y="480"
+    text-anchor="middle"
+    font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="18"
+    letter-spacing="6"
+    fill="#d00918"
+    opacity="0.5"
+  >PROJECT PHOTOGRAPHY</text>
+
+  <!-- Small accent line -->
+  <line x1="540" y1="500" x2="660" y2="500" stroke="#d00918" stroke-width="1" opacity="0.4"/>
+</svg>

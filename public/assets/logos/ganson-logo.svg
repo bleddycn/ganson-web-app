@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <!--
+    Ganson Building & Civil Engineering - Full Logo (Colour)
+    Red triangle mark + dark "GANSON" text below.
+  -->
+  <defs>
+    <clipPath id="tri">
+      <polygon points="88,2 0,98 200,98"/>
+    </clipPath>
+  </defs>
+
+  <!-- Triangle mark -->
+  <g clip-path="url(#tri)">
+    <polygon points="88,2 0,98 200,98" fill="#d00918"/>
+    <rect x="-5" y="22" width="78" height="14" fill="white"/>
+    <rect x="-5" y="47" width="102" height="14" fill="white"/>
+    <rect x="-5" y="72" width="126" height="14" fill="white"/>
+  </g>
+
+  <!-- "GANSON" text -->
+  <text
+    x="100"
+    y="140"
+    text-anchor="middle"
+    font-family="'DM Sans', 'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="40"
+    letter-spacing="3"
+    fill="#122047"
+  >GANSON</text>
+</svg>
