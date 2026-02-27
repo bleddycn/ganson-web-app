@@ -84,9 +84,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section containers */
+.section-dark,
+[class*="bg-navy"] {
+  color: var(--color-cream);
+}
+
 .section-dark {
   background-color: var(--color-navy);
-  color: var(--color-cream);
 }
 
 .section-dark h1,
@@ -94,7 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 .section-dark h3,
 .section-dark h4,
 .section-dark h5,
-.section-dark h6 {
+.section-dark h6,
+[class*="bg-navy"] h1,
+[class*="bg-navy"] h2,
+[class*="bg-navy"] h3,
+[class*="bg-navy"] h4,
+[class*="bg-navy"] h5,
+[class*="bg-navy"] h6 {
   color: white;
 }
 

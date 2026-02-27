@@ -54,10 +54,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="relative z-50 flex-shrink-0">
             <Image
-              src="/assets/logos/ganson-logo-white.svg"
+              src="/assets/logos/ganson-mark.png"
               alt="Ganson Building & Civil Engineering"
-              width={160}
-              height={40}
+              width={400}
+              height={216}
               className="h-10 w-auto"
               priority
             />

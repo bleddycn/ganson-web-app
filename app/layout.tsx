@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/assets/logos/ganson-mark.svg',
-    shortcut: '/assets/logos/ganson-mark.svg',
-    apple: '/assets/logos/ganson-mark.svg',
+    icon: '/assets/logos/ganson-favicon.png',
+    shortcut: '/assets/logos/ganson-favicon.png',
+    apple: '/assets/logos/ganson-apple-icon.png',
   },
 };
 

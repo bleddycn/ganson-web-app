@@ -21,10 +21,10 @@ export default function Footer() {
           <div>
             <Link href="/" className="mb-6 inline-block">
               <Image
-                src="/assets/logos/ganson-logo-white.svg"
+                src="/assets/logos/ganson-mark.png"
                 alt="Ganson Building & Civil Engineering"
-                width={180}
-                height={45}
+                width={400}
+                height={216}
                 className="h-11 w-auto"
               />
             </Link>
