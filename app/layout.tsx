@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { playfair, dmSans } from "@/app/fonts";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import CustomCursor from "@/components/ui/custom-cursor";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -74,6 +75,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-ivory text-dark-grey antialiased">
+        <CustomCursor />
         <Header />
         <main>{children}</main>
         <Footer />
