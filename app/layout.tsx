@@ -4,6 +4,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import CustomCursor from "@/components/ui/custom-cursor";
 import Analytics from "@/components/analytics";
+import CookieBanner from "@/components/ui/cookie-banner";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -86,6 +87,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Analytics />
+        <CookieBanner />
       </body>
     </html>
   );
