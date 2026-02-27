@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next'
 import { projects } from '@/lib/data/projects'
 import { news } from '@/lib/data/news'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://ganson.ie'
 
