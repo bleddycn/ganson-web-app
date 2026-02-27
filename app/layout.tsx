@@ -3,6 +3,7 @@ import { playfair, dmSans } from "@/app/fonts";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import CustomCursor from "@/components/ui/custom-cursor";
+import Analytics from "@/components/analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -34,6 +35,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  icons: {
+    icon: '/assets/logos/ganson-mark.svg',
+    shortcut: '/assets/logos/ganson-mark.svg',
+    apple: '/assets/logos/ganson-mark.svg',
   },
 };
 
@@ -79,6 +85,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
