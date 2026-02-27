@@ -1,6 +1,7 @@
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
 import { careers } from '@/lib/data/careers'
+import Image from 'next/image'
 import JobListings from './job-listings'
 
 export const metadata = {
@@ -112,15 +113,16 @@ export default function CareersPage() {
               </ScrollReveal>
             </div>
 
-            {/* Image placeholder */}
+            {/* Culture image */}
             <ScrollReveal delay={0.3} direction="right">
-              <div className="flex aspect-[4/3] items-center justify-center bg-sand">
-                <div className="text-center">
-                  <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-navy/10" />
-                  <span className="font-body text-sm text-dark-grey">
-                    Team photo placeholder
-                  </span>
-                </div>
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src="/assets/careers/culture.jpg"
+                  alt="Ganson team collaborating in the office"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
               </div>
             </ScrollReveal>
           </div>

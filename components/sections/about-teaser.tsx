@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import ScrollReveal from '@/components/animations/scroll-reveal'
 
 export default function AboutTeaser() {
@@ -8,9 +9,17 @@ export default function AboutTeaser() {
     <section className="section-dark noise-overlay py-24 md:py-32">
       <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[55%_45%] lg:gap-16">
-          {/* Left — image placeholder */}
+          {/* Left — image */}
           <ScrollReveal direction="left">
-            <div className="aspect-[4/3] w-full rounded-sm bg-sand/20" />
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm">
+              <Image
+                src="/assets/about/about-teaser.jpg"
+                alt="Ganson construction team on site"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 55vw"
+              />
+            </div>
           </ScrollReveal>
 
           {/* Right — text content */}
