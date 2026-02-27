@@ -50,7 +50,7 @@ export default function Header() {
             : 'bg-transparent'
         )}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8 lg:py-6">
           {/* Logo */}
           <Link href="/" className="relative z-50 flex-shrink-0">
             <Image
@@ -58,7 +58,7 @@ export default function Header() {
               alt="Ganson Building & Civil Engineering"
               width={400}
               height={216}
-              className="h-10 w-auto"
+              className="h-12 w-auto lg:h-14"
               priority
             />
           </Link>
