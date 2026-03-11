@@ -77,27 +77,41 @@ export default function AboutPage() {
       {/* Company Story */}
       <section className="section-light bg-ivory py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
-            <ScrollReveal>
-              <h2 className="font-display text-4xl text-navy md:text-5xl">
-                Our Story
-              </h2>
-            </ScrollReveal>
+          {/* Oversized heading with red accent */}
+          <ScrollReveal>
+            <div className="mb-12 flex items-center gap-6 md:mb-16">
+              <div className="h-px w-12 bg-brand-red md:w-20" />
+              <span className="font-body text-sm uppercase tracking-widest text-brand-red">
+                Est. 2004
+              </span>
+            </div>
+            <h2 className="font-display text-5xl leading-none text-navy md:text-7xl lg:text-8xl">
+              Our Story
+            </h2>
+          </ScrollReveal>
 
-            <div className="space-y-6">
-              <ScrollReveal delay={0.1}>
-                <p className="text-lg leading-relaxed text-dark-grey">
-                  Ganson is one of Ireland and the UK&apos;s most progressive
-                  building contractors, delivering large-scale and complex
-                  projects across both jurisdictions. We operate as a leading
-                  contractor across a wide range of public and private sector
-                  developments, with a proven track record of quality delivery,
-                  programme certainty and strong client relationships.
+          {/* Lead paragraph — large editorial intro */}
+          <ScrollReveal delay={0.15}>
+            <p className="mt-10 max-w-5xl border-l-2 border-brand-red pl-6 font-display text-2xl leading-snug text-navy/90 md:mt-14 md:pl-8 md:text-3xl lg:text-4xl">
+              Ganson is one of Ireland and the UK&apos;s most progressive
+              building contractors, delivering large-scale and complex
+              projects across both jurisdictions.
+            </p>
+          </ScrollReveal>
+
+          {/* Supporting text — single column with dividers */}
+          <div className="mt-12 max-w-3xl md:mt-16">
+            <div className="space-y-8 border-l-2 border-sand pl-8 text-lg leading-relaxed text-dark-grey md:pl-10">
+              <ScrollReveal delay={0.25}>
+                <p>
+                  We operate as a leading contractor across a wide range of
+                  public and private sector developments, with a proven track
+                  record of quality delivery, programme certainty and strong
+                  client relationships.
                 </p>
               </ScrollReveal>
-
-              <ScrollReveal delay={0.2}>
-                <p className="text-lg leading-relaxed text-dark-grey">
+              <ScrollReveal delay={0.3}>
+                <p>
                   Founded in 2004 by Paul McQuaid and David Rogers, both Civil
                   Engineering graduates of Queen&apos;s University Belfast,
                   Ganson was built on a singular vision: to redefine industry
@@ -107,9 +121,8 @@ export default function AboutPage() {
                   projects across multiple sectors in Ireland and the UK.
                 </p>
               </ScrollReveal>
-
-              <ScrollReveal delay={0.3}>
-                <p className="text-lg leading-relaxed text-dark-grey">
+              <ScrollReveal delay={0.35}>
+                <p>
                   Operating from a strategic hub in Dublin, allowing us to serve
                   Ireland and the UK, we provide an agile, multidisciplinary
                   response to the complexities of the modern built environment.
@@ -118,9 +131,8 @@ export default function AboutPage() {
                   demands of every project.
                 </p>
               </ScrollReveal>
-
               <ScrollReveal delay={0.4}>
-                <p className="text-lg leading-relaxed text-dark-grey">
+                <p>
                   Our commitment to the &ldquo;Ganson Standard&rdquo; offers our
                   clients the ultimate assurance of financial stability,
                   operational precision and integrity.
@@ -149,7 +161,7 @@ export default function AboutPage() {
                       src={founder.image}
                       alt={founder.name}
                       fill
-                      className="object-cover"
+                      className="object-cover object-top"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </div>
