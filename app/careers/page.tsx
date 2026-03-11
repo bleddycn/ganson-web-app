@@ -47,7 +47,17 @@ export default function CareersPage() {
   return (
     <>
       {/* Hero */}
-      <section className="noise-overlay relative overflow-hidden bg-navy py-32 md:py-40">
+      <section className="relative overflow-hidden bg-navy py-32 md:py-40">
+        <Image
+          src="/assets/heroes/careers-hero.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+        />
+        <div className="absolute inset-0 bg-navy/80" />
+        <div className="noise-overlay pointer-events-none absolute inset-0" />
         <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ScrollReveal delay={0.1}>
             <span className="mb-6 inline-block font-body text-sm uppercase tracking-widest text-brand-red">

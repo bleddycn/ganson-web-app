@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
 import ProjectFilter from '@/components/ui/project-filter'
@@ -13,7 +14,17 @@ export default function ProjectsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="noise-overlay section-dark relative overflow-hidden bg-navy py-32 md:py-40">
+      <section className="relative overflow-hidden bg-navy py-32 md:py-40">
+        <Image
+          src="/assets/heroes/projects-hero.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+        />
+        <div className="absolute inset-0 bg-navy/80" />
+        <div className="noise-overlay pointer-events-none absolute inset-0" />
         <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ScrollReveal delay={0.1}>
             <span className="mb-6 inline-block font-body text-sm uppercase tracking-widest text-brand-red">
@@ -22,10 +33,17 @@ export default function ProjectsPage() {
           </ScrollReveal>
 
           <StaggerText
-            text="We don't just build structures; we build the partnerships that make them possible."
-            className="max-w-3xl text-4xl text-white md:text-6xl lg:text-7xl"
+            text="Built to Last.|Designed to Inspire."
+            className="text-5xl text-white md:text-6xl lg:text-7xl"
+            lineClassNames={[
+              '',
+              'text-cream/80',
+            ]}
             tag="h1"
             delay={0.2}
+            separator={
+              <span className="my-2 block h-[2px] w-12 bg-brand-red md:my-3 md:w-16" />
+            }
           />
         </div>
       </section>
