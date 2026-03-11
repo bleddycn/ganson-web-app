@@ -41,7 +41,7 @@ export default function Hero() {
 
       {/* Main content */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32 md:px-12 lg:px-16">
-        <div className="max-w-2xl lg:max-w-[50%]">
+        <div className="max-w-4xl">
           {/* Category label */}
           <ScrollReveal delay={0.3}>
             <span className="mb-6 inline-block font-body text-sm uppercase tracking-widest text-brand-red">
@@ -51,17 +51,24 @@ export default function Hero() {
 
           {/* Main headline */}
           <StaggerText
-            text="Building Ireland's Future"
-            className="text-5xl text-white md:text-7xl lg:text-8xl"
+            text="Uncompromising Standards.|Evolving Methods."
+            className="text-5xl text-white md:text-6xl lg:text-7xl"
+            lineClassNames={[
+              '',
+              'text-cream/80',
+            ]}
             tag="h1"
             delay={0.5}
+            separator={
+              <span className="my-2 block h-[2px] w-12 bg-brand-red md:my-3 md:w-16" />
+            }
           />
 
           {/* Subtitle */}
           <ScrollReveal delay={0.8} className="mt-6">
             <p className="max-w-lg text-lg leading-relaxed text-cream">
-              Over two decades of construction excellence across healthcare,
-              education, commercial and civil engineering.
+              Over twenty years of multi-sector expertise, building with
+              integrity, agility and commitment.
             </p>
           </ScrollReveal>
 

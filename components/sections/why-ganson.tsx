@@ -15,26 +15,27 @@ interface Stat {
 
 const stats: Stat[] = [
   {
-    value: 80,
+    value: 430,
+    prefix: '\u20ac',
+    suffix: 'm+',
+    label: 'Capital Value of Current Works',
+    description:
+      'Managing over \u20ac400m of project capital value across Ireland and the UK.',
+  },
+  {
+    value: 130,
     prefix: '\u20ac',
     suffix: 'm+',
     label: 'Annual Workload',
     description:
-      'Currently managing over \u20ac80 million in live construction projects across Ireland and the UK.',
+      'Yearly revenues in excess of \u20ac130m, and set up to continue to grow.',
   },
   {
-    value: 20,
+    value: 130,
     suffix: '+',
-    label: 'Years Experience',
+    label: 'Direct Staff',
     description:
-      'Two decades of proven delivery in healthcare, education, commercial and civil engineering sectors.',
-  },
-  {
-    value: 100,
-    suffix: '%',
-    label: 'Credit Rating',
-    description:
-      'Maintaining a perfect credit rating demonstrates our financial stability and reliability.',
+      'Over 130 direct staff delivering excellence across every project.',
   },
 ]
 
@@ -81,7 +82,7 @@ function StatPillar({
   return (
     <ScrollReveal delay={delay}>
       <div className="flex flex-col">
-        <span className="font-display text-7xl font-bold text-brand-red md:text-8xl lg:text-9xl">
+        <span className="font-display text-5xl font-medium text-brand-red md:text-6xl lg:text-7xl">
           {stat.prefix ?? ''}
           {count}
           {stat.suffix}
@@ -112,7 +113,7 @@ export default function WhyGanson() {
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
           <h2 className="font-display text-3xl text-navy md:text-5xl">
-            The numbers speak for themselves
+            The Ganson standard, quantified
           </h2>
         </ScrollReveal>
 

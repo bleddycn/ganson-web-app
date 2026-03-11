@@ -32,26 +32,27 @@ export default function AboutTeaser() {
 
             <ScrollReveal delay={0.2}>
               <h2 className="font-display text-3xl text-white md:text-4xl">
-                Two decades of building excellence
+                Twenty Years of Construction Excellence
               </h2>
             </ScrollReveal>
 
             <ScrollReveal delay={0.3}>
               <p className="mt-6 font-body leading-relaxed text-cream">
-                Founded in 2004 by Paul McQuaid and David Rogers, both graduates
-                of Queen&apos;s University Belfast&apos;s Civil Engineering
-                programme, Ganson has grown from a specialist contractor to one
-                of Ireland&apos;s most respected building and civil engineering
-                firms.
+                At Ganson, our expertise is built on two decades of precision,
+                stability, and a forward-thinking approach to the built
+                environment. As one of Ireland&apos;s most progressive
+                contractors, we bridge the gap between traditional craftsmanship
+                and modern engineering.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.4}>
               <p className="mt-4 font-body leading-relaxed text-cream">
-                With offices in Balbriggan, Co. Dublin and Castlewellan, Co.
-                Down, we deliver projects across healthcare, education,
-                commercial, retail, tourism, high-tech, refurbishment and civil
-                engineering — maintaining a 100% credit rating throughout.
+                Driven by a client focus, we recognise that no two projects are
+                identical. We maintain the operational agility to pivot with
+                project demands and the technical scale to deliver excellence
+                across healthcare, education, residential, commercial, and
+                hospitality sectors.
               </p>
             </ScrollReveal>
 

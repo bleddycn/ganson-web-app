@@ -22,7 +22,7 @@ export default function ProjectsPage() {
           </ScrollReveal>
 
           <StaggerText
-            text="Projects that speak for themselves"
+            text="We don't just build structures; we build the partnerships that make them possible."
             className="max-w-3xl text-4xl text-white md:text-6xl lg:text-7xl"
             tag="h1"
             delay={0.2}

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { clients } from '@/lib/data/clients'
 
 export default function TrustedBy() {
@@ -23,12 +24,16 @@ export default function TrustedBy() {
         <div className="animate-scroll-x flex w-max items-center group-hover:[animation-play-state:paused]">
           {duplicatedClients.map((client, i) => (
             <div key={`${client.slug}-${i}`} className="flex shrink-0 items-center">
-              <span className="whitespace-nowrap font-body text-lg font-medium text-navy">
-                {client.name}
-              </span>
-              <span className="mx-6 text-brand-red" aria-hidden="true">
-                &middot;
-              </span>
+              <div className="flex h-10 w-[120px] items-center justify-center md:w-[140px]">
+                <Image
+                  src={client.logo}
+                  alt={client.name}
+                  width={120}
+                  height={40}
+                  className="max-h-8 w-auto max-w-[100px] object-contain grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100 md:max-h-10 md:max-w-[120px]"
+                />
+              </div>
+              <span className="mx-3 text-xl text-brand-red/40 md:mx-5" aria-hidden="true">&middot;</span>
             </div>
           ))}
         </div>

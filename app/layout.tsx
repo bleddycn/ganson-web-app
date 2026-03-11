@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { playfair, dmSans } from "@/app/fonts";
+import { raleway, dmSans } from "@/app/fonts";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import CustomCursor from "@/components/ui/custom-cursor";
@@ -74,7 +74,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
+    <html lang="en" className={`${raleway.variable} ${dmSans.variable}`}>
       <head>
         <script
           type="application/ld+json"

@@ -30,6 +30,7 @@ export interface TeamMember {
   image: string
   bio: string
   qualifications?: string[]
+  imageClassName?: string
 }
 
 export interface NewsArticle {
@@ -65,6 +66,7 @@ export interface JobListing {
 export interface ClientLogo {
   name: string
   slug: string
+  logo: string
 }
 
 export interface NavItem {

@@ -1,5 +1,6 @@
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
+import TeamGrid from '@/components/ui/team-card'
 import { team } from '@/lib/data/team'
 import { clients } from '@/lib/data/clients'
 import Image from 'next/image'
@@ -47,7 +48,7 @@ export default function AboutPage() {
           </ScrollReveal>
 
           <StaggerText
-            text="Building with purpose since 2004"
+            text="Modern Construction Specialists"
             className="max-w-3xl text-4xl text-white md:text-6xl lg:text-7xl"
             tag="h1"
             delay={0.2}
@@ -55,10 +56,9 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.5} className="mt-6">
             <p className="max-w-xl text-lg leading-relaxed text-cream">
-              From specialist contractor to one of Ireland&apos;s most trusted
-              building and civil engineering firms — our story is one of steady
-              growth, enduring partnerships, and an unwavering commitment to
-              quality.
+              One of Ireland&apos;s most trusted building and civil engineering
+              firms — our story is one of steady growth, enduring partnerships,
+              and a commitment to quality.
             </p>
           </ScrollReveal>
         </div>
@@ -77,44 +77,43 @@ export default function AboutPage() {
             <div className="space-y-6">
               <ScrollReveal delay={0.1}>
                 <p className="text-lg leading-relaxed text-dark-grey">
-                  Ganson Building &amp; Civil Engineering was founded in 2004 by
-                  Paul McQuaid and David Rogers, both graduates of Queen&apos;s
-                  University Belfast. United by a shared vision for a
-                  construction company built on integrity, technical excellence,
-                  and genuine client partnership, they established Ganson with a
-                  focus on delivering projects that exceed expectations.
+                  Ganson is one of Ireland and the UK&apos;s most progressive
+                  building contractors, delivering large-scale and complex
+                  projects across both jurisdictions. We operate as a leading
+                  contractor across a wide range of public and private sector
+                  developments, with a proven track record of quality delivery,
+                  programme certainty and strong client relationships.
                 </p>
               </ScrollReveal>
 
               <ScrollReveal delay={0.2}>
                 <p className="text-lg leading-relaxed text-dark-grey">
-                  What began as a specialist subcontracting operation has grown
-                  into a full-service building and civil engineering contractor
-                  with an annual workload in excess of &euro;80 million. Today,
-                  Ganson delivers complex projects across healthcare, education,
-                  commercial, retail, tourism, high-tech, and civil engineering
-                  sectors — serving public and private clients throughout Ireland
-                  and the United Kingdom.
+                  Founded in 2004 by Paul McQuaid and David Rogers, both Civil
+                  Engineering graduates of Queen&apos;s University Belfast,
+                  Ganson was built on a singular vision: to redefine industry
+                  standards through technical excellence and genuine partnership.
+                  What began as a small contracting firm has evolved into a
+                  premier full-service main contractor, delivering complex
+                  projects across multiple sectors in Ireland and the UK.
                 </p>
               </ScrollReveal>
 
               <ScrollReveal delay={0.3}>
                 <p className="text-lg leading-relaxed text-dark-grey">
-                  With offices in Dublin and County Down, Ganson serves all of
-                  Ireland and the UK. Our procurement expertise spans
-                  traditional, design &amp; build, management contracting, and
-                  employer&apos;s controlled expenditure (ECE) delivery models,
-                  enabling us to tailor our approach to the specific needs of
-                  each project and client.
+                  Operating from a strategic hub in Dublin, allowing us to serve
+                  Ireland and the UK, we provide an agile, multidisciplinary
+                  response to the complexities of the modern built environment.
+                  Whether through Traditional, Design &amp; Build, or Management
+                  Contracting models, our approach is tailored to the unique
+                  demands of every project.
                 </p>
               </ScrollReveal>
 
               <ScrollReveal delay={0.4}>
                 <p className="text-lg leading-relaxed text-dark-grey">
-                  The company holds ISO 9001, ISO 14001, and ISO 45001
-                  certifications, maintains a 100% credit rating, and has built
-                  an enviable reputation for delivering projects on time, on
-                  budget, and to the highest standards of quality and safety.
+                  Our commitment to the &ldquo;Ganson Standard&rdquo; offers our
+                  clients the ultimate assurance of financial stability,
+                  operational precision and integrity.
                 </p>
               </ScrollReveal>
             </div>
@@ -183,34 +182,7 @@ export default function AboutPage() {
             </h2>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {leadership.map((member, i) => (
-              <ScrollReveal key={member.name} delay={0.1 * (i + 1)}>
-                <div className="group">
-                  <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-sand">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    />
-                  </div>
-                  <div className="pt-4">
-                    <h3 className="font-display text-xl text-navy">
-                      {member.name}
-                    </h3>
-                    <p className="mt-1 font-body text-sm text-mid-grey">
-                      {member.role}
-                    </p>
-                    <p className="mt-3 font-body text-sm leading-relaxed text-dark-grey opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                      {member.bio}
-                    </p>
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
+          <TeamGrid members={leadership} />
         </div>
       </section>
 
@@ -258,13 +230,17 @@ export default function AboutPage() {
             </h2>
           </ScrollReveal>
 
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
             {clients.map((client, i) => (
               <ScrollReveal key={client.slug} delay={0.05 * (i + 1)}>
-                <div className="flex items-center justify-center rounded-sm border border-sand bg-white px-4 py-6">
-                  <span className="text-center font-body text-sm font-medium text-navy">
-                    {client.name}
-                  </span>
+                <div className="flex h-20 items-center justify-center rounded-sm border border-sand bg-white px-4 py-4">
+                  <Image
+                    src={client.logo}
+                    alt={client.name}
+                    width={120}
+                    height={48}
+                    className="h-10 w-auto object-contain"
+                  />
                 </div>
               </ScrollReveal>
             ))}
