@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Est. 2004
               </span>
             </div>
-            <h2 className="font-display text-5xl leading-none text-navy md:text-7xl lg:text-8xl">
+            <h2 className="font-display text-4xl leading-none text-navy md:text-5xl lg:text-6xl">
               Our Story
             </h2>
           </ScrollReveal>
