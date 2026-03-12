@@ -43,6 +43,32 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
     <div>
       {/* Filter bar */}
       <div className="mb-12 space-y-5">
+        {/* Status pills */}
+        <div className="flex flex-wrap justify-center gap-3">
+          {statusOptions.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => setActiveStatus(option.value)}
+              className={cn(
+                'rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
+                activeStatus === option.value
+                  ? option.value === 'current'
+                    ? 'bg-emerald-500/90 text-white'
+                    : option.value === 'completed'
+                      ? 'bg-mid-grey text-white'
+                      : 'bg-navy text-white'
+                  : 'border border-navy/12 bg-transparent text-navy hover:border-navy/30'
+              )}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Divider */}
+        <div className="h-px bg-sand" />
+
         {/* Sector pills */}
         <div className="flex flex-wrap justify-center gap-3">
           <button
@@ -70,40 +96,6 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
               )}
             >
               {sector.label}
-            </button>
-          ))}
-        </div>
-
-        {/* Divider */}
-        <div className="h-px bg-sand" />
-
-        {/* Status pills — matching style, navy active */}
-        <div className="flex flex-wrap justify-center gap-3">
-          {statusOptions.map((option) => (
-            <button
-              key={option.value}
-              type="button"
-              onClick={() => setActiveStatus(option.value)}
-              className={cn(
-                'inline-flex items-center gap-2 rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
-                activeStatus === option.value
-                  ? 'bg-navy text-white'
-                  : 'border border-navy/12 bg-transparent text-navy hover:border-navy/30'
-              )}
-            >
-              {option.value === 'current' && (
-                <span className={cn(
-                  'h-1.5 w-1.5 rounded-full',
-                  activeStatus === option.value ? 'bg-emerald-400' : 'bg-emerald-500'
-                )} />
-              )}
-              {option.value === 'completed' && (
-                <span className={cn(
-                  'h-1.5 w-1.5 rounded-full',
-                  activeStatus === option.value ? 'bg-white/40' : 'bg-navy/30'
-                )} />
-              )}
-              {option.label}
             </button>
           ))}
         </div>
