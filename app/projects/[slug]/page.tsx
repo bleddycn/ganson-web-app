@@ -59,6 +59,7 @@ export default async function ProjectPage({
       label: 'Sector',
       value: sectorLabels[project.sector] ?? project.sector,
     },
+    { label: 'Status', value: project.status === 'current' ? 'Current' : 'Completed' },
     { label: 'Value', value: project.value },
     { label: 'Location', value: project.location },
     { label: 'Year', value: project.year },

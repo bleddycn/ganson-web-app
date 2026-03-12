@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { sectors } from '@/lib/constants'
-import type { Project, Sector } from '@/lib/types'
+import type { Project, Sector, ProjectStatus } from '@/lib/types'
 
 const sectorLabels: Record<string, string> = {
   healthcare: 'Healthcare',
@@ -19,47 +19,94 @@ const sectorLabels: Record<string, string> = {
   'civil-engineering': 'Civil Engineering',
 }
 
+const statusOptions: { value: ProjectStatus | 'all'; label: string }[] = [
+  { value: 'all', label: 'All' },
+  { value: 'current', label: 'Current' },
+  { value: 'completed', label: 'Completed' },
+]
+
 interface ProjectFilterProps {
   projects: readonly Project[]
 }
 
 export default function ProjectFilter({ projects }: ProjectFilterProps) {
   const [activeSector, setActiveSector] = useState<Sector | 'all'>('all')
+  const [activeStatus, setActiveStatus] = useState<ProjectStatus | 'all'>('all')
 
-  const filteredProjects =
-    activeSector === 'all'
-      ? projects
-      : projects.filter((p) => p.sector === activeSector)
+  const filteredProjects = projects.filter((p) => {
+    const sectorMatch = activeSector === 'all' || p.sector === activeSector
+    const statusMatch = activeStatus === 'all' || p.status === activeStatus
+    return sectorMatch && statusMatch
+  })
 
   return (
     <div>
       {/* Filter bar */}
-      <div className="mb-12 flex flex-wrap gap-3">
-        <button
-          onClick={() => setActiveSector('all')}
-          className={cn(
-            'rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
-            activeSector === 'all'
-              ? 'bg-brand-red text-white'
-              : 'border border-navy/20 bg-transparent text-navy hover:border-navy/40'
-          )}
-        >
-          All
-        </button>
-        {sectors.map((sector) => (
+      <div className="mb-12 space-y-5">
+        {/* Sector pills */}
+        <div className="flex flex-wrap justify-center gap-3">
           <button
-            key={sector.value}
-            onClick={() => setActiveSector(sector.value as Sector)}
+            type="button"
+            onClick={() => setActiveSector('all')}
             className={cn(
               'rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
-              activeSector === sector.value
+              activeSector === 'all'
                 ? 'bg-brand-red text-white'
                 : 'border border-navy/20 bg-transparent text-navy hover:border-navy/40'
             )}
           >
-            {sector.label}
+            All Sectors
           </button>
-        ))}
+          {sectors.map((sector) => (
+            <button
+              key={sector.value}
+              type="button"
+              onClick={() => setActiveSector(sector.value as Sector)}
+              className={cn(
+                'rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
+                activeSector === sector.value
+                  ? 'bg-brand-red text-white'
+                  : 'border border-navy/20 bg-transparent text-navy hover:border-navy/40'
+              )}
+            >
+              {sector.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Divider */}
+        <div className="h-px bg-sand" />
+
+        {/* Status pills — matching style, navy active */}
+        <div className="flex flex-wrap justify-center gap-3">
+          {statusOptions.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => setActiveStatus(option.value)}
+              className={cn(
+                'inline-flex items-center gap-2 rounded-sm px-5 py-2.5 font-body text-sm font-medium transition-colors duration-300',
+                activeStatus === option.value
+                  ? 'bg-navy text-white'
+                  : 'border border-navy/12 bg-transparent text-navy hover:border-navy/30'
+              )}
+            >
+              {option.value === 'current' && (
+                <span className={cn(
+                  'h-1.5 w-1.5 rounded-full',
+                  activeStatus === option.value ? 'bg-emerald-400' : 'bg-emerald-500'
+                )} />
+              )}
+              {option.value === 'completed' && (
+                <span className={cn(
+                  'h-1.5 w-1.5 rounded-full',
+                  activeStatus === option.value ? 'bg-white/40' : 'bg-navy/30'
+                )} />
+              )}
+              {option.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Project grid */}
@@ -97,6 +144,28 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
                 {/* Gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent transition-opacity duration-500 group-hover:from-navy/80 group-hover:via-navy/30" />
 
+                {/* Status indicator badge — top right */}
+                <div className="absolute right-4 top-4 z-10">
+                  <span
+                    className={cn(
+                      'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1 font-body text-[11px] font-semibold uppercase tracking-wider backdrop-blur-sm',
+                      project.status === 'current'
+                        ? 'bg-emerald-500/90 text-white'
+                        : 'bg-white/15 text-white/70'
+                    )}
+                  >
+                    <span
+                      className={cn(
+                        'h-1.5 w-1.5 rounded-full',
+                        project.status === 'current'
+                          ? 'animate-pulse bg-white'
+                          : 'bg-white/50'
+                      )}
+                    />
+                    {project.status === 'current' ? 'Current' : 'Completed'}
+                  </span>
+                </div>
+
                 {/* Content overlay */}
                 <div className="absolute bottom-0 left-0 right-0 z-10 p-6">
                   <span className="mb-2 inline-block font-body text-xs uppercase tracking-wider text-brand-red">
@@ -123,7 +192,7 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
       {filteredProjects.length === 0 && (
         <div className="py-24 text-center">
           <p className="font-body text-lg text-mid-grey">
-            No projects found in this sector.
+            No projects found matching these filters.
           </p>
         </div>
       )}

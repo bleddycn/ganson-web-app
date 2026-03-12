@@ -8,11 +8,14 @@ export type Sector =
   | 'refurbishment'
   | 'civil-engineering'
 
+export type ProjectStatus = 'completed' | 'current'
+
 export interface Project {
   slug: string
   title: string
   client: string
   sector: Sector
+  status: ProjectStatus
   value: string
   location: string
   year: string

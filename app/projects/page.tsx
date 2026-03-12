@@ -48,8 +48,21 @@ export default function ProjectsPage() {
         </div>
       </section>
 
+      {/* Intro */}
+      <section className="section-light bg-ivory pt-24 pb-12 md:pt-32 md:pb-16">
+        <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
+          <ScrollReveal>
+            <div className="max-w-3xl border-l-2 border-brand-red pl-6 md:pl-8">
+              <p className="font-body text-lg leading-relaxed text-dark-grey">
+                Every <span className="font-medium text-navy">project</span> we deliver reflects a <span className="font-medium text-navy">partnership</span> built on trust, transparency, and a shared commitment to <span className="font-medium text-navy">excellence</span>. Across healthcare, education, commercial, and civil engineering sectors, our portfolio demonstrates over twenty years of precision construction — delivered on programme, on budget, and to the highest standards.
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Filter + Grid */}
-      <section className="section-light bg-ivory py-24 md:py-32">
+      <section className="section-light bg-ivory py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ProjectFilter projects={projects} />
         </div>
