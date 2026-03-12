@@ -76,11 +76,22 @@ export default function ContactPage() {
                     </a>
                   </p>
 
-                  {/* Map placeholder */}
-                  <div className="mt-6 flex aspect-video items-center justify-center bg-sand">
-                    <span className="font-body text-sm text-mid-grey">
-                      Map &mdash; Coming Soon
-                    </span>
+                  {/* Map */}
+                  <div className="mt-6 aspect-video overflow-hidden">
+                    <iframe
+                      src={
+                        office.countryCode === 'IE'
+                          ? 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5!2d-6.1878!3d53.6109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a4a0a0a0a0b%3A0x0!2sBalbriggan+Business+Park%2C+Balbriggan%2C+Co.+Dublin!5e0!3m2!1sen!2sie!4v1700000000000'
+                          : 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.5!2d-5.9388!3d54.2611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860e0c8a0a0a0a1%3A0x0!2sClarmont+Avenue%2C+Castlewellan%2C+Co.+Down!5e0!3m2!1sen!2suk!4v1700000000000'
+                      }
+                      width="100%"
+                      height="100%"
+                      className="border-0"
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={`Map of ${office.name}`}
+                    />
                   </div>
                 </div>
               </ScrollReveal>

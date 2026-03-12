@@ -66,13 +66,22 @@ export default function Footer() {
                 Dublin Office
               </p>
               <p className="text-sm leading-relaxed text-cream/70">
+                Unit 19, Balbriggan Business Park,
+                <br />
                 Balbriggan, Co. Dublin, Ireland
               </p>
               <a
-                href="tel:+3531XXXXXXX"
+                href="tel:+35316905716"
                 className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
               >
-                +353 1 XXX XXXX
+                +353 (0)1 690 5716
+              </a>
+              <br />
+              <a
+                href="mailto:info@ganson.ie"
+                className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
+              >
+                info@ganson.ie
               </a>
             </div>
 
@@ -81,22 +90,24 @@ export default function Footer() {
                 Northern Ireland Office
               </p>
               <p className="text-sm leading-relaxed text-cream/70">
-                Castlewellan, Co. Down, UK
+                Clarmont Avenue,
+                <br />
+                Castlewellan, Co. Down, BT31 9BX, UK
               </p>
               <a
-                href="tel:+4428XXXXXXX"
+                href="tel:+442843771022"
                 className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
               >
-                +44 28 XXX XXXX
+                +44 (0)28437 71022
+              </a>
+              <br />
+              <a
+                href="mailto:info@gansonuk.co.uk"
+                className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
+              >
+                info@gansonuk.co.uk
               </a>
             </div>
-
-            <a
-              href="mailto:info@ganson.ie"
-              className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
-            >
-              info@ganson.ie
-            </a>
           </div>
         </div>
 

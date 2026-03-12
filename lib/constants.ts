@@ -9,23 +9,23 @@ export const COMPANY_FOUNDED = '2004'
 export const offices: Office[] = [
   {
     name: 'Dublin Office',
-    address: 'Unit 5, Balbriggan Business Park',
+    address: 'Unit 19, Balbriggan Business Park',
     city: 'Balbriggan',
     region: 'Co. Dublin',
     country: 'Ireland',
     countryCode: 'IE',
-    phone: '+353 1 841 2622',
-    email: 'dublin@ganson.ie',
+    phone: '+353 (0)1 690 5716',
+    email: 'info@ganson.ie',
   },
   {
     name: 'Northern Ireland Office',
-    address: '14 Castlewellan Road',
+    address: 'Clarmont Avenue',
     city: 'Castlewellan',
-    region: 'Co. Down',
+    region: 'Co. Down, BT31 9BX',
     country: 'United Kingdom',
     countryCode: 'GB',
-    phone: '+44 28 4377 1022',
-    email: 'ni@ganson.ie',
+    phone: '+44 (0)28437 71022',
+    email: 'info@gansonuk.co.uk',
   },
 ]
 
