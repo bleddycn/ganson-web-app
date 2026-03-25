@@ -46,7 +46,7 @@ export const team: readonly TeamMember[] = [
   {
     name: 'Niall McKenna',
     role: 'Construction Director',
-    image: '/assets/team/niall-mckenna.png',
+    image: '/assets/team/niall-mckenna-clean.jpg',
     bio: "As Construction Director, Niall brings over 20 years of post-graduate expertise to the Ganson senior leadership team. A graduate of the University of Ulster, he possesses a deep-seated technical knowledge that is instrumental in the successful delivery of our most complex builds. Niall oversees the operational execution of our portfolio, working in close collaboration with our project teams to ensure every site adheres to Ganson's uncompromising standards of quality.",
     qualifications: [
       'University of Ulster',
