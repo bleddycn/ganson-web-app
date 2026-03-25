@@ -33,6 +33,7 @@ export interface TeamMember {
   image: string
   bio: string
   qualifications?: string[]
+  linkedin?: string
   imageClassName?: string
 }
 

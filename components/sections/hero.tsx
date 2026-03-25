@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Main headline */}
           <StaggerText
             text="Uncompromising Standards.|Evolving Methods."
-            className="text-4xl text-white md:text-6xl lg:text-7xl"
+            className="text-4xl text-white md:text-5xl lg:text-6xl"
             lineClassNames={[
               '',
               'text-cream/80',

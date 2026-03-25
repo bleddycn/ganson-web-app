@@ -18,13 +18,13 @@ export const offices: Office[] = [
     email: 'info@ganson.ie',
   },
   {
-    name: 'Northern Ireland Office',
-    address: 'Clarmont Avenue',
-    city: 'Castlewellan',
-    region: 'Co. Down, BT31 9BX',
+    name: 'London Office',
+    address: 'Estra House, Station Approach, Streatham',
+    city: 'London',
+    region: 'SW16 6HW',
     country: 'United Kingdom',
     countryCode: 'GB',
-    phone: '+44 (0)28437 71022',
+    phone: '+44 (0)20 3961 6560',
     email: 'info@gansonuk.co.uk',
   },
 ]

@@ -87,18 +87,18 @@ export default function Footer() {
 
             <div className="mb-6">
               <p className="mb-1 text-sm font-semibold text-white">
-                Northern Ireland Office
+                London Office
               </p>
               <p className="text-sm leading-relaxed text-cream/70">
-                Clarmont Avenue,
+                Estra House, Station Approach,
                 <br />
-                Castlewellan, Co. Down, BT31 9BX, UK
+                Streatham, London SW16 6HW
               </p>
               <a
-                href="tel:+442843771022"
+                href="tel:+442039616560"
                 className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
               >
-                +44 (0)28437 71022
+                +44 (0)20 3961 6560
               </a>
               <br />
               <a

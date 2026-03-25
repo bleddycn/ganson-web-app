@@ -33,9 +33,9 @@ const stats: Stat[] = [
   {
     value: 130,
     suffix: '+',
-    label: 'Direct Staff',
+    label: 'Workforce',
     description:
-      'Over 130 direct staff delivering excellence across every project.',
+      'A workforce of over 130 delivering excellence across every project.',
   },
 ]
 

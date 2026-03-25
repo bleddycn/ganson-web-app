@@ -30,7 +30,7 @@ export default function TrustedBy() {
                   alt={client.name}
                   width={120}
                   height={40}
-                  className="max-h-8 w-auto max-w-[100px] object-contain grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100 md:max-h-10 md:max-w-[120px]"
+                  className="max-h-8 w-auto max-w-[100px] object-contain transition-all duration-300 hover:scale-105 md:max-h-10 md:max-w-[120px]"
                 />
               </div>
               <span className="mx-3 text-xl text-brand-red/40 md:mx-5" aria-hidden="true">&middot;</span>

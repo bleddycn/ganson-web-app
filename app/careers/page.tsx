@@ -15,31 +15,86 @@ const benefits = [
     title: 'Competitive Salary',
     description:
       'We offer market-leading remuneration packages that recognise your skills, experience, and contribution to the team.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="22" width="5" height="6" rx="0.5" />
+        <rect x="13.5" y="16" width="5" height="12" rx="0.5" />
+        <rect x="23" y="10" width="5" height="18" rx="0.5" />
+        <path d="M6.5 18L16 8l4 4 7-7" />
+        <path d="M23 5h4v4" />
+      </svg>
+    ),
   },
   {
     title: 'Professional Development & CPD',
     description:
       'Structured career development programmes, funded training courses, and support towards chartership and professional qualifications.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 4L16 20" />
+        <path d="M10 14l6-6 6 6" />
+        <path d="M8 20h16" />
+        <path d="M6 24h20" />
+        <path d="M4 28h24" />
+      </svg>
+    ),
   },
   {
     title: 'Pension Scheme',
     description:
       'Generous employer pension contributions from day one, helping you plan for a secure financial future.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 3L4 9v2h24V9L16 3z" />
+        <path d="M7 11v12" />
+        <path d="M13 11v12" />
+        <path d="M19 11v12" />
+        <path d="M25 11v12" />
+        <path d="M4 23h24v3H4z" />
+        <path d="M2 26h28v2H2z" />
+      </svg>
+    ),
   },
   {
     title: 'Health Insurance',
     description:
       'Comprehensive private health insurance for you and your family, plus income protection and death-in-service benefits.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 28S4 20 4 12a6 6 0 0112-1 6 6 0 0112 1c0 8-12 16-12 16z" />
+        <path d="M16 14v6" />
+        <path d="M13 17h6" />
+      </svg>
+    ),
   },
   {
     title: 'Company Vehicle',
     description:
       'Company vehicle or car allowance provided for eligible roles, ensuring you can travel comfortably between sites and offices.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 20l2-6h6l3-4h6l3 4h2a2 2 0 012 2v4H3v-4a2 2 0 012-2z" />
+        <path d="M3 20v3a1 1 0 001 1h3a1 1 0 001-1v-3" />
+        <path d="M24 20v3a1 1 0 001 1h3a1 1 0 001-1v-3" />
+        <circle cx="9" cy="20" r="2" />
+        <circle cx="23" cy="20" r="2" />
+      </svg>
+    ),
   },
   {
     title: 'Flexible Working',
     description:
       'We support work-life balance through flexible working arrangements and generous annual leave entitlements.',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="16" cy="16" r="12" />
+        <path d="M16 8v8l5 5" />
+        <path d="M4 16H2" />
+        <path d="M30 16h-2" />
+        <path d="M16 4V2" />
+        <path d="M16 30v-2" />
+      </svg>
+    ),
   },
 ]
 
@@ -156,11 +211,17 @@ export default function CareersPage() {
           <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {benefits.map((benefit, i) => (
               <ScrollReveal key={benefit.title} delay={0.05 + i * 0.05}>
-                <div className="border border-white/10 bg-white/5 p-6">
+                <div className="group relative border-t-2 border-brand-red bg-white/5 p-8 transition-colors duration-300 hover:bg-white/8">
+                  <span className="absolute right-6 top-6 font-display text-sm text-white/15">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <div className="mb-5 text-brand-red">
+                    {benefit.icon}
+                  </div>
                   <h3 className="font-display text-lg text-white">
                     {benefit.title}
                   </h3>
-                  <p className="mt-2 font-body text-sm leading-relaxed text-cream">
+                  <p className="mt-3 font-body text-sm leading-relaxed text-cream/80">
                     {benefit.description}
                   </p>
                 </div>

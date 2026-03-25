@@ -19,7 +19,7 @@ export default function ProjectsPage() {
           src="/assets/heroes/projects-hero.jpg"
           alt=""
           fill
-          className="object-cover"
+          className="object-cover object-[center_30%]"
           sizes="100vw"
           priority
         />

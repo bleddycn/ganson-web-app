@@ -30,6 +30,7 @@ export const team: readonly TeamMember[] = [
       'Chartered Accountant',
       'MBA',
     ],
+    linkedin: 'https://www.linkedin.com/in/lukephoward/',
   },
   {
     name: 'Brian Duffy',
@@ -40,6 +41,7 @@ export const team: readonly TeamMember[] = [
       'BA & MA, Dundalk Institute of Technology',
       'Chartered Accountant',
     ],
+    linkedin: 'https://www.linkedin.com/in/brian-duffy-97855685/',
   },
   {
     name: 'Niall McKenna',
@@ -49,12 +51,14 @@ export const team: readonly TeamMember[] = [
     qualifications: [
       'University of Ulster',
     ],
+    linkedin: 'https://www.linkedin.com/in/niall-mckenna-9b489795/',
   },
   {
     name: 'Noel Heuston',
     role: 'Construction Director',
     image: '/assets/team/noel-heuston.jpg',
     bio: "As a cornerstone of Ganson's senior leadership, Noel brings over 20 years of post-graduate expertise in the strategic planning and execution of large-scale projects. His extensive portfolio spans the commercial, education, restoration, and residential sectors, demonstrating a versatile mastery of the built environment. Noel is a specialist in team architecture, fostering a proactive 'can-do' culture that ensures every project is met with the agility and technical resolve required to deliver a premier outcome.",
+    linkedin: 'https://www.linkedin.com/in/noel-heuston-a80911399/',
   },
   {
     name: 'Paul Campbell',
@@ -65,5 +69,6 @@ export const team: readonly TeamMember[] = [
       'Chartered Quantity Surveyor',
       'CIOB Member',
     ],
+    linkedin: 'https://www.linkedin.com/in/paul-campbell-mrics-mscsi-75595620/',
   },
 ]
