@@ -199,7 +199,7 @@ export default function ServicesPage() {
           <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {sectorData.map((sector, i) => (
               <ScrollReveal key={sector.name} delay={0.05 + i * 0.05}>
-                <div className="border border-white/10 bg-white/5 p-6">
+                <div className="h-full border border-white/10 bg-white/5 p-6">
                   <div className="mb-4 h-1 w-12 bg-brand-red" />
                   <h3 className="font-display text-lg text-white">
                     {sector.name}

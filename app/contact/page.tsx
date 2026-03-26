@@ -7,7 +7,7 @@ import { offices } from '@/lib/constants'
 export const metadata = {
   title: 'Contact',
   description:
-    'Get in touch with Ganson Building & Civil Engineering. Offices in Dublin and Northern Ireland.',
+    'Get in touch with Ganson Building & Civil Engineering. Offices in Dublin and London.',
 }
 
 export default function ContactPage() {
@@ -82,7 +82,7 @@ export default function ContactPage() {
                       src={
                         office.countryCode === 'IE'
                           ? 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5!2d-6.1878!3d53.6109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a4a0a0a0a0b%3A0x0!2sBalbriggan+Business+Park%2C+Balbriggan%2C+Co.+Dublin!5e0!3m2!1sen!2sie!4v1700000000000'
-                          : 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.5!2d-5.9388!3d54.2611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860e0c8a0a0a0a1%3A0x0!2sClarmont+Avenue%2C+Castlewellan%2C+Co.+Down!5e0!3m2!1sen!2suk!4v1700000000000'
+                          : 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.5!2d-0.1307!3d51.4271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876049e1a6a0a0b%3A0x0!2sEstra+House%2C+Station+Approach%2C+Streatham%2C+London+SW16+6HW!5e0!3m2!1sen!2suk!4v1700000000000'
                       }
                       width="100%"
                       height="100%"
