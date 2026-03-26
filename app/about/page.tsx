@@ -250,7 +250,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
             {clients.map((client, i) => (
               <ScrollReveal key={client.slug} delay={0.05 * (i + 1)}>
-                <div className="flex h-20 items-center justify-center rounded-sm border border-sand bg-white px-4 py-4">
+                <div className="group relative flex h-20 items-center justify-center rounded-sm border border-sand bg-white px-4 py-4" >
                   <Image
                     src={client.logo}
                     alt={client.name}
@@ -258,6 +258,9 @@ export default function AboutPage() {
                     height={48}
                     className="h-10 w-auto object-contain"
                   />
+                  <span className="pointer-events-none absolute -bottom-5 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded bg-navy px-2.5 py-1 font-body text-xs text-white opacity-0 transition-opacity duration-150 group-hover:opacity-100">
+                    {client.name}
+                  </span>
                 </div>
               </ScrollReveal>
             ))}

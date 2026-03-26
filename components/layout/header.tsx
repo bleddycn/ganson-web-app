@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -15,6 +16,7 @@ const navItems = [
 ]
 
 export default function Header() {
+  const pathname = usePathname()
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -65,16 +67,25 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden items-center gap-8 md:flex">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="group relative py-2 text-sm font-medium text-white/90 transition-colors duration-300 hover:text-white"
-              >
-                {item.label}
-                <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-brand-red transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = pathname === item.href || pathname.startsWith(item.href + '/')
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    'group relative py-2 text-sm font-medium transition-colors duration-300 hover:text-white',
+                    isActive ? 'text-white' : 'text-white/90'
+                  )}
+                >
+                  {item.label}
+                  <span className={cn(
+                    'absolute bottom-0 left-0 h-0.5 bg-brand-red transition-all duration-300',
+                    isActive ? 'w-full' : 'w-0 group-hover:w-full'
+                  )} />
+                </Link>
+              )
+            })}
             <Link
               href="/contact"
               className="rounded-md bg-brand-red px-6 py-2.5 text-sm font-semibold text-white transition-colors duration-300 hover:bg-brand-red-dark"
@@ -151,7 +162,10 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className="text-2xl font-medium text-white transition-colors hover:text-brand-red"
+                    className={cn(
+                      'text-2xl font-medium transition-colors hover:text-brand-red',
+                      pathname === item.href || pathname.startsWith(item.href + '/') ? 'text-brand-red' : 'text-white'
+                    )}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.label}

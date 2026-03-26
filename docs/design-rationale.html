@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ganson — Design Rationale</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: #4a4a4a;
+    line-height: 1.7;
+    padding: 60px 70px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d00918;
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+  }
+
+  .header-bar .logo-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #122047;
+  }
+
+  .header-bar .date {
+    font-size: 12px;
+    color: #7a7a7a;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #122047;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 12px;
+  }
+
+  .intro {
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+    max-width: 620px;
+  }
+
+  .section {
+    margin-bottom: 36px;
+    page-break-inside: avoid;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #d00918;
+    font-weight: 700;
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #122047;
+    font-weight: 700;
+  }
+
+  .recommendation {
+    font-size: 13px;
+    font-weight: 700;
+    color: #d00918;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .body p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.75;
+  }
+
+  .body ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .body ul li {
+    font-size: 13px;
+    line-height: 1.75;
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .body ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    background: #d00918;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #e6e1d8;
+    margin: 32px 0;
+  }
+
+  .status-badge {
+    display: inline-block;
+    background: #f7f4ef;
+    color: #7a7a7a;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-bottom: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <span class="logo-text">Ganson</span>
+  <span class="date">March 2026</span>
+</div>
+
+<h1>Design Rationale</h1>
+<p class="subtitle">Items We Recommend Keeping As-Is</p>
+<p class="intro">These are the requests from the website review that we have chosen not to implement, with the reasoning behind each decision.</p>
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">1.</span>
+    <span class="section-title">Remove "Building & Civil Engineering" from the homepage hero</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep it</div>
+  <div class="body">
+    <p>This small red label above the headline is a <strong>category identifier</strong> &mdash; a standard editorial pattern that anchors the reader before the headline lands. It tells visitors in two seconds exactly what Ganson does before they even read the main headline.</p>
+    <p>Removing it means the hero opens cold with &ldquo;Uncompromising Standards. Evolving Methods.&rdquo; &mdash; which is a brand statement, not an explanation. A first-time visitor arriving from Google, a tender link, or a LinkedIn share has no immediate context for what Ganson is. The label solves that in a single glance.</p>
+    <p>It is also a deliberate <strong>SEO signal</strong> &mdash; &ldquo;Building &amp; Civil Engineering&rdquo; in the above-fold content reinforces search intent for your core terms.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">2.</span>
+    <span class="section-title">Remove the &ldquo;Selected Work&rdquo; section entirely</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep it</div>
+  <div class="body">
+    <p>The Featured Projects section is the <strong>single strongest conversion element</strong> on the homepage. It does three things no other section does:</p>
+    <ul>
+      <li><strong>Social proof through imagery</strong> &mdash; real project photography is the most persuasive content on a construction website. Clients and procurement teams want to see the scale and quality of your work immediately.</li>
+      <li><strong>Guides visitors deeper into the site</strong> &mdash; each card links to a full project case study. Removing this section breaks the most natural path from homepage &rarr; project detail &rarr; contact.</li>
+      <li><strong>Visual rhythm</strong> &mdash; the asymmetric grid layout creates visual interest and pacing between the stats section above and the company teaser below. Without it, the homepage goes directly from numbers to text with no visual relief.</li>
+    </ul>
+    <p>Every top-tier construction firm website (BAM, John Sisk, John Paul Construction) leads with project imagery on the homepage. Removing it would be a significant departure from industry best practice.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">3.</span>
+    <span class="section-title">Remove address blocks and form from homepage contact CTA</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep both</div>
+  <div class="body">
+    <p><strong>Why keep the addresses:</strong> They establish geographic presence at a glance. A visitor scanning the homepage learns you operate from Dublin and London without needing to navigate to the Contact page. For a construction firm, <strong>location signals capability</strong> &mdash; if a facilities manager in London sees a London address, they know you are local and accessible.</p>
+    <p><strong>Why keep the form:</strong> Every page on the site should have a clear conversion path. The homepage form is the shortest route from interest to enquiry &mdash; removing it adds friction by forcing visitors to navigate to /contact. Data consistently shows that forms placed in context convert better than forms on dedicated contact pages. The form is lightweight and does not overwhelm the section.</p>
+    <p>Reducing this section to just a heading and a &ldquo;Contact Us&rdquo; link would weaken the homepage&rsquo;s ability to convert casual browsers into enquiries.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">4.</span>
+    <span class="section-title">Fix &ldquo;inconsistent&rdquo; paragraph sizes in Our Story</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep as-is &mdash; intentional editorial design</div>
+  <div class="body">
+    <p>The &ldquo;Our Story&rdquo; section uses two deliberately different text treatments:</p>
+    <ul>
+      <li><strong>Lead paragraph</strong> &mdash; Playfair Display (the serif display font), large size, with a red left border accent. This acts as a <em>lede</em>, the editorial hook that summarises the company in one sentence.</li>
+      <li><strong>Body paragraphs</strong> &mdash; DM Sans (the body font), standard reading size, with a subtle sand left border. These provide the supporting narrative.</li>
+    </ul>
+    <p>This is the same technique used by every premium editorial publication &mdash; Dezeen, ArchDaily, Monocle, the Financial Times. The large lede draws the eye, establishes the key message, then the body copy fills in the story at a comfortable reading pace.</p>
+    <p>Making them all the same size and font would create a wall of undifferentiated text &mdash; exactly the &ldquo;Word document&rdquo; effect you want to avoid on a premium website.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">5.</span>
+    <span class="section-title">Replace Trusted Partners logos with text</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep the logos</div>
+  <div class="body">
+    <p>Client logos are a <strong>primary trust signal</strong> on a construction website &mdash; they show who has trusted you with their projects, which is often the first thing a procurement team looks for.</p>
+    <p>If the intention is to update which logos appear, or to replace placeholder logos with real ones, that is a content update we can make at any time. But removing the logo section entirely in favour of placeholder text would weaken the About page&rsquo;s credibility signalling.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">6.</span>
+    <span class="section-title">Remove the circle dots on status tags</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep them</div>
+  <div class="body">
+    <p>&ldquo;Current&rdquo; projects have a white pulsing dot that signals the project is live and active. &ldquo;Completed&rdquo; projects have a static semi-transparent dot &mdash; visually quieter, signalling a finished state.</p>
+    <p>This is a common UI pattern (think of a &ldquo;live&rdquo; recording indicator, or status dots in Slack/Teams). The dots create an <strong>instant visual distinction</strong> between the two states without requiring the user to read the text. They are only 1.5px &mdash; barely visible on their own, but they add a layer of information that colour alone does not fully communicate.</p>
+    <p>The dots also serve a <strong>visual differentiation purpose</strong> &mdash; without them, the status pills on the project cards look too similar to the filter buttons above. The dot distinguishes a status indicator (passive label) from an interactive button, preventing confusion between the two UI elements.</p>
+    <p>Removing them leaves two text labels that differ only in background colour. The dots make the distinction clearer and add a small moment of polish.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">7.</span>
+    <span class="section-title">Add background image behind &ldquo;Sectors We Serve&rdquo;</span>
+  </div>
+  <div class="recommendation">Recommendation: Keep as-is</div>
+  <div class="body">
+    <p>It is also worth noting that across the entire site, <strong>background images with navy gradient overlays are used exclusively in hero/header sections</strong> at the top of each page. This is a deliberate design convention &mdash; it signals to the user that they are at the start of a page or major section. Adding the same treatment to a mid-page content section would break that consistency and dilute the visual hierarchy that headers currently own.</p>
+    <p>We would recommend keeping the current clean navy + noise texture treatment for mid-page sections, reserving the photographic background overlay pattern for page headers only.</p>
+  </div>
+</div>
+
+</body>
+</html>
