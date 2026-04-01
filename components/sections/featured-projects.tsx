@@ -114,8 +114,8 @@ function ProjectCard({
         sizes="(max-width: 1024px) 100vw, 50vw"
       />
 
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent transition-opacity duration-500 group-hover:from-navy/80 group-hover:via-navy/30" />
+      {/* Gradient overlay — strong fade covering bottom 60% for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-t from-navy from-10% via-navy/80 via-55% to-transparent transition-opacity duration-500" />
 
       {/* Content overlay */}
       <div className="absolute bottom-0 left-0 right-0 z-10 p-6 md:p-8">
