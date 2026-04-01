@@ -14,7 +14,7 @@ export const projects: readonly Project[] = [
       "A major acute care wing extension at St. Vincent's University Hospital, delivering state-of-the-art patient facilities across four floors. The project was completed on an occupied, fully operational hospital campus with zero disruption to critical services.",
     longDescription:
       "Ganson was appointed by the HSE to deliver a critical new wing extension at St. Vincent's University Hospital in south Dublin. The four-storey structure encompasses 4,200 square metres of new clinical space, including a 32-bed acute medical assessment unit, expanded outpatient consultation suites, and a dedicated ambulatory care centre. The design incorporates the latest standards in infection prevention, with HEPA-filtered ventilation throughout and antimicrobial surface finishes.\n\nWorking on an occupied hospital campus presented significant logistical challenges. Our team coordinated closely with hospital management to maintain uninterrupted access to the emergency department and adjacent wards at all times. Phased construction sequencing, noise-restricted working hours, and dedicated logistics corridors ensured that patient care was never compromised.\n\nThe project was handed over two weeks ahead of the contractual completion date and received commendation from the HSE's estates division for exemplary standards of safety and stakeholder communication throughout the 18-month build programme.",
-    image: '/assets/projects/project-1.svg',
+    image: '/assets/projects/test-hospital.jpg',
     gallery: [
       '/assets/projects/project-1.svg',
       '/assets/projects/project-2.svg',
@@ -36,7 +36,7 @@ export const projects: readonly Project[] = [
       'A new-build post-primary school designed for 600 pupils, featuring specialist STEM laboratories, a sports hall, and landscaped outdoor learning areas. Delivered to Passivhaus energy performance standards.',
     longDescription:
       "Ganson delivered this flagship post-primary school on behalf of the Education Authority Northern Ireland as part of the Schools Enhancement Programme. The 5,500 square metre facility accommodates 600 pupils and includes 24 general-purpose classrooms, four specialist STEM laboratories, a technology suite, a full-size sports hall with spectator seating, and a performing arts studio.\n\nThe building was designed and constructed to Passivhaus energy performance standards, making it one of the most energy-efficient schools in Northern Ireland. The highly insulated building envelope, triple-glazed windows, and mechanical ventilation with heat recovery achieve annual energy savings of over 70% compared to conventional school buildings. Externally, the project included an all-weather sports pitch, landscaped courtyards, and dedicated cycle storage to encourage sustainable travel.\n\nCompleted in March 2024, the school opened its doors for the start of the new academic year. The project was recognised at the Royal Society of Ulster Architects Awards for its contribution to community infrastructure in the Mournes area.",
-    image: '/assets/projects/project-2.svg',
+    image: '/assets/projects/test-school.jpg',
     gallery: [
       '/assets/projects/project-2.svg',
       '/assets/projects/project-3.svg',
@@ -58,7 +58,7 @@ export const projects: readonly Project[] = [
       'A mixed-use retail and residential development anchoring the regeneration of Balbriggan town centre. The scheme comprises 8,000 sqm of retail space and 42 residential apartments above.',
     longDescription:
       "This landmark mixed-use development sits at the heart of Balbriggan's ongoing urban regeneration programme. Ganson was selected by Cairn Homes to deliver the main construction works, which encompass 8,000 square metres of ground-floor retail space configured for a flagship supermarket, six retail units, and a family restaurant. Above the retail podium, 42 one- and two-bedroom apartments are arranged across three upper floors, each with private balcony space and access to a shared landscaped courtyard.\n\nThe site's town-centre location demanded meticulous traffic management and pedestrian safety planning. Ganson established a dedicated community liaison role to keep local businesses and residents informed throughout the two-year build. The reinforced-concrete frame was constructed using a rapid-cycle formwork system that allowed one floor to be cast per fortnight, keeping the programme on track despite challenging winter conditions.\n\nThe development was completed in September 2023 and has since become a catalyst for further investment in Balbriggan, with several adjacent sites now progressing through planning. The project achieved a BER A2 energy rating for the residential units and BREEAM Excellent certification for the retail component.",
-    image: '/assets/projects/project-3.svg',
+    image: '/assets/projects/test-retail.jpg',
     gallery: [
       '/assets/projects/project-3.svg',
       '/assets/projects/project-4.svg',
@@ -87,7 +87,7 @@ export const projects: readonly Project[] = [
       '/assets/projects/project-5.svg',
       '/assets/projects/project-6.svg',
     ],
-    featured: true,
+    featured: false,
     completionDate: '2023-12-01',
   },
   {

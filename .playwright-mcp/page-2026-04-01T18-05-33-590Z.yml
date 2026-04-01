@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ganson Building & Civil Engineering" [ref=e4]:
+        - /url: /
+        - img "Ganson Building & Civil Engineering" [ref=e5]
+      - navigation [ref=e6]:
+        - link "About" [ref=e7]:
+          - /url: /about
+          - text: About
+        - link "Projects" [ref=e9]:
+          - /url: /projects
+          - text: Projects
+        - link "Services" [ref=e10]:
+          - /url: /services
+          - text: Services
+        - link "Careers" [ref=e11]:
+          - /url: /careers
+          - text: Careers
+        - link "News" [ref=e12]:
+          - /url: /news
+          - text: News
+        - link "Contact" [ref=e13]:
+          - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e20]: About Us
+        - heading "Modern Construction Specialists" [level=1] [ref=e22]:
+          - generic [ref=e24]: Modern
+          - generic [ref=e26]: Construction
+          - generic [ref=e28]: Specialists
+        - paragraph [ref=e30]: One of Ireland's most trusted building and civil engineering firms — our story is one of steady growth, enduring partnerships, and a commitment to quality.
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e36]: Est. 2004
+          - heading "Our Story" [level=2] [ref=e37]
+        - paragraph [ref=e39]: Ganson is one of Ireland and the UK's most progressive building contractors, delivering large-scale and complex projects across both jurisdictions.
+        - generic [ref=e41]:
+          - paragraph [ref=e43]: We operate as a leading contractor across a wide range of public and private sector developments, with a proven track record of quality delivery, programme certainty and strong client relationships.
+          - paragraph [ref=e45]: "Founded in 2004 by Paul McQuaid and David Rogers, both Civil Engineering graduates of Queen's University Belfast, Ganson was built on a singular vision: to redefine industry standards through technical excellence and genuine partnership. What began as a small contracting firm has evolved into a premier full-service main contractor, delivering complex projects across multiple sectors in Ireland and the UK."
+          - paragraph [ref=e47]: Operating from a strategic hub in Dublin and in London, allowing us to serve Ireland and the UK, we provide an agile, multidisciplinary response to the complexities of the modern built environment. Whether through Traditional, Design & Build, or Management Contracting models, our approach is tailored to the unique demands of every project.
+          - paragraph [ref=e49]: Our commitment to the “Ganson Standard” offers our clients the ultimate assurance of financial stability, operational precision and integrity.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e55]: Leadership
+          - heading "Our Founders" [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e59]:
+            - img "Paul McQuaid" [ref=e61]
+            - generic [ref=e62]:
+              - heading "Paul McQuaid" [level=3] [ref=e63]
+              - paragraph [ref=e64]: Co-Founder
+              - paragraph [ref=e65]: Paul McQuaid is a Co-founder of Ganson and has been instrumental in the development and expansion of the business over the past decades. Having graduated as a Civil Engineer in 1987 from Queen's University Belfast, Paul has accumulated more than 30 years' experience delivering complex building and civil engineering projects across multiple sectors. He applies this deep technical understanding and industry insight to support the Group's financial strength, strategic planning, and long-term decision-making.
+          - generic [ref=e68]:
+            - img "David Rogers" [ref=e70]
+            - generic [ref=e71]:
+              - heading "David Rogers" [level=3] [ref=e72]
+              - paragraph [ref=e73]: Co-Founder
+              - paragraph [ref=e74]: David Rogers is a Co-founder of Ganson and a key leader in the delivery of operational excellence across the business. Since graduating as a Civil Engineer from Queen's University Belfast in 1987, David has developed a wealth of experience in the construction and civil engineering sector. A Chartered Engineer, he has been instrumental in growing the company into a leading contractor and is responsible for overseeing operations, driving performance, and ensuring that Ganson consistently delivers high-quality projects safely, efficiently and to the highest professional standards.
+      - generic [ref=e76]:
+        - heading "Our Leadership Team" [level=2] [ref=e78]
+        - generic [ref=e80]:
+          - generic [ref=e82]:
+            - img "Luke Howard" [ref=e84]
+            - generic [ref=e85]:
+              - heading "Luke Howard" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Managing Director
+          - generic [ref=e89]:
+            - img "Brian Duffy" [ref=e91]
+            - generic [ref=e92]:
+              - heading "Brian Duffy" [level=3] [ref=e93]
+              - paragraph [ref=e94]: Finance Director
+          - generic [ref=e96]:
+            - img "Niall McKenna" [ref=e98]
+            - generic [ref=e99]:
+              - heading "Niall McKenna" [level=3] [ref=e100]
+              - paragraph [ref=e101]: Construction Director
+          - generic [ref=e103]:
+            - img "Noel Heuston" [ref=e105]
+            - generic [ref=e106]:
+              - heading "Noel Heuston" [level=3] [ref=e107]
+              - paragraph [ref=e108]: Construction Director
+          - generic [ref=e110]:
+            - img "Paul Campbell" [ref=e112]
+            - generic [ref=e113]:
+              - heading "Paul Campbell" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Commercial Director
+      - generic [ref=e117]:
+        - heading "Our Approach" [level=2] [ref=e119]
+        - generic [ref=e120]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: "01"
+            - heading "Safety" [level=3] [ref=e125]
+            - paragraph [ref=e127]: We are committed to a zero-harm culture on every site we operate. Our ISO 45001 certified health and safety management system, combined with rigorous training and leadership from the boardroom to the site, has delivered an industry-leading safety record. Every person on a Ganson site goes home safe, every day.
+          - generic [ref=e129]:
+            - generic [ref=e130]: "02"
+            - heading "Quality" [level=3] [ref=e132]
+            - paragraph [ref=e134]: Our ISO 9001 certified quality management system underpins everything we do. We apply Total Quality Management principles across every project, from pre-construction planning through to handover, ensuring consistent delivery to the highest standards. Quality is not an afterthought — it is embedded in our culture.
+          - generic [ref=e136]:
+            - generic [ref=e137]: "03"
+            - heading "Sustainability" [level=3] [ref=e139]
+            - paragraph [ref=e141]: Environmental responsibility is central to how we build. Our ISO 14001 certified environmental management system drives continuous improvement in resource efficiency, waste reduction, and carbon footprint management. We work with clients and design teams to deliver buildings that perform for generations.
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e147]: Partnership
+          - heading "Ganson & Errigal Group" [level=2] [ref=e148]
+        - paragraph [ref=e150]: Ganson's partnership with Errigal strengthens our ability to deliver exceptional results for clients across every project. By combining Ganson's expertise and local knowledge with Errigal's scale, experience, and resources, the partnership creates a powerful foundation built on shared values of quality, reliability, and innovation. Together, we bring greater capability, stability, and opportunity to every project, ensuring our clients benefit from the strength of a trusted and collaborative relationship.
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - link "Ganson Building & Civil Engineering" [ref=e155]:
+            - /url: /
+            - img "Ganson Building & Civil Engineering" [ref=e156]
+          - paragraph [ref=e157]: Building excellence across Ireland and the UK since 2004.
+          - paragraph [ref=e158]: ISO 9001:2008 | ISO 14001:2004
+        - generic [ref=e159]:
+          - heading "Quick Links" [level=3] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "About" [ref=e163]:
+                - /url: /about
+            - listitem [ref=e164]:
+              - link "Projects" [ref=e165]:
+                - /url: /projects
+            - listitem [ref=e166]:
+              - link "Services" [ref=e167]:
+                - /url: /services
+            - listitem [ref=e168]:
+              - link "Careers" [ref=e169]:
+                - /url: /careers
+            - listitem [ref=e170]:
+              - link "News" [ref=e171]:
+                - /url: /news
+            - listitem [ref=e172]:
+              - link "Policies" [ref=e173]:
+                - /url: /policies
+            - listitem [ref=e174]:
+              - link "Contact" [ref=e175]:
+                - /url: /contact
+        - generic [ref=e176]:
+          - heading "Contact" [level=3] [ref=e177]
+          - generic [ref=e178]:
+            - paragraph [ref=e179]: Dublin Office
+            - paragraph [ref=e180]:
+              - text: Unit 19, Balbriggan Business Park,
+              - text: Balbriggan, Co. Dublin, Ireland
+            - link "+353 (0)1 690 5716" [ref=e181]:
+              - /url: tel:+35316905716
+            - link "info@ganson.ie" [ref=e182]:
+              - /url: mailto:info@ganson.ie
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: London Office
+            - paragraph [ref=e185]:
+              - text: Estra House, Station Approach,
+              - text: Streatham, London SW16 6HW
+            - link "+44 (0)20 3961 6560" [ref=e186]:
+              - /url: tel:+442039616560
+            - link "info@gansonuk.co.uk" [ref=e187]:
+              - /url: mailto:info@gansonuk.co.uk
+      - generic [ref=e188]:
+        - paragraph [ref=e189]: © 2024 Ganson Building & Civil Engineering Ltd. All rights reserved.
+        - link "Privacy Policy" [ref=e190]:
+          - /url: /privacy-policy
+  - alert [ref=e191]

@@ -184,6 +184,14 @@ export default function ServicesPage() {
 
       {/* Sector Expertise */}
       <section className="noise-overlay relative overflow-hidden bg-navy py-24 md:py-32">
+        {/* Architectural photography background */}
+        <Image
+          src="/assets/heroes/sectors-bg.jpg"
+          alt=""
+          fill
+          className="object-cover opacity-5"
+          sizes="100vw"
+        />
         <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ScrollReveal>
             <span className="mb-4 inline-block font-body text-sm uppercase tracking-widest text-brand-red">

@@ -2,7 +2,6 @@ import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
 import TeamGrid from '@/components/ui/team-card'
 import { team } from '@/lib/data/team'
-import { clients } from '@/lib/data/clients'
 import Image from 'next/image'
 
 export const metadata = {
@@ -101,17 +100,9 @@ export default function AboutPage() {
 
           {/* Supporting text — single column with dividers */}
           <div className="mt-12 max-w-3xl md:mt-16">
-            <div className="space-y-8 border-l-2 border-sand pl-8 text-lg leading-relaxed text-dark-grey md:pl-10">
+            <div className="space-y-8 border-l-2 border-sand pl-8 md:pl-10">
               <ScrollReveal delay={0.25}>
-                <p>
-                  We operate as a leading contractor across a wide range of
-                  public and private sector developments, with a proven track
-                  record of quality delivery, programme certainty and strong
-                  client relationships.
-                </p>
-              </ScrollReveal>
-              <ScrollReveal delay={0.3}>
-                <p>
+                <p className="font-body text-lg leading-relaxed text-dark-grey">
                   Founded in 2004 by Paul McQuaid and David Rogers, both Civil
                   Engineering graduates of Queen&apos;s University Belfast,
                   Ganson was built on a singular vision: to redefine industry
@@ -121,8 +112,16 @@ export default function AboutPage() {
                   projects across multiple sectors in Ireland and the UK.
                 </p>
               </ScrollReveal>
+              <ScrollReveal delay={0.3}>
+                <p className="font-body text-lg leading-relaxed text-dark-grey">
+                  We operate as a leading contractor across a wide range of
+                  public and private sector developments, with a proven track
+                  record of quality delivery, programme certainty and strong
+                  client relationships.
+                </p>
+              </ScrollReveal>
               <ScrollReveal delay={0.35}>
-                <p>
+                <p className="font-body text-lg leading-relaxed text-dark-grey">
                   Operating from a strategic hub in Dublin and in London, allowing us to serve
                   Ireland and the UK, we provide an agile, multidisciplinary
                   response to the complexities of the modern built environment.
@@ -132,7 +131,7 @@ export default function AboutPage() {
                 </p>
               </ScrollReveal>
               <ScrollReveal delay={0.4}>
-                <p>
+                <p className="font-body text-lg leading-relaxed text-dark-grey">
                   Our commitment to the &ldquo;Ganson Standard&rdquo; offers our
                   clients the ultimate assurance of financial stability,
                   operational precision and integrity.
@@ -238,33 +237,34 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Client Logos */}
-      <section className="section-light py-16">
+      {/* Errigal Partnership */}
+      <section className="section-light py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ScrollReveal>
-            <h2 className="mb-12 text-center font-display text-3xl text-navy md:text-4xl">
-              Trusted Partners
+            <div className="mb-6 flex items-center gap-6">
+              <div className="h-px w-12 bg-brand-red md:w-20" />
+              <span className="font-body text-sm uppercase tracking-widest text-brand-red">
+                Partnership
+              </span>
+            </div>
+            <h2 className="font-display text-3xl text-navy md:text-5xl">
+              Ganson &amp; Errigal Group
             </h2>
           </ScrollReveal>
 
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
-            {clients.map((client, i) => (
-              <ScrollReveal key={client.slug} delay={0.05 * (i + 1)}>
-                <div className="group relative flex h-20 items-center justify-center rounded-sm border border-sand bg-white px-4 py-4" >
-                  <Image
-                    src={client.logo}
-                    alt={client.name}
-                    width={120}
-                    height={48}
-                    className="h-10 w-auto object-contain"
-                  />
-                  <span className="pointer-events-none absolute -bottom-5 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded bg-navy px-2.5 py-1 font-body text-xs text-white opacity-0 transition-opacity duration-150 group-hover:opacity-100">
-                    {client.name}
-                  </span>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
+          <ScrollReveal delay={0.2}>
+            <p className="mt-8 max-w-4xl font-body text-lg leading-relaxed text-dark-grey">
+              Ganson&apos;s partnership with Errigal strengthens our ability to
+              deliver exceptional results for clients across every project. By
+              combining Ganson&apos;s expertise and local knowledge with
+              Errigal&apos;s scale, experience, and resources, the partnership
+              creates a powerful foundation built on shared values of quality,
+              reliability, and innovation. Together, we bring greater capability,
+              stability, and opportunity to every project, ensuring our clients
+              benefit from the strength of a trusted and collaborative
+              relationship.
+            </p>
+          </ScrollReveal>
         </div>
       </section>
     </>

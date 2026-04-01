@@ -75,18 +75,8 @@ export default function FeaturedProjects() {
           )}
         </div>
 
-        {/* Card 4 — full width below */}
-        {projects[3] && (
-          <ScrollReveal delay={0.4} className="mt-4">
-            <ProjectCard
-              project={projects[3]}
-              className="h-[400px] lg:h-[360px]"
-            />
-          </ScrollReveal>
-        )}
-
         {/* View all projects link */}
-        <ScrollReveal delay={0.5} className="mt-16 text-center">
+        <ScrollReveal delay={0.4} className="mt-16 text-center">
           <Link
             href="/projects"
             className="inline-flex items-center gap-2 font-body text-lg text-white transition-colors duration-300 hover:text-brand-red"
