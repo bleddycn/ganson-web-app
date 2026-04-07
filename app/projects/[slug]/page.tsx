@@ -2,16 +2,15 @@ import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import ScrollReveal from '@/components/animations/scroll-reveal'
+import ProjectGallery from '@/components/ui/project-gallery'
 import { projects } from '@/lib/data/projects'
 
 const sectorLabels: Record<string, string> = {
   healthcare: 'Healthcare',
   education: 'Education',
   commercial: 'Commercial',
-  retail: 'Retail',
-  tourism: 'Tourism',
-  'high-tech': 'High-Tech',
-  refurbishment: 'Refurbishment',
+  residential: 'Residential',
+  'hotel-leisure': 'Hotel, Leisure & Student',
   'civil-engineering': 'Civil Engineering',
 }
 
@@ -60,7 +59,6 @@ export default async function ProjectPage({
       value: sectorLabels[project.sector] ?? project.sector,
     },
     { label: 'Status', value: project.status === 'current' ? 'Current' : 'Completed' },
-    { label: 'Value', value: project.value },
     { label: 'Location', value: project.location },
     { label: 'Year', value: project.year },
   ]
@@ -100,7 +98,7 @@ export default async function ProjectPage({
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <p className="mt-4 font-body text-lg text-cream/80">
-                {project.value}
+                {project.client} &middot; {project.location}
               </p>
             </ScrollReveal>
           </div>
@@ -157,7 +155,7 @@ export default async function ProjectPage({
       </section>
 
       {/* Gallery */}
-      {project.gallery.length > 0 && (
+      {project.gallery.length > 1 && (
         <section className="section-light bg-ivory pb-24 md:pb-32">
           <div className="mx-auto max-w-6xl px-6 md:px-12 lg:px-16">
             <ScrollReveal>
@@ -166,21 +164,7 @@ export default async function ProjectPage({
               </h2>
             </ScrollReveal>
 
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {project.gallery.map((img, i) => (
-                <ScrollReveal key={i} delay={0.1 * (i + 1)}>
-                  <div className="group relative aspect-[4/3] overflow-hidden rounded-sm">
-                    <Image
-                      src={img}
-                      alt={`${project.title} — gallery image ${i + 1}`}
-                      fill
-                      className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                  </div>
-                </ScrollReveal>
-              ))}
-            </div>
+            <ProjectGallery images={project.gallery} title={project.title} />
           </div>
         </section>
       )}
@@ -219,7 +203,7 @@ export default async function ProjectPage({
                   {nextProject.title}
                 </h3>
                 <p className="mt-2 font-body text-sm text-cream/80">
-                  {nextProject.client} &middot; {nextProject.value}
+                  {nextProject.client} &middot; {nextProject.location}
                 </p>
               </div>
             </Link>

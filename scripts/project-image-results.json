@@ -1,0 +1,889 @@
+[
+  {
+    "name": "Poolbeg",
+    "slug": "poolbeg",
+    "has_photos": true,
+    "image": "/assets/projects/poolbeg/01.webp",
+    "gallery": [
+      "/assets/projects/poolbeg/01.webp",
+      "/assets/projects/poolbeg/02.webp",
+      "/assets/projects/poolbeg/03.webp",
+      "/assets/projects/poolbeg/04.webp",
+      "/assets/projects/poolbeg/05.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "National Oil Reserves Agency",
+    "location": "Dublin",
+    "year": "2020",
+    "overview": "This complex project involved extensive civil, mechanical, electrical, and firefighting works to redevelop and upgrade the existing ESB Poolbeg facility into a strategic bulk fuel storage terminal.\n\nKey works included new utility connections, construction of pump and spill containment infrastructure, a new steel gantry structure, refurbishment of seven existing tanks, and installation of a modern firefighting system. A new truck loading facility and significant reinforced concrete works to bund areas and drainage systems were also completed.\n\nThe project was delivered to a high standard, with strong collaboration between the client and design team, despite the challenges posed during the COVID-19 period."
+  },
+  {
+    "name": "Ardee Ambulance Centre",
+    "slug": "ardee-ambulance-centre",
+    "has_photos": true,
+    "image": "/assets/projects/ardee-ambulance-centre/01.webp",
+    "gallery": [
+      "/assets/projects/ardee-ambulance-centre/01.webp",
+      "/assets/projects/ardee-ambulance-centre/02.webp",
+      "/assets/projects/ardee-ambulance-centre/03.webp",
+      "/assets/projects/ardee-ambulance-centre/04.webp",
+      "/assets/projects/ardee-ambulance-centre/05.webp",
+      "/assets/projects/ardee-ambulance-centre/06.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "Moloney O'Beirne Architects. Oyster Point, Temple Road, Blackrock, Co.\nDublin.",
+    "location": "Ardee",
+    "year": "2022",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered the construction works for St. Joseph\u2019s Hospital, a protected live operational facility, acting as both Main Contractor and PSCS.\n\nThe project included offices, hi-tech communications rooms, kitchen, canteen, training and meeting rooms, tower, ambulance garages, and vehicle wash areas. Key works comprised site entrance, earthworks, foundations, steel frame, precast floors, brickwork, cladding, roof, and full M&E installation. Internal fit-outs included partitions, glazed screens, fire-stopping, balustrades, tiling, joinery, and painting. External works featured roads, car parking, street lighting, stone walls, automatic barriers, kerbs, slabs, and paving.\n\nThe project was completed on time, within budget, and to a very high standard of finish, sustainability, and safety, earning the 2023 RIAI Wellbeing and Health Award."
+  },
+  {
+    "name": "Home Bargins Lisburn",
+    "slug": "home-bargins-lisburn",
+    "has_photos": true,
+    "image": "/assets/projects/home-bargins-lisburn/01.webp",
+    "gallery": [
+      "/assets/projects/home-bargins-lisburn/01.webp",
+      "/assets/projects/home-bargins-lisburn/02.webp",
+      "/assets/projects/home-bargins-lisburn/03.webp",
+      "/assets/projects/home-bargins-lisburn/04.webp",
+      "/assets/projects/home-bargins-lisburn/05.webp"
+    ],
+    "status": "completed",
+    "sector": "commercial",
+    "client": "Faithful and Gould",
+    "location": "Lisburn",
+    "year": "2020",
+    "overview": "Design and construction of a 3,500m\u00b2 flagship retail store, including associated roadworks, drainage, utilities, and a 180-space car park with a dedicated loading dock. The project also involved live road and services realignment along Ballinderry Road and upgrades to existing boundary treatments.\n\nThe retail unit features a steel portal frame with insulated cladding, complemented by brickwork, large glazed facades, and fire-rated shutters. Extensive coordination ensured efficient delivery of the superstructure.\n\nExternal works included full site infrastructure such as drainage systems, attenuation and interceptor tanks, permeable paving, lighting, and signage. The loading dock required specialist groundworks due to challenging soil conditions.\n\nMechanical and electrical installations comprised air source heat pumps, air handling systems, CCTV, advanced fire safety systems, and a fully automated building management system (BMS).\n\nThe project was delivered efficiently, on time, and within budget to a high standard."
+  },
+  {
+    "name": "St Lawrence O Toole's, Dublin",
+    "slug": "st-lawrence-o-tooles-dublin",
+    "has_photos": true,
+    "image": "/assets/projects/st-lawrence-o-tooles-dublin/01.webp",
+    "gallery": [
+      "/assets/projects/st-lawrence-o-tooles-dublin/01.webp",
+      "/assets/projects/st-lawrence-o-tooles-dublin/02.webp",
+      "/assets/projects/st-lawrence-o-tooles-dublin/03.webp",
+      "/assets/projects/st-lawrence-o-tooles-dublin/04.webp",
+      "/assets/projects/st-lawrence-o-tooles-dublin/05.webp",
+      "/assets/projects/st-lawrence-o-tooles-dublin/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills.",
+    "location": "Dublin",
+    "year": "2021",
+    "overview": "Successfully delivered in a high-traffic Dublin City location, acting as both Main Contractor and Project Supervisor Construction Stage (PSCS).\n\nA proactive HSEQ approach was embedded from tender stage, with thorough planning, risk assessments, and full regulatory compliance, including registration with the HSA and EPA. All site personnel were fully inducted, supported by a dedicated on-site Health & Safety Officer and ongoing supervision.\n\nRobust site management included weekly HSEQ audits, daily toolbox talks, and regular coordination meetings, ensuring all activities were carried out safely and efficiently. Strong collaboration with subcontractors and timely close-out of any non-conformances contributed to a well-managed, compliant project delivered to a high standard."
+  },
+  {
+    "name": "Colaiste Chuchulainn Dundalk",
+    "slug": "colaiste-chuchulainn-dundalk",
+    "has_photos": true,
+    "image": "/assets/projects/colaiste-chuchulainn-dundalk/01.webp",
+    "gallery": [
+      "/assets/projects/colaiste-chuchulainn-dundalk/01.webp",
+      "/assets/projects/colaiste-chuchulainn-dundalk/02.webp",
+      "/assets/projects/colaiste-chuchulainn-dundalk/03.webp",
+      "/assets/projects/colaiste-chuchulainn-dundalk/04.webp",
+      "/assets/projects/colaiste-chuchulainn-dundalk/05.webp",
+      "/assets/projects/colaiste-chuchulainn-dundalk/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education & Skills.",
+    "location": "Dundalk",
+    "year": "2018",
+    "overview": "Construction of a new two-storey and part single-storey post-primary school for 1,000 students, complete with a public park, hard play areas, and a full-size GAA football pitch. The development also included access roads, 80 car parking spaces, and covered cycle parking.\n\nThe building structure combined structural steel framing with precast concrete walls, floors, and stairs. External finishes featured a blend of facing brick, coloured render, and extensive glazing designed to complement the surrounding environment while maximising natural light.\n\nExternal works incorporated both hard and soft landscaping across play and sports areas. A full mechanical and electrical installation was delivered, tested throughout the build, and fully commissioned upon completion.\n\nComprehensive HSEQ management, including weekly audits and daily toolbox talks, ensured safe and efficient delivery. The project was completed on time, within budget, and to an exceptionally high standard."
+  },
+  {
+    "name": "Grangegorman NS",
+    "slug": "grangegorman-ns",
+    "has_photos": true,
+    "image": "/assets/projects/grangegorman-ns/01.webp",
+    "gallery": [
+      "/assets/projects/grangegorman-ns/01.webp",
+      "/assets/projects/grangegorman-ns/02.webp",
+      "/assets/projects/grangegorman-ns/03.webp",
+      "/assets/projects/grangegorman-ns/04.webp",
+      "/assets/projects/grangegorman-ns/05.webp",
+      "/assets/projects/grangegorman-ns/06.webp",
+      "/assets/projects/grangegorman-ns/07.webp",
+      "/assets/projects/grangegorman-ns/08.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills.",
+    "location": "Grangegorman",
+    "year": "2023",
+    "overview": "Construction of a five-storey, 24-classroom national school with an SNU, delivered to NZEB standards on the live Grangegorman Campus. The project included a modern sports gymnasium with CLT roof structure and a fully enclosed rooftop ball court.\n\nThe design maximised natural light and ventilation through extensive glazing, with classrooms incorporating integrated toilet facilities. Sustainable features included connection to the district heating network and roof-mounted photovoltaic panels.\n\nExternal finishes of brick and render were carefully selected to complement the surrounding campus, while bright internal finishes enhanced the learning environment.\n\nDelivered with strong HSEQ management, including weekly audits and daily toolbox talks, the project was completed to a high standard. Despite Covid-19 impacts and authorised variations, the scheme was successfully delivered within the revised programme and budget."
+  },
+  {
+    "name": "Lusk NS",
+    "slug": "lusk-ns",
+    "has_photos": true,
+    "image": "/assets/projects/lusk-ns/01.webp",
+    "gallery": [
+      "/assets/projects/lusk-ns/01.webp",
+      "/assets/projects/lusk-ns/02.webp",
+      "/assets/projects/lusk-ns/03.webp",
+      "/assets/projects/lusk-ns/04.webp",
+      "/assets/projects/lusk-ns/05.webp",
+      "/assets/projects/lusk-ns/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills.",
+    "location": "Lusk",
+    "year": "2018",
+    "overview": "Demolition of an existing school and construction of new junior and senior primary school buildings, along with a GP hall and all associated site works, in a busy urban location.\n\nThe project included full site setup, asbestos removal, demolition, and construction using precast framing with brick and block finishes. Internal works comprised joinery, kitchen and office fit-outs, and high-quality finishes throughout.\n\nExternal works delivered extensive hard and soft landscaping, including roads, car parking, and green areas. Sustainable features such as water harvesting and attenuation systems were incorporated, alongside a modern building management system (BMS) for efficient M&E control.\n\nStrong HSEQ management, including weekly audits and daily toolbox talks, ensured safe delivery, with all systems fully tested and commissioned on completion."
+  },
+  {
+    "name": "Dun na Ri Kingscourt Cavan",
+    "slug": "dun-na-ri-kingscourt-cavan",
+    "has_photos": true,
+    "image": "/assets/projects/dun-na-ri-kingscourt-cavan/01.webp",
+    "gallery": [
+      "/assets/projects/dun-na-ri-kingscourt-cavan/01.webp",
+      "/assets/projects/dun-na-ri-kingscourt-cavan/02.webp",
+      "/assets/projects/dun-na-ri-kingscourt-cavan/03.webp",
+      "/assets/projects/dun-na-ri-kingscourt-cavan/04.webp",
+      "/assets/projects/dun-na-ri-kingscourt-cavan/05.webp",
+      "/assets/projects/dun-na-ri-kingscourt-cavan/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills.",
+    "location": "Cavan",
+    "year": "2018",
+    "overview": "Design and construction of a split-level post-primary school comprising 32 classrooms across 2\u20134 storeys, with a connected sports hall and extensive associated facilities. The development included a new entrance road on a steeply sloping site, car parking, retaining walls, culverts, and full site infrastructure.\n\nThe structure combined structural steel with precast concrete elements, finished externally with facing brick, coloured render, and high-performance glazing. Internal accommodation included classrooms, administration offices, library, special needs unit, canteen, and ancillary spaces.\n\nSignificant civil engineering works were undertaken, including river diversion via a new culvert, stormwater drainage systems with attenuation and water harvesting, and the construction of high retaining walls along a live roadway.\n\nExternal works featured ball courts, circulation areas, security installations, and both hard and soft landscaping. Full mechanical and electrical systems were installed, tested, and commissioned.\n\nThe project was delivered to a high standard, managing complex ground conditions and challenging site constraints."
+  },
+  {
+    "name": "Naas Community College",
+    "slug": "naas-community-college",
+    "has_photos": true,
+    "image": "/assets/projects/naas-community-college/01.webp",
+    "gallery": [
+      "/assets/projects/naas-community-college/01.webp",
+      "/assets/projects/naas-community-college/02.webp",
+      "/assets/projects/naas-community-college/03.webp",
+      "/assets/projects/naas-community-college/04.webp",
+      "/assets/projects/naas-community-college/05.webp",
+      "/assets/projects/naas-community-college/06.webp",
+      "/assets/projects/naas-community-college/07.webp",
+      "/assets/projects/naas-community-college/08.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Coady Architects",
+    "location": "Kildare",
+    "year": "2022",
+    "overview": "Construction of a 10,405m\u00b2 two- and three-storey post-primary school for 1,000 \u0935\u093f\u0926\u094d\u092f\u093e\u0930\u094d\u0925ents, incorporating teaching spaces, administration areas, a special needs unit, and a sports hall with CLT roof structure. The development also included extensive external facilities such as car and cycle parking, play areas, an all-weather pitch, and landscaped grounds.\n\nThe project involved significant enabling and civil works, including new road infrastructure, bus set-down areas, culverting, flood mitigation measures, and boundary treatments, both within and beyond the site boundary.\n\nBuilt with a focus on sustainability, the school features energy-efficient MEICA systems, natural ventilation strategies, and a green roof. Works included piled and reinforced concrete foundations, full M&E installations, and comprehensive testing and commissioning in line with BC(A)R requirements.\n\nDelivered in a busy urban environment, the project maintained high standards of traffic and stakeholder management, alongside rigorous HSEQ controls. Construction progressed safely throughout the Covid-19 pandemic under approved protocols, with the project completed to a high standard and full client satisfaction."
+  },
+  {
+    "name": "O'Carolan College Nobber",
+    "slug": "ocarolan-college-nobber",
+    "has_photos": true,
+    "image": "/assets/projects/ocarolan-college-nobber/01.webp",
+    "gallery": [
+      "/assets/projects/ocarolan-college-nobber/01.webp",
+      "/assets/projects/ocarolan-college-nobber/02.webp",
+      "/assets/projects/ocarolan-college-nobber/03.webp",
+      "/assets/projects/ocarolan-college-nobber/04.webp",
+      "/assets/projects/ocarolan-college-nobber/05.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Opperman Associates",
+    "location": "Nobber",
+    "year": "2025",
+    "overview": "Demolition of the existing school buildings, including prefabricated units and ancillary structures, followed by the construction of a new three-storey educational facility.\n\nThe new school comprises 20 classrooms, specialist teaching spaces including science labs, arts and construction rooms, a home economics room, library, GP and multipurpose halls, special needs units, and administrative areas.\n\nExternal works included car parking, set-down areas, ball courts, a football pitch, landscaping, and full site boundary treatments. The project also involved the reconfiguration of the adjacent R162 Navan to Kingscourt Road.\n\nDelivered to a high standard, the project provides a modern, fully equipped learning environment with comprehensive site infrastructure."
+  },
+  {
+    "name": "St Oliver Plunkett School Malahide",
+    "slug": "st-oliver-plunkett-school-malahide",
+    "has_photos": true,
+    "image": "/assets/projects/st-oliver-plunkett-school-malahide/01.webp",
+    "gallery": [
+      "/assets/projects/st-oliver-plunkett-school-malahide/01.webp",
+      "/assets/projects/st-oliver-plunkett-school-malahide/02.webp",
+      "/assets/projects/st-oliver-plunkett-school-malahide/03.webp",
+      "/assets/projects/st-oliver-plunkett-school-malahide/04.webp",
+      "/assets/projects/st-oliver-plunkett-school-malahide/05.webp",
+      "/assets/projects/st-oliver-plunkett-school-malahide/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Board of Managment. St. Oliver Plunketts School",
+    "location": "Malahide",
+    "year": "2020",
+    "overview": "Phased construction of new two- and three-storey school buildings comprising 35 classrooms, delivered on a live and fully operational school campus in a busy urban setting.\n\nThe project involved temporary accommodation installation, careful demolition of existing structures, and construction of a new precast concrete school building with high-quality internal and external finishes. Extensive coordination ensured safe separation between construction works and ongoing school activities.\n\nWorks included new drainage and utilities, car parking, set-down areas, ball courts, and significant hard and soft landscaping. A full mechanical and electrical installation was delivered, including a modern automated building management system (BMS), with all systems fully tested, commissioned, and handed over with user training.\n\nAchieving an A2 BER rating, the project emphasised energy performance and quality. Strong HSEQ management and careful planning ensured safe delivery, with the project completed on time, within budget, and to the full satisfaction of the client."
+  },
+  {
+    "name": "Stewarts School Lucan",
+    "slug": "stewarts-school-lucan",
+    "has_photos": true,
+    "image": "/assets/projects/stewarts-school-lucan/01.webp",
+    "gallery": [
+      "/assets/projects/stewarts-school-lucan/01.webp",
+      "/assets/projects/stewarts-school-lucan/02.webp",
+      "/assets/projects/stewarts-school-lucan/03.webp",
+      "/assets/projects/stewarts-school-lucan/04.webp",
+      "/assets/projects/stewarts-school-lucan/05.webp",
+      "/assets/projects/stewarts-school-lucan/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills",
+    "location": "Dublin",
+    "year": "2019",
+    "overview": "Demolition and site clearance were followed by the construction of a new 32-classroom school for pupils with special needs, including administration spaces, gymnasium, ball courts, play areas, and a single-storey green roof.\n\nThe project included new site access from a busy roundabout, parking and circulation areas, drainage, utilities, and a new ESB substation with switch room. The building was constructed using a precast modular system with brick, blockwork, coloured render, and energy-efficient glazing.\n\nA full mechanical and electrical package with modern BMS, intelligent lighting, water harvesting, and solar-responsive elements was installed, alongside high-quality internal finishes. All works were safely delivered in a live operational environment, with O&M and safety documentation handed over upon completion."
+  },
+  {
+    "name": "Stephenstown Schools, Balbriggan",
+    "slug": "stephenstown-schools-balbriggan",
+    "has_photos": true,
+    "image": "/assets/projects/stephenstown-schools-balbriggan/01.webp",
+    "gallery": [
+      "/assets/projects/stephenstown-schools-balbriggan/01.webp",
+      "/assets/projects/stephenstown-schools-balbriggan/02.webp",
+      "/assets/projects/stephenstown-schools-balbriggan/03.webp",
+      "/assets/projects/stephenstown-schools-balbriggan/04.webp",
+      "/assets/projects/stephenstown-schools-balbriggan/05.webp",
+      "/assets/projects/stephenstown-schools-balbriggan/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Planning & Development Unit, Department of Education & Science\nPortlaoise Road, Tullamore,. Co. Offaly.\nC/O Kenny Fitzgerald Architects, Eglatine Place, Belfast",
+    "location": "Ballbrigan",
+    "year": "2018",
+    "overview": "Construction of a new three-storey post-primary school for 1,000 pupils and a two-storey primary school for 750 pupils with a Special Needs Unit, GP hall, and ancillary facilities including offices, kitchen, canteen, physio, and conference spaces.\n\nThe development included new access roads, parking, drop-off areas, combined foot and cycle paths, drainage and utilities, and comprehensive landscaping with sports pitches, play areas, and secure boundary treatments.\n\nBuildings feature structural steel and precast concrete frames, with exteriors of facing brick, coloured render, and extensive solar-responsive glazing. Sustainable features include heat recovery ventilation and energy-efficient systems, fully tested and commissioned prior to handover.\n\nDelivered in a busy urban setting with minimal disruption to surrounding schools and residential areas, the project achieved high standards of quality, safety, and environmental performance, supported by weekly HSEQ audits and daily toolbox talks."
+  },
+  {
+    "name": "Scoil Phadraig Clane",
+    "slug": "scoil-phadraig-clane",
+    "has_photos": false,
+    "image": "/assets/projects/scoil-phadraig-clane/placeholder.webp",
+    "gallery": [
+      "/assets/projects/scoil-phadraig-clane/placeholder.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Board of Management Scoil Phadraig",
+    "location": "Kildare",
+    "year": "2022",
+    "overview": "Construction of a new two-storey school with a steel portal frame gym hall, football pitch, three ball courts, roads, and a 64-space car park on a live school site in Clane, delivered over two phases.\n\nPhase 1 included a temporary modular 22-classroom school with full amenities, constructed offsite and installed to permanent building standards. Extensive M&E systems\u2014including heat pumps, air handling units, PV panels, fire safety systems, CCTV, and communications\u2014were installed, tested, and commissioned before occupation.\n\nPhase 2 involved demolition of the existing school and construction of the permanent 24-classroom building, gym hall, ball courts, roads, car park, and site services, alongside precast concrete and steel portal frame structures.\n\nThe project required careful stakeholder liaison, traffic management, and coordination with the live school, and was delivered on time, on budget, and to a high standard, maintaining strong collaboration with the client, design team, and subcontractors."
+  },
+  {
+    "name": "Carechoice Nursing Home, Trim",
+    "slug": "carechoice-nursing-home-trim",
+    "has_photos": true,
+    "image": "/assets/projects/carechoice-nursing-home-trim/01.webp",
+    "gallery": [
+      "/assets/projects/carechoice-nursing-home-trim/01.webp",
+      "/assets/projects/carechoice-nursing-home-trim/02.webp",
+      "/assets/projects/carechoice-nursing-home-trim/03.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Carechoice Trim Ltd, Knightsbridge Village, Trim, Co. Meath.",
+    "location": "Meath",
+    "year": "2021",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered a \u20ac9.5 million, three-storey extension to a live, operational, and protected nursing home, acting as both Main Contractor and PSCS.\n\nThe 2,850m\u00b2 development included pre-cast construction, full M&E installation, and sustainable energy-efficient features such as heat recovery ventilation, rainwater harvesting, PV panels, solar-neutral glazing, and smart building controls, achieving an A2 energy rating.\n\nWorks were carefully phased to maintain full operation of the existing facility, which was also refurbished with upgraded M&E, structural improvements, fire safety measures, and new bathrooms and kitchens. All works complied with HSEQ and BC(A)R standards, with user-friendly O&M and safety files handed over on completion, delivered on time and within budget."
+  },
+  {
+    "name": "Carechoice Nursing Home, Marley",
+    "slug": "carechoice-nursing-home-marley",
+    "has_photos": true,
+    "image": "/assets/projects/carechoice-nursing-home-marley/01.webp",
+    "gallery": [
+      "/assets/projects/carechoice-nursing-home-marley/01.webp",
+      "/assets/projects/carechoice-nursing-home-marley/02.webp",
+      "/assets/projects/carechoice-nursing-home-marley/03.webp",
+      "/assets/projects/carechoice-nursing-home-marley/04.webp",
+      "/assets/projects/carechoice-nursing-home-marley/05.webp",
+      "/assets/projects/carechoice-nursing-home-marley/06.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "CareChoice Designated Activity Company,",
+    "location": "Dublin",
+    "year": "2022",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered a new three-storey extension and the refurbishment, restoration, and modernisation of the existing wing at the live, operational, and protected Marlay Nursing Home.\n\nThe project upgraded energy efficiency to an A2 BER rating, improved fire safety, and restored original joinery, ornamental features, and plasterwork. Key works included demolition, asbestos removal, new partitions, floors, ceilings, tiling, carpets, painting, decoration, and full M&E installation, tested and commissioned throughout.\n\nAll works were carried out to high standards of safety, quality, and sustainability, with weekly HSEQ audits and timely resolution of non-conformances. The project was completed on time, within budget, and to a very high standard of finish."
+  },
+  {
+    "name": "Carechoice Nursing Home, Parnell Road",
+    "slug": "carechoice-nursing-home-parnell-road",
+    "has_photos": true,
+    "image": "/assets/projects/carechoice-nursing-home-parnell-road/01.webp",
+    "gallery": [
+      "/assets/projects/carechoice-nursing-home-parnell-road/01.webp",
+      "/assets/projects/carechoice-nursing-home-parnell-road/02.webp",
+      "/assets/projects/carechoice-nursing-home-parnell-road/03.webp",
+      "/assets/projects/carechoice-nursing-home-parnell-road/04.webp",
+      "/assets/projects/carechoice-nursing-home-parnell-road/05.webp",
+      "/assets/projects/carechoice-nursing-home-parnell-road/06.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Carechoice Ltd, Parnell Road,-Dublin City",
+    "location": "Dublin",
+    "year": "2023",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered the design and construction of a modern, four-storey, 143-bed energy-efficient nursing home in Dublin City, completed for \u20ac20 million.\n\nThe facility features ensuite bedrooms with natural light and ventilation, heat-recovery systems for bathrooms and utilities, and communal areas including dining, sitting, TV, reflection, and meditation rooms. A reinforced basement car park, surface parking, bicycle racks, and landscaped grounds were also provided.\n\nConstruction used modern methods including precast frames, POD bathrooms, and offsite-manufactured kitchens to accelerate the programme. The building achieved an A2 BER rating, with high-performance insulation, fire safety systems, and sustainable orientation to maximise natural light and heat.\n\nAll M&E systems were tested and commissioned, with comprehensive user training and Soft Landings provided. Graphic-rich O&M and Safety Manuals were handed over, and the project was completed on time, within budget, and to the client\u2019s full satisfaction in June 2023."
+  },
+  {
+    "name": "Carechoice Nursing Home, Swords",
+    "slug": "carechoice-nursing-home-swords",
+    "has_photos": true,
+    "image": "/assets/projects/carechoice-nursing-home-swords/01.webp",
+    "gallery": [
+      "/assets/projects/carechoice-nursing-home-swords/01.webp",
+      "/assets/projects/carechoice-nursing-home-swords/02.webp",
+      "/assets/projects/carechoice-nursing-home-swords/03.webp",
+      "/assets/projects/carechoice-nursing-home-swords/04.webp",
+      "/assets/projects/carechoice-nursing-home-swords/05.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Reddy Architecture and Urbanisation, Douglas Business Centre, Carrigaline\nRoad, Douglas, Co. Cork.",
+    "location": "Swords",
+    "year": "2020",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered a five-storey, 161-bed nursing home with a reinforced basement car park and a fifth-floor caf\u00e9, acting as Design & Build Main Contractor and PSCS in a live operational environment.\n\nThe project included reinforced concrete construction with retaining walls, columns, beams, precast floors and stairs, road realignment, new utility connections, foul and stormwater networks, footpaths, car park, and botanical-style landscaping. Enabling works included site setup, bulk excavation, sensitive demolition, and asbestos removal.\n\nAll M&E systems were fully tested, commissioned, and handed over alongside graphic-rich O&M and Safety Manuals. The building achieved a high A2 BER energy-efficient rating and was completed to a very high standard of quality, safety, and sustainability."
+  },
+  {
+    "name": "Dunshaughlin Nursing Home",
+    "slug": "dunshaughlin-nursing-home",
+    "has_photos": false,
+    "image": "/assets/projects/dunshaughlin-nursing-home/placeholder.webp",
+    "gallery": [
+      "/assets/projects/dunshaughlin-nursing-home/placeholder.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Altere Development Managers",
+    "location": "Dunshaughlin",
+    "year": "2023",
+    "overview": "Dunshaughlin Nursing Home \u2013 Dublin Road, Dunshaughlin\n\nGanson Building & Civil Engineering Ltd. delivered the design and build of a 96-bedroom nursing home, acting as both Main Contractor and PSCS. The project included full site works, utility connections, and high standards of health, safety, environment, and quality (HSEQ).\n\nAll works were carefully planned in advance, including risk assessments, method statements, site inductions, and weekly integrated HSEQ audits. A full-time H&S officer monitored the project, and non-conformances were promptly addressed. Daily toolbox talks, weekly progress meetings, and close coordination with subcontractors ensured safe, efficient delivery of the project to schedule.."
+  },
+  {
+    "name": "Moorehall Nursing Home",
+    "slug": "moorehall-nursing-home",
+    "has_photos": true,
+    "image": "/assets/projects/moorehall-nursing-home/01.webp",
+    "gallery": [
+      "/assets/projects/moorehall-nursing-home/01.webp",
+      "/assets/projects/moorehall-nursing-home/02.webp",
+      "/assets/projects/moorehall-nursing-home/03.webp",
+      "/assets/projects/moorehall-nursing-home/04.webp",
+      "/assets/projects/moorehall-nursing-home/05.webp",
+      "/assets/projects/moorehall-nursing-home/06.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Reddy Architecture + Urbanisation, Dartry Mills, Darty Road, Dublin D06\nYOE3",
+    "location": "Ardee",
+    "year": "2022",
+    "overview": "Moorehall Nursing Home \u2013 Ardee, Co. Louth\n\nGanson Building & Civil Engineering Ltd. delivered the construction of a new energy-efficient two-storey, 44-bed western extension to the live, protected Moorehall Nursing Home, while also refurbishing and modernising the existing facility to A2 BER standards.\n\nThe project used traditional construction methods including blockwork, reinforced concrete frames, precast floors and stairs, and a prefabricated insulated truss roof. Works included careful restoration of joinery, plaster, and decorative features, soft and hard landscaping, fire safety upgrades, and full M&E installation, all connected to the live infrastructure.\n\nAll systems, including fire safety, mechanical, and electrical installations, were tested and commissioned. The project was completed on time, within budget, and to a high standard of energy efficiency, sustainability, and finish."
+  },
+  {
+    "name": "Kilbarrack Health Centre",
+    "slug": "kilbarrack-health-centre",
+    "has_photos": true,
+    "image": "/assets/projects/kilbarrack-health-centre/01.webp",
+    "gallery": [
+      "/assets/projects/kilbarrack-health-centre/01.webp",
+      "/assets/projects/kilbarrack-health-centre/02.webp",
+      "/assets/projects/kilbarrack-health-centre/03.webp",
+      "/assets/projects/kilbarrack-health-centre/04.webp",
+      "/assets/projects/kilbarrack-health-centre/05.webp",
+      "/assets/projects/kilbarrack-health-centre/06.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "HSE",
+    "location": "Kilbarrack",
+    "year": "2024",
+    "overview": "Ganson Building & Civil Engineering Ltd. delivered a part single-storey, part two-storey extension with roof terrace and new external doors, providing a range of community health services including dental care, physiotherapy, occupational and children\u2019s therapy, and a public nursing unit.\n\nActing as both Main Contractor and PSCS, Ganson implemented comprehensive HSEQ management, including risk assessments, method statements, site inductions, and weekly integrated audits. A full-time H&S officer monitored works, non-conformances were promptly addressed, and daily toolbox talks and weekly coordination meetings ensured safe and efficient delivery."
+  },
+  {
+    "name": "Lucan Health Centre",
+    "slug": "lucan-health-centre",
+    "has_photos": true,
+    "image": "/assets/projects/lucan-health-centre/01.webp",
+    "gallery": [
+      "/assets/projects/lucan-health-centre/01.webp",
+      "/assets/projects/lucan-health-centre/02.webp",
+      "/assets/projects/lucan-health-centre/03.webp",
+      "/assets/projects/lucan-health-centre/04.webp",
+      "/assets/projects/lucan-health-centre/05.webp",
+      "/assets/projects/lucan-health-centre/06.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Viterbi Ltd",
+    "location": "Lucan",
+    "year": "2019",
+    "overview": "This project involved the partial demolition of an existing structure and the construction of a new two-storey health centre on Main Street, Lucan.\n\nThe development included a full change of use from commercial premises to a modern healthcare facility, incorporating new building works, upgraded fa\u00e7ades, and associated site improvements. Delivered in a prominent town centre location, the project provides a high-quality, purpose-built medical environment."
+  },
+  {
+    "name": "Irish Nursing Centre, Ballivor",
+    "slug": "irish-nursing-centre-ballivor",
+    "has_photos": true,
+    "image": "/assets/projects/irish-nursing-centre-ballivor/01.webp",
+    "gallery": [
+      "/assets/projects/irish-nursing-centre-ballivor/01.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Narconon Trust",
+    "location": "Ballivor",
+    "year": "2019",
+    "overview": "This project involved the refurbishment and extension of an existing building to deliver a modern nursing home facility in Ballivor, Co. Meath. The works included full building upgrades, new construction, mechanical and electrical installations, and associated site development and landscaping.\n\nDelivered on a town centre site, the scheme provides a high-quality, purpose-built healthcare environment."
+  },
+  {
+    "name": "Donabate",
+    "slug": "donabate",
+    "has_photos": true,
+    "image": "/assets/projects/donabate/01.webp",
+    "gallery": [
+      "/assets/projects/donabate/01.webp",
+      "/assets/projects/donabate/02.webp"
+    ],
+    "status": "current",
+    "sector": "residential",
+    "client": "AGC Capital Donabate Ltd",
+    "location": "Donabate",
+    "year": "2026",
+    "overview": "Construction of a large-scale residential development comprising 163 apartments across three six-storey blocks, with a mix of one, two, and three-bedroom units.\n\nThe scheme is built over a podium slab with basement car parking for 88 vehicles and extensive bicycle storage. Landscaped podium and external areas include communal open spaces and dedicated children\u2019s play areas, delivering a high-quality living environment."
+  },
+  {
+    "name": "Circle Housing, Inchicore",
+    "slug": "circle-housing-inchicore",
+    "has_photos": true,
+    "image": "/assets/projects/circle-housing-inchicore/01.webp",
+    "gallery": [
+      "/assets/projects/circle-housing-inchicore/01.webp",
+      "/assets/projects/circle-housing-inchicore/02.webp",
+      "/assets/projects/circle-housing-inchicore/03.webp",
+      "/assets/projects/circle-housing-inchicore/04.webp",
+      "/assets/projects/circle-housing-inchicore/05.webp",
+      "/assets/projects/circle-housing-inchicore/06.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "Circle Housing",
+    "location": "Dublin",
+    "year": "2025",
+    "overview": "This project involves the construction of a 52-unit \u201cHousing with Supports\u201d development, providing high-quality, accessible residential accommodation with associated site works and infrastructure.\n\nDelivered under a Public Works Contract, the scheme is designed to meet modern standards for quality, safety, and performance, with a structured approach to construction and project delivery.\n\nOverall, the project represents a significant investment in supported housing, combining modern construction standards with a strong contractual framework to ensure efficient and high-quality delivery."
+  },
+  {
+    "name": "St. Mary's Mansions, Dublin 1",
+    "slug": "st-marys-mansions-dublin-1",
+    "has_photos": true,
+    "image": "/assets/projects/st-marys-mansions-dublin-1/01.webp",
+    "gallery": [
+      "/assets/projects/st-marys-mansions-dublin-1/01.webp",
+      "/assets/projects/st-marys-mansions-dublin-1/02.webp",
+      "/assets/projects/st-marys-mansions-dublin-1/03.webp",
+      "/assets/projects/st-marys-mansions-dublin-1/04.webp",
+      "/assets/projects/st-marys-mansions-dublin-1/05.webp",
+      "/assets/projects/st-marys-mansions-dublin-1/06.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "Cluid Housing Association",
+    "location": "Dublin 1",
+    "year": "2019",
+    "overview": "This project involved the refurbishment, restoration, and retrofit of an existing social housing complex, including the addition of two new floors to create a six-storey building with 80 apartments. The scheme also introduced external balconies and internal walkway balconies with modern glass balustrading.\n\nSignificant upgrades were made to improve energy performance to A2 rating, including the installation of rooftop PV panels to support NZEB standards. External works included new car parking and a fully equipped play area.\n\nDelivered within a constrained city centre site, the project provides a modernised, energy-efficient residential environment completed to a high standard."
+  },
+  {
+    "name": "Tooting Meadow, Scarlet Street, Drogheda",
+    "slug": "scarlet-street-drogheda",
+    "has_photos": true,
+    "image": "/assets/projects/scarlet-street-drogheda/01.webp",
+    "gallery": [
+      "/assets/projects/scarlet-street-drogheda/01.webp",
+      "/assets/projects/scarlet-street-drogheda/02.webp",
+      "/assets/projects/scarlet-street-drogheda/03.webp",
+      "/assets/projects/scarlet-street-drogheda/04.webp",
+      "/assets/projects/scarlet-street-drogheda/05.webp",
+      "/assets/projects/scarlet-street-drogheda/06.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "North & East Housing Association",
+    "location": "Drogheda",
+    "year": "2020",
+    "overview": "This project involved the construction of ten sustainable apartments and five townhouses within a busy, built-up area of Drogheda town centre.\n\nThe works included demolition, asbestos removal, site enabling works, and full construction using reinforced concrete, brick, and precast elements, alongside green roof systems and SUDS infrastructure. Extensive coordination was required for traffic and pedestrian management throughout the build.\n\nDelivered on time and within budget, the project achieved a high standard of sustainability and was recognised with the RIAI Public Choice Award in 2020."
+  },
+  {
+    "name": "Arden Road, Mixed Use Development, Tullamore",
+    "slug": "arden-road-mixed-use-development-tullamore",
+    "has_photos": true,
+    "image": "/assets/projects/arden-road-mixed-use-development-tullamore/01.webp",
+    "gallery": [
+      "/assets/projects/arden-road-mixed-use-development-tullamore/01.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/02.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/03.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/04.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/05.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/06.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/07.webp",
+      "/assets/projects/arden-road-mixed-use-development-tullamore/08.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "Cayenne Holdings/Kane & Carberry",
+    "location": "Tullamore",
+    "year": "2020",
+    "overview": "This project comprised a mixed-use development including two retail units and 21 residential apartments, supported by a reinforced concrete basement car park extending across the full site.\n\nThe apartments were fully fitted with modern kitchens and bedroom furniture, while the building achieved a high A2 BER energy rating. External areas were completed in line with landscape design proposals, incorporating raised planter beds, water features, street furniture, and roof gardens.\n\nDelivered on time and within budget, the scheme provides a high-quality residential and retail environment finished to a strong standard."
+  },
+  {
+    "name": "The Galleries, Donabate",
+    "slug": "the-galleries-donabate",
+    "has_photos": true,
+    "image": "/assets/projects/the-galleries-donabate/01.webp",
+    "gallery": [
+      "/assets/projects/the-galleries-donabate/01.webp",
+      "/assets/projects/the-galleries-donabate/02.webp",
+      "/assets/projects/the-galleries-donabate/03.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "Wynn Clons Development Ltd",
+    "location": "Donabate",
+    "year": "2020",
+    "overview": "This project comprises The Galleries Residential Development in Donabate, Co. Dublin, delivering 48 apartments across two blocks on a brownfield site. The scheme includes a reinforced concrete frame structure with a basement car park, alongside full site development works.\n\nWorks involved demolition, piling, concrete construction, brick and blockwork, green roofs, and full M&E installation, as well as extensive hard and soft landscaping. Located adjacent to the Dublin\u2013Belfast railway line, the project required careful coordination within a busy urban setting.\n\nCompleted to a high standard, the development provides a modern residential environment supported by quality finishes, infrastructure, and landscaped surroundings."
+  },
+  {
+    "name": "Arbour Hill Apartments",
+    "slug": "arbour-hill-apartments",
+    "has_photos": true,
+    "image": "/assets/projects/arbour-hill-apartments/01.webp",
+    "gallery": [
+      "/assets/projects/arbour-hill-apartments/01.webp",
+      "/assets/projects/arbour-hill-apartments/02.webp",
+      "/assets/projects/arbour-hill-apartments/03.webp",
+      "/assets/projects/arbour-hill-apartments/04.webp",
+      "/assets/projects/arbour-hill-apartments/05.webp",
+      "/assets/projects/arbour-hill-apartments/06.webp",
+      "/assets/projects/arbour-hill-apartments/07.webp",
+      "/assets/projects/arbour-hill-apartments/08.webp"
+    ],
+    "status": "completed",
+    "sector": "residential",
+    "client": "Dublin Simon Community",
+    "location": "Dublin",
+    "year": "2025",
+    "overview": "The construction of 14 social housing units at Arbour Hill, Dublin 7, delivers a high-quality residential development within a constrained inner-city site. The project comprises new-build housing along with associated site works, services, and infrastructure.\n\nCareful planning and stakeholder engagement were central to delivery, ensuring minimal disruption to neighbouring residents and local traffic. The scheme provides much-needed social housing in a well-connected urban location, built to modern standards and fully coordinated across all structural and MEP elements."
+  },
+  {
+    "name": "Room2 Hotel, Belfast",
+    "slug": "room2-hotel-belfast",
+    "has_photos": true,
+    "image": "/assets/projects/room2-hotel-belfast/01.webp",
+    "gallery": [
+      "/assets/projects/room2-hotel-belfast/01.webp",
+      "/assets/projects/room2-hotel-belfast/02.webp",
+      "/assets/projects/room2-hotel-belfast/03.webp",
+      "/assets/projects/room2-hotel-belfast/04.webp",
+      "/assets/projects/room2-hotel-belfast/05.webp"
+    ],
+    "status": "completed",
+    "sector": "hotel-leisure",
+    "client": "Lamington Group",
+    "location": "Belfast",
+    "year": "2025",
+    "overview": "This project involves the development of a new hotel in Belfast, delivered for the room2 brand, providing 175 bedrooms along with bar, restaurant, lounge, and meeting spaces.\n\nConstructed on the site of a former office building, the scheme features a reinforced concrete frame with a mix of composite cladding and brickwork. The design includes a variety of internal spaces and amenities arranged over nine floors, with high-quality finishes throughout.\n\nSustainability is central to the project, with energy-efficient systems, solar power, and reused materials incorporated to support a low-carbon, modern hospitality environment."
+  },
+  {
+    "name": "Hamilton Dock Hotel, Belfast",
+    "slug": "hamilton-dock-hotel-belfast",
+    "has_photos": false,
+    "image": "/assets/projects/hamilton-dock-hotel-belfast/placeholder.webp",
+    "gallery": [
+      "/assets/projects/hamilton-dock-hotel-belfast/placeholder.webp"
+    ],
+    "status": "current",
+    "sector": "hotel-leisure",
+    "client": "JMK",
+    "location": "Belfast",
+    "year": "2026",
+    "overview": "Construction of a landmark dual-branded Marriott hotel development in Belfast\u2019s Titanic Quarter, comprising a total of 228 bedrooms, including 135 Aloft hotel rooms and 93 Residence Inn aparthotel suites designed for extended stays.\n\nLocated within the heart of the city\u2019s waterfront regeneration area, adjacent to Titanic Belfast and the SSE Arena, the development forms part of the wider transformation of the historic docklands into a major mixed-use destination.\n\nThe project includes a shared ground-floor arrival experience with reception, lobby, and bar/caf\u00e9 facilities serving both brands, alongside a fully equipped gym, back-of-house facilities, and integrated car parking. The Residence Inn element provides studio and one-bedroom suites with kitchen and living spaces, while the Aloft hotel delivers a contemporary, technology-driven hospitality offering.\n\nExternally, the scheme incorporates high-quality public realm and landscaped areas, enhancing connectivity within the Titanic Quarter and contributing to the wider urban regeneration strategy. The development is designed to achieve high sustainability standards, targeting BREEAM Excellent and LEED Gold accreditation in line with Marriott\u2019s environmental objectives."
+  },
+  {
+    "name": "Earls Hotel, Pembroke St, Dublin",
+    "slug": "earls-hotel-pembroke-st-dublin",
+    "has_photos": true,
+    "image": "/assets/projects/earls-hotel-pembroke-st-dublin/01.webp",
+    "gallery": [
+      "/assets/projects/earls-hotel-pembroke-st-dublin/01.webp",
+      "/assets/projects/earls-hotel-pembroke-st-dublin/02.webp",
+      "/assets/projects/earls-hotel-pembroke-st-dublin/03.webp",
+      "/assets/projects/earls-hotel-pembroke-st-dublin/04.webp",
+      "/assets/projects/earls-hotel-pembroke-st-dublin/05.webp",
+      "/assets/projects/earls-hotel-pembroke-st-dublin/06.webp"
+    ],
+    "status": "current",
+    "sector": "hotel-leisure",
+    "client": "Purebuild Ltd",
+    "location": "Dublin",
+    "year": "2026",
+    "overview": "This project delivers a new 4+ star hotel on Pembroke Street, opposite Fitzwilliam Square, with 112 rooms across eight floors. The design responds to its tight urban context through stepped massing and internal courtyards that maximise daylight and create private terraces.\n\nPublic spaces include a double-height entrance foyer, bar, and breakfast area, while the fa\u00e7ade uses red brick, sandstone, and terracotta to complement neighbouring buildings. Construction is currently underway following site clearance and groundworks."
+  },
+  {
+    "name": "Crumlin Hursing Home",
+    "slug": "crumlin-nursing-home",
+    "has_photos": false,
+    "image": "/assets/projects/crumlin-nursing-home/placeholder.webp",
+    "gallery": [
+      "/assets/projects/crumlin-nursing-home/placeholder.webp"
+    ],
+    "status": "current",
+    "sector": "healthcare",
+    "client": "Altere Development Managers",
+    "location": "Dublin",
+    "year": "2026",
+    "overview": "Construction of a 151-bedroom nursing home across four floors, providing modern, purpose-built residential care facilities.\n\nThe development includes full clinical and support accommodation such as commercial kitchens, laundry facilities, day rooms, and nursing stations. External works feature a landscaped courtyard garden to the rear, with car parking and bicycle storage provided to the front."
+  },
+  {
+    "name": "Louth GAA Stadium",
+    "slug": "louth-gaa-stadium",
+    "has_photos": false,
+    "image": "/assets/projects/louth-gaa-stadium/placeholder.webp",
+    "gallery": [
+      "/assets/projects/louth-gaa-stadium/placeholder.webp"
+    ],
+    "status": "current",
+    "sector": "hotel-leisure",
+    "client": "Louth GAA",
+    "location": "Dundalk",
+    "year": "2026",
+    "overview": "Construction of a new state-of-the-art GAA stadium in Dundalk, providing a permanent home for Louth county teams and a key sporting and community facility for the region.\n\nThe development is being delivered in phases and will ultimately provide a 14,000-capacity stadium, including a covered seated stand, standing terraces, full-size playing pitch, modern floodlighting, and supporting facilities such as dressing rooms, ancillary accommodation, and car parking.\n\nPhase one delivers the core stadium infrastructure, including a 4,000+ seat stand, pitch, and essential facilities, with further phases enhancing capacity and amenities through additional terraces and training facilities.\n\nLocated in Dundalk, the project forms a major investment in sports infrastructure and is designed to support both elite county-level competition and wider community use, contributing to the long-term development of Gaelic Games in the region."
+  },
+  {
+    "name": "Kilbride Eductation Campus",
+    "slug": "kilbride-education-campus",
+    "has_photos": true,
+    "image": "/assets/projects/kilbride-education-campus/01.webp",
+    "gallery": [
+      "/assets/projects/kilbride-education-campus/01.webp",
+      "/assets/projects/kilbride-education-campus/02.webp",
+      "/assets/projects/kilbride-education-campus/03.webp",
+      "/assets/projects/kilbride-education-campus/04.webp",
+      "/assets/projects/kilbride-education-campus/05.webp",
+      "/assets/projects/kilbride-education-campus/06.webp",
+      "/assets/projects/kilbride-education-campus/07.webp",
+      "/assets/projects/kilbride-education-campus/08.webp"
+    ],
+    "status": "current",
+    "sector": "education",
+    "client": "Department of Education and Skills.",
+    "location": "Arklow",
+    "year": "2026",
+    "overview": "Construction of a new educational campus at Kilbride, Arklow, comprising a three-storey post-primary school for approximately 350 pupils and a two-storey 16-classroom primary school, together with associated external works on a greenfield site.\n\nThe development includes full site clearance and preparation, installation of construction compounds and access routes, and the delivery of all civil and building works including earthworks, reinforced concrete foundations, structural frame, precast elements, blockwork, and full mechanical and electrical installations.\n\nExternal works form a significant element of the project and include new car parking areas, hard and soft play areas, drainage infrastructure, a foul pumping station, and the construction of new internal and external road networks with dedicated access and egress arrangements."
+  },
+  {
+    "name": "Bakers Corner, Student Residential",
+    "slug": "bakers-corner-student-residential",
+    "has_photos": false,
+    "image": "/assets/projects/bakers-corner-student-residential/placeholder.webp",
+    "gallery": [
+      "/assets/projects/bakers-corner-student-residential/placeholder.webp"
+    ],
+    "status": "current",
+    "sector": "hotel-leisure",
+    "client": "Baker forge properties limited",
+    "location": "Dublin",
+    "year": "2026",
+    "overview": "Construction of a 274-bedroom purpose-built student accommodation development comprising two six-storey blocks arranged around a landscaped courtyard.\n\nThe scheme includes a mix of cluster apartments and self-contained studios, all with en-suite facilities, alongside ground-floor retail units. Communal amenities include a gym, study areas, meeting rooms, reception, and a screening space, with landscaped roof terraces enhancing the overall offering."
+  },
+  {
+    "name": "James McSweeney House, Apartments",
+    "slug": "james-mcsweeney-house-apartments",
+    "has_photos": false,
+    "image": "/assets/projects/james-mcsweeney-house-apartments/placeholder.webp",
+    "gallery": [
+      "/assets/projects/james-mcsweeney-house-apartments/placeholder.webp"
+    ],
+    "status": "current",
+    "sector": "residential",
+    "client": "Cabhru Housing Association Services",
+    "location": "Dublin",
+    "year": "2026",
+    "overview": "This project involves the construction of James McSweeney House, a new four-storey residential development on a brownfield site at Berkley Street, Dublin 7. The scheme provides 35 one-bedroom apartments along with community rooms and essential building services.\n\nThe development also includes an ESB substation, plant rooms, external bin stores, and new boundary treatments, alongside landscaping and associated site works to create a well-integrated urban residential environment."
+  },
+  {
+    "name": "Kolbe Special School",
+    "slug": "kolbe-special-school",
+    "has_photos": true,
+    "image": "/assets/projects/kolbe-special-school/01.webp",
+    "gallery": [
+      "/assets/projects/kolbe-special-school/01.webp",
+      "/assets/projects/kolbe-special-school/02.webp",
+      "/assets/projects/kolbe-special-school/03.webp",
+      "/assets/projects/kolbe-special-school/04.webp",
+      "/assets/projects/kolbe-special-school/05.webp",
+      "/assets/projects/kolbe-special-school/06.webp"
+    ],
+    "status": "completed",
+    "sector": "education",
+    "client": "Department of Education and Skills",
+    "location": "Portlaoise",
+    "year": "2025",
+    "overview": "Construction of a new purpose-built special school at Block Road, Portlaoise, comprising 8 classrooms, a general purpose hall and ancillary accommodation, along with all associated site works.\n\nDelivered under a Public Works Contract, the project provides modern, high-quality educational facilities tailored to the needs of its users."
+  },
+  {
+    "name": "Edenderry Ambulance Station",
+    "slug": "edenderry-ambulance-station",
+    "has_photos": true,
+    "image": "/assets/projects/edenderry-ambulance-station/01.webp",
+    "gallery": [
+      "/assets/projects/edenderry-ambulance-station/01.webp",
+      "/assets/projects/edenderry-ambulance-station/02.webp",
+      "/assets/projects/edenderry-ambulance-station/03.webp",
+      "/assets/projects/edenderry-ambulance-station/04.webp",
+      "/assets/projects/edenderry-ambulance-station/05.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "HSE",
+    "location": "Edenderry",
+    "year": "2019",
+    "overview": "Construction of a new purpose-built Ambulance Station for the HSE at Edenderry, Co. Offaly. The project comprises a single-storey emergency response facility designed to support frontline ambulance services, including operational accommodation, staff welfare areas and associated support spaces. External works include ambulance bays, staff parking, access roads, and all associated site development and infrastructure.\n\nDelivered under a Public Works Contract for Minor Building and Civil Engineering Works, the project was procured by the HSE Mid-Leinster region to enhance emergency response capacity and service delivery within the area."
+  },
+  {
+    "name": "Creamatorium",
+    "slug": "creamatorium",
+    "has_photos": true,
+    "image": "/assets/projects/creamatorium/01.webp",
+    "gallery": [
+      "/assets/projects/creamatorium/01.webp",
+      "/assets/projects/creamatorium/02.webp",
+      "/assets/projects/creamatorium/03.webp",
+      "/assets/projects/creamatorium/04.webp",
+      "/assets/projects/creamatorium/05.webp",
+      "/assets/projects/creamatorium/06.webp",
+      "/assets/projects/creamatorium/07.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "Antrim & Newtownabbey Borough Council",
+    "location": "Newtownabbey",
+    "year": "2023",
+    "overview": "This project is the second crematorium built in Northern Ireland since Roselawn in 1961, providing a much-needed, state-of-the-art facility for families and mourners. It includes a chapel, memorial garden, and columbarium for the interment of ashes.\n\nSet within a parkland landscape, the single-storey building is approached by a tree-lined avenue overlooking a central lake. Walking paths, wildflower meadows, and seating areas create a peaceful setting for reflection.\n\nThe scheme also includes car parking, improved access from Doagh Road, and a carefully designed landscape centred around a feature water element. As the planting matures, the site will develop into a serene and dignified space for remembrance."
+  },
+  {
+    "name": "HSE NDC Tullamore",
+    "slug": "hse-ndc-tullamore",
+    "has_photos": true,
+    "image": "/assets/projects/hse-ndc-tullamore/01.webp",
+    "gallery": [
+      "/assets/projects/hse-ndc-tullamore/01.webp",
+      "/assets/projects/hse-ndc-tullamore/02.webp",
+      "/assets/projects/hse-ndc-tullamore/03.webp",
+      "/assets/projects/hse-ndc-tullamore/04.webp",
+      "/assets/projects/hse-ndc-tullamore/05.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "HSE",
+    "location": "Tullamore",
+    "year": "2020",
+    "overview": "Construction of the HSE National Distribution Centre at Burlington Business Park, Tullamore, Co. Offaly, delivering a high-quality industrial and logistics facility with associated external works, access infrastructure, and site services.\n\nDelivered within a live commercial environment, the project required careful planning and coordination to minimise disruption. Works were executed in phased sequences, supported by controlled site access and just-in-time deliveries to suit the constrained site conditions.\n\nThe scheme incorporated internal warehouse works and external construction activities, with temporary works solutions implemented where required to facilitate safe and efficient delivery.\n\nA strong focus on health & safety, quality control, and stakeholder engagement ensured effective management of traffic, noise, and environmental impacts throughout.\n\nDelivered through a structured and collaborative approach, the project achieved a safe, efficient, and high-quality outcome in line with client and regulatory requirements."
+  },
+  {
+    "name": "Ryanair Training Centre, \nCafe & Simulation Building",
+    "slug": "ryanair-training-centre",
+    "has_photos": true,
+    "image": "/assets/projects/ryanair-training-centre/01.webp",
+    "gallery": [
+      "/assets/projects/ryanair-training-centre/01.webp",
+      "/assets/projects/ryanair-training-centre/02.webp",
+      "/assets/projects/ryanair-training-centre/03.webp",
+      "/assets/projects/ryanair-training-centre/04.webp",
+      "/assets/projects/ryanair-training-centre/05.webp",
+      "/assets/projects/ryanair-training-centre/06.webp",
+      "/assets/projects/ryanair-training-centre/07.webp",
+      "/assets/projects/ryanair-training-centre/08.webp"
+    ],
+    "status": "completed",
+    "sector": "commercial",
+    "client": "Ryanair",
+    "location": "Dublin",
+    "year": "2021",
+    "overview": "This project involved the refurbishment, restoration, and fit-out of an existing Ryanair facility at Dublin Airport, alongside the construction of a new single-storey building housing two flight simulators. A connecting skyway links the new structure to the existing building, which also includes bespoke training classrooms.\n\nWorks included reinforced concrete construction, steel structures, precast flooring, cladding, and high-performance glazing, as well as a full M&E installation and commissioning. Careful coordination was required to protect sensitive simulator equipment throughout.\n\nThe completed facility provides a modern, purpose-built training environment delivered to a high standard."
+  },
+  {
+    "name": "Ryevale Nursing Home",
+    "slug": "ryevale-nursing-home",
+    "has_photos": true,
+    "image": "/assets/projects/ryevale-nursing-home/01.webp",
+    "gallery": [
+      "/assets/projects/ryevale-nursing-home/01.webp",
+      "/assets/projects/ryevale-nursing-home/02.webp"
+    ],
+    "status": "completed",
+    "sector": "healthcare",
+    "client": "Ryevale Nursing Home",
+    "location": "Leixlip",
+    "year": "2019",
+    "overview": "Refurbishment, partial demolition, and extension of the existing Ryevale Nursing Home in Leixlip, Co. Kildare, delivering significant new accommodation and upgraded facilities.\n\nThe project was delivered in a live operational environment, requiring phased construction, careful coordination, and strict safety controls to minimise disruption to residents and staff.\n\nThe completed scheme provides a modern, expanded care facility built to a high standard."
+  },
+  {
+    "name": "Dundalk Driver Test Centre",
+    "slug": "dundalk-driver-test-centre",
+    "has_photos": true,
+    "image": "/assets/projects/dundalk-driver-test-centre/01.webp",
+    "gallery": [
+      "/assets/projects/dundalk-driver-test-centre/01.webp"
+    ],
+    "status": "completed",
+    "sector": "civil-engineering",
+    "client": "OPW Ireland",
+    "location": "Dundalk",
+    "year": "2019",
+    "overview": "Construction of a new all-category Driver Testing Centre at the former Customs Station site on the Old Newry Road, Dundalk, Co. Louth. The development comprises a single-storey test centre building (approx. 612 sqm), extensive hardstanding areas for vehicle manoeuvring and testing, car and HGV parking, motorcycle testing facilities, and associated site infrastructure including access roads, lighting, signage, boundary treatments and landscaping.\n\nDelivered under a Public Works Contract for Minor Building and Civil Engineering Works, the project provides a modern, purpose-built facility to support the Road Safety Authority\u2019s driver testing operations."
+  },
+  {
+    "name": "The Keep",
+    "slug": "the-keep",
+    "has_photos": true,
+    "image": "/assets/projects/the-keep/01.webp",
+    "gallery": [
+      "/assets/projects/the-keep/01.webp",
+      "/assets/projects/the-keep/02.webp",
+      "/assets/projects/the-keep/03.webp",
+      "/assets/projects/the-keep/04.webp"
+    ],
+    "status": "completed",
+    "sector": "commercial",
+    "client": "Alterity Developments",
+    "location": "Belfast",
+    "year": "2022",
+    "overview": "Refurbishment and redevelopment of a prominent city centre building, formerly occupied by BHS, transforming the space into a modern mixed-use development.\n\nThe project included the reconfiguration of the ground floor into multiple retail units, along with a partial change of use on the upper floors to accommodate leisure uses. Significant fa\u00e7ade upgrades were delivered along Castle Lane, Castle Arcade, and Cornmarket, alongside internal alterations to improve layout and circulation."
+  },
+  {
+    "name": "Lidl Castlereagh",
+    "slug": "lidl-castlereagh",
+    "has_photos": true,
+    "image": "/assets/projects/lidl-castlereagh/01.webp",
+    "gallery": [
+      "/assets/projects/lidl-castlereagh/01.webp",
+      "/assets/projects/lidl-castlereagh/02.webp",
+      "/assets/projects/lidl-castlereagh/03.webp",
+      "/assets/projects/lidl-castlereagh/04.webp",
+      "/assets/projects/lidl-castlereagh/05.webp",
+      "/assets/projects/lidl-castlereagh/06.webp",
+      "/assets/projects/lidl-castlereagh/07.webp",
+      "/assets/projects/lidl-castlereagh/08.webp"
+    ],
+    "status": "completed",
+    "sector": "commercial",
+    "client": "Lidl",
+    "location": "Castlereagh",
+    "year": "2022",
+    "overview": ""
+  }
+]

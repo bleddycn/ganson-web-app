@@ -11,10 +11,8 @@ const sectorLabels: Record<string, string> = {
   healthcare: 'Healthcare',
   education: 'Education',
   commercial: 'Commercial',
-  retail: 'Retail',
-  tourism: 'Tourism',
-  'high-tech': 'High-Tech',
-  refurbishment: 'Refurbishment',
+  residential: 'Residential',
+  'hotel-leisure': 'Hotel, Leisure & Student',
   'civil-engineering': 'Civil Engineering',
 }
 
@@ -126,7 +124,7 @@ function ProjectCard({
           {project.title}
         </h3>
         <p className="mt-2 font-body text-sm text-cream">
-          {project.value}
+          {project.client} &middot; {project.location}
         </p>
       </div>
     </Link>

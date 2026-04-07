@@ -2,10 +2,8 @@ export type Sector =
   | 'healthcare'
   | 'education'
   | 'commercial'
-  | 'retail'
-  | 'tourism'
-  | 'high-tech'
-  | 'refurbishment'
+  | 'residential'
+  | 'hotel-leisure'
   | 'civil-engineering'
 
 export type ProjectStatus = 'completed' | 'current'
@@ -16,7 +14,6 @@ export interface Project {
   client: string
   sector: Sector
   status: ProjectStatus
-  value: string
   location: string
   year: string
   description: string
@@ -24,7 +21,6 @@ export interface Project {
   image: string
   gallery: string[]
   featured: boolean
-  completionDate: string
 }
 
 export interface TeamMember {

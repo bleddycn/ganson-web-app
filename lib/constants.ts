@@ -41,9 +41,7 @@ export const sectors = [
   { value: 'healthcare', label: 'Healthcare' },
   { value: 'education', label: 'Education' },
   { value: 'commercial', label: 'Commercial' },
-  { value: 'retail', label: 'Retail' },
-  { value: 'tourism', label: 'Tourism' },
-  { value: 'high-tech', label: 'High-Tech' },
-  { value: 'refurbishment', label: 'Refurbishment' },
+  { value: 'residential', label: 'Residential' },
+  { value: 'hotel-leisure', label: 'Hotel, Leisure & Student' },
   { value: 'civil-engineering', label: 'Civil Engineering' },
 ] as const
