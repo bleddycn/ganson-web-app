@@ -94,7 +94,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'Construction of a five-storey, 24-classroom national school with an SNU, delivered to NZEB standards on the live Grangegorman Campus. The project included a modern sports gymnasium with CLT roof structure and a fully enclosed rooftop ball court.\n\nThe design maximised natural light and ventilation through extensive glazing, with classrooms incorporating integrated toilet facilities. Sustainable features included connection to the district heating network and roof-mounted photovoltaic panels.\n\nExternal finishes of brick and render were carefully selected to complement the surrounding campus, while bright internal finishes enhanced the learning environment.\n\nDelivered with strong HSEQ management, including weekly audits and daily toolbox talks, the project was completed to a high standard. Despite Covid-19 impacts and authorised variations, the scheme was successfully delivered within the revised programme and budget.',
     image: '/assets/projects/grangegorman-ns/01.webp',
-    gallery: ['/assets/projects/grangegorman-ns/01.webp', '/assets/projects/grangegorman-ns/02.webp', '/assets/projects/grangegorman-ns/03.webp', '/assets/projects/grangegorman-ns/04.webp', '/assets/projects/grangegorman-ns/05.webp', '/assets/projects/grangegorman-ns/06.webp', '/assets/projects/grangegorman-ns/07.webp', '/assets/projects/grangegorman-ns/08.webp'],
+    gallery: ['/assets/projects/grangegorman-ns/01.webp', '/assets/projects/grangegorman-ns/02.webp', '/assets/projects/grangegorman-ns/03.webp', '/assets/projects/grangegorman-ns/04.webp', '/assets/projects/grangegorman-ns/05.webp', '/assets/projects/grangegorman-ns/06.webp'],
     featured: false,
   },
   {
@@ -142,7 +142,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'Construction of a 10,405m² two- and three-storey post-primary school for 1,000 विद्यार्थents, incorporating teaching spaces, administration areas, a special needs unit, and a sports hall with CLT roof structure. The development also included extensive external facilities such as car and cycle parking, play areas, an all-weather pitch, and landscaped grounds.\n\nThe project involved significant enabling and civil works, including new road infrastructure, bus set-down areas, culverting, flood mitigation measures, and boundary treatments, both within and beyond the site boundary.\n\nBuilt with a focus on sustainability, the school features energy-efficient MEICA systems, natural ventilation strategies, and a green roof. Works included piled and reinforced concrete foundations, full M&E installations, and comprehensive testing and commissioning in line with BC(A)R requirements.\n\nDelivered in a busy urban environment, the project maintained high standards of traffic and stakeholder management, alongside rigorous HSEQ controls. Construction progressed safely throughout the Covid-19 pandemic under approved protocols, with the project completed to a high standard and full client satisfaction.',
     image: '/assets/projects/naas-community-college/01.webp',
-    gallery: ['/assets/projects/naas-community-college/01.webp', '/assets/projects/naas-community-college/02.webp', '/assets/projects/naas-community-college/03.webp', '/assets/projects/naas-community-college/04.webp', '/assets/projects/naas-community-college/05.webp', '/assets/projects/naas-community-college/06.webp', '/assets/projects/naas-community-college/07.webp', '/assets/projects/naas-community-college/08.webp'],
+    gallery: ['/assets/projects/naas-community-college/01.webp', '/assets/projects/naas-community-college/02.webp', '/assets/projects/naas-community-college/03.webp', '/assets/projects/naas-community-college/04.webp', '/assets/projects/naas-community-college/05.webp', '/assets/projects/naas-community-college/06.webp'],
     featured: true,
   },
   {
@@ -478,7 +478,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'The construction of 14 social housing units at Arbour Hill, Dublin 7, delivers a high-quality residential development within a constrained inner-city site. The project comprises new-build housing along with associated site works, services, and infrastructure.\n\nCareful planning and stakeholder engagement were central to delivery, ensuring minimal disruption to neighbouring residents and local traffic. The scheme provides much-needed social housing in a well-connected urban location, built to modern standards and fully coordinated across all structural and MEP elements.',
     image: '/assets/projects/arbour-hill-apartments/01.webp',
-    gallery: ['/assets/projects/arbour-hill-apartments/01.webp', '/assets/projects/arbour-hill-apartments/02.webp', '/assets/projects/arbour-hill-apartments/03.webp', '/assets/projects/arbour-hill-apartments/04.webp', '/assets/projects/arbour-hill-apartments/05.webp', '/assets/projects/arbour-hill-apartments/06.webp', '/assets/projects/arbour-hill-apartments/07.webp', '/assets/projects/arbour-hill-apartments/08.webp'],
+    gallery: ['/assets/projects/arbour-hill-apartments/01.webp', '/assets/projects/arbour-hill-apartments/02.webp', '/assets/projects/arbour-hill-apartments/03.webp', '/assets/projects/arbour-hill-apartments/04.webp', '/assets/projects/arbour-hill-apartments/05.webp', '/assets/projects/arbour-hill-apartments/06.webp'],
     featured: false,
   },
   {
@@ -750,7 +750,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'Full project details coming soon.',
     image: '/assets/projects/lidl-castlereagh/01.webp',
-    gallery: ['/assets/projects/lidl-castlereagh/01.webp', '/assets/projects/lidl-castlereagh/02.webp', '/assets/projects/lidl-castlereagh/03.webp', '/assets/projects/lidl-castlereagh/04.webp', '/assets/projects/lidl-castlereagh/05.webp', '/assets/projects/lidl-castlereagh/06.webp', '/assets/projects/lidl-castlereagh/07.webp', '/assets/projects/lidl-castlereagh/08.webp'],
+    gallery: ['/assets/projects/lidl-castlereagh/01.webp', '/assets/projects/lidl-castlereagh/02.webp', '/assets/projects/lidl-castlereagh/03.webp', '/assets/projects/lidl-castlereagh/04.webp', '/assets/projects/lidl-castlereagh/05.webp', '/assets/projects/lidl-castlereagh/06.webp'],
     featured: false,
   },
 ]

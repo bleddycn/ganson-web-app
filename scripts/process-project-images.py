@@ -106,13 +106,37 @@ PROJECT_FOLDER_MAP = {
 
 
 def find_images(folder_paths, media_root=MEDIA_ROOT, min_size=MIN_FILE_SIZE):
-    """Find all image files recursively in the given folder paths."""
-    images = []
+    """Find image files, prioritising '02. Project Handover Photos' subfolders.
+    Only falls back to other subfolders if no handover photos are found."""
+    handover_images = []
+    fallback_images = []
+
     for rel_path in folder_paths:
         full_path = os.path.join(media_root, rel_path)
         if not os.path.isdir(full_path):
             print(f"  WARNING: folder not found: {full_path}")
             continue
+
+        # Look for handover photos subfolder (handles both correct and misspelled)
+        handover_dir = None
+        for entry in os.listdir(full_path):
+            entry_path = os.path.join(full_path, entry)
+            if os.path.isdir(entry_path) and entry.startswith("02.") and "roject" in entry:
+                handover_dir = entry_path
+                break
+
+        if handover_dir:
+            # Recursively find images in the handover folder (may have subfolders)
+            for root, dirs, files in os.walk(handover_dir):
+                for f in sorted(files):
+                    ext = f.lower().rsplit('.', 1)[-1] if '.' in f else ''
+                    if ext in ('jpg', 'jpeg', 'png', 'webp'):
+                        file_path = os.path.join(root, f)
+                        size = os.path.getsize(file_path)
+                        if size >= min_size:
+                            handover_images.append(file_path)
+
+        # Also collect fallback images from all subfolders (in case handover is empty)
         for root, dirs, files in os.walk(full_path):
             for f in sorted(files):
                 ext = f.lower().rsplit('.', 1)[-1] if '.' in f else ''
@@ -120,8 +144,16 @@ def find_images(folder_paths, media_root=MEDIA_ROOT, min_size=MIN_FILE_SIZE):
                     file_path = os.path.join(root, f)
                     size = os.path.getsize(file_path)
                     if size >= min_size:
-                        images.append(file_path)
-    return sorted(images)
+                        fallback_images.append(file_path)
+
+    # Use handover images if available, otherwise fall back
+    if handover_images:
+        print(f"  Using {len(handover_images)} handover photos")
+        return sorted(handover_images)
+    elif fallback_images:
+        print(f"  No handover photos — falling back to {len(fallback_images)} other images")
+        return sorted(fallback_images)
+    return []
 
 
 def select_images(images, n=MAX_IMAGES):
