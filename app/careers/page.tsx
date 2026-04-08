@@ -12,11 +12,20 @@ export const metadata = {
 
 const benefits = [
   {
-    title: 'Competitive Salary',
-    description:
-      'We offer market-leading remuneration packages that recognise your skills, experience, and contribution to the team.',
+    title: 'Travel Opportunities',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="16" cy="16" r="12" />
+        <path d="M4 16h24" />
+        <path d="M16 4c-4 4-6 8-6 12s2 8 6 12" />
+        <path d="M16 4c4 4 6 8 6 12s-2 8-6 12" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Competitive Salary',
+    icon: (
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="22" width="5" height="6" rx="0.5" />
         <rect x="13.5" y="16" width="5" height="12" rx="0.5" />
         <rect x="23" y="10" width="5" height="18" rx="0.5" />
@@ -26,25 +35,20 @@ const benefits = [
     ),
   },
   {
-    title: 'Professional Development & CPD',
-    description:
-      'Structured career development programmes, funded training courses, and support towards chartership and professional qualifications.',
+    title: 'Expert Instruction',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M16 4L16 20" />
-        <path d="M10 14l6-6 6 6" />
-        <path d="M8 20h16" />
-        <path d="M6 24h20" />
-        <path d="M4 28h24" />
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2 12l14-6 14 6-14 6-14-6z" />
+        <path d="M8 15v7c0 2 3.5 4 8 4s8-2 8-4v-7" />
+        <path d="M28 13v8" />
+        <circle cx="28" cy="23" r="1" fill="currentColor" />
       </svg>
     ),
   },
   {
     title: 'Pension Scheme',
-    description:
-      'Generous employer pension contributions from day one, helping you plan for a secure financial future.',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M16 3L4 9v2h24V9L16 3z" />
         <path d="M7 11v12" />
         <path d="M13 11v12" />
@@ -56,43 +60,27 @@ const benefits = [
     ),
   },
   {
-    title: 'Health Insurance',
-    description:
-      'Comprehensive private health insurance for you and your family, plus income protection and death-in-service benefits.',
+    title: 'Support Network',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M16 28S4 20 4 12a6 6 0 0112-1 6 6 0 0112 1c0 8-12 16-12 16z" />
-        <path d="M16 14v6" />
-        <path d="M13 17h6" />
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="16" cy="9" r="4" />
+        <circle cx="7" cy="12" r="3" />
+        <circle cx="25" cy="12" r="3" />
+        <path d="M10 22c0-3 2.5-5.5 6-5.5s6 2.5 6 5.5v4h-12z" />
+        <path d="M2 22c0-2.5 2-4.5 5-4.5 1 0 2 0.25 2.8 0.7" />
+        <path d="M30 22c0-2.5-2-4.5-5-4.5-1 0-2 0.25-2.8 0.7" />
       </svg>
     ),
   },
   {
-    title: 'Company Vehicle',
-    description:
-      'Company vehicle or car allowance provided for eligible roles, ensuring you can travel comfortably between sites and offices.',
+    title: 'Comprehensive Training',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M5 20l2-6h6l3-4h6l3 4h2a2 2 0 012 2v4H3v-4a2 2 0 012-2z" />
-        <path d="M3 20v3a1 1 0 001 1h3a1 1 0 001-1v-3" />
-        <path d="M24 20v3a1 1 0 001 1h3a1 1 0 001-1v-3" />
-        <circle cx="9" cy="20" r="2" />
-        <circle cx="23" cy="20" r="2" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Flexible Working',
-    description:
-      'We support work-life balance through flexible working arrangements and generous annual leave entitlements.',
-    icon: (
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="16" cy="16" r="12" />
-        <path d="M16 8v8l5 5" />
-        <path d="M4 16H2" />
-        <path d="M30 16h-2" />
-        <path d="M16 4V2" />
-        <path d="M16 30v-2" />
+      <svg width="48" height="48" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="4" width="24" height="18" rx="1" />
+        <path d="M9 10h14" />
+        <path d="M9 14h14" />
+        <path d="M9 18h9" />
+        <path d="M20 22v7l3-2 3 2v-7" />
       </svg>
     ),
   },
@@ -208,22 +196,16 @@ export default function CareersPage() {
             </h2>
           </ScrollReveal>
 
-          <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-16 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
             {benefits.map((benefit, i) => (
               <ScrollReveal key={benefit.title} delay={0.05 + i * 0.05}>
-                <div className="group relative border-t-2 border-brand-red bg-white/5 p-8 transition-colors duration-300 hover:bg-white/8">
-                  <span className="absolute right-6 top-6 font-display text-sm text-white/15">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <div className="mb-5 text-brand-red">
+                <div className="group flex h-full flex-col items-center justify-center border-t-2 border-brand-red bg-white/5 px-6 py-12 text-center transition-colors duration-300 hover:bg-white/10">
+                  <div className="mb-6 text-brand-red">
                     {benefit.icon}
                   </div>
-                  <h3 className="font-display text-lg text-white">
+                  <h3 className="font-display text-lg text-white md:text-xl">
                     {benefit.title}
                   </h3>
-                  <p className="mt-3 font-body text-sm leading-relaxed text-cream/80">
-                    {benefit.description}
-                  </p>
                 </div>
               </ScrollReveal>
             ))}
