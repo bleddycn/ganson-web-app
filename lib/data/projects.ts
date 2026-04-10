@@ -737,22 +737,6 @@ export const projects: readonly Project[] = [
     gallery: ['/assets/projects/the-keep/01.webp', '/assets/projects/the-keep/02.webp', '/assets/projects/the-keep/03.webp', '/assets/projects/the-keep/04.webp'],
     featured: false,
   },
-  {
-    slug: 'lidl-castlereagh',
-    title: 'Lidl Castlereagh',
-    client: 'Lidl',
-    sector: 'commercial',
-    status: 'completed',
-    location: 'Castlereagh',
-    year: '2022',
-    description:
-      'Project details coming soon.',
-    longDescription:
-      'Full project details coming soon.',
-    image: '/assets/projects/lidl-castlereagh/01.webp',
-    gallery: ['/assets/projects/lidl-castlereagh/01.webp', '/assets/projects/lidl-castlereagh/02.webp', '/assets/projects/lidl-castlereagh/03.webp', '/assets/projects/lidl-castlereagh/04.webp', '/assets/projects/lidl-castlereagh/05.webp', '/assets/projects/lidl-castlereagh/06.webp'],
-    featured: false,
-  },
 ]
 
 export function getProjectBySlug(slug: string): Project | undefined {
