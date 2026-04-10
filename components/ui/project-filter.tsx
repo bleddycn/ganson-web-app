@@ -32,12 +32,17 @@ const PAGE_SIZE = 9
 export default function ProjectFilter({ projects }: ProjectFilterProps) {
   const [activeSector, setActiveSector] = useState<Sector | 'all'>('all')
   const [activeStatus, setActiveStatus] = useState<ProjectStatus | 'all'>('all')
+  const [searchQuery, setSearchQuery] = useState('')
   const [page, setPage] = useState(0)
+
+  const normalizedQuery = searchQuery.trim().toLowerCase()
 
   const filteredProjects = projects.filter((p) => {
     const sectorMatch = activeSector === 'all' || p.sector === activeSector
     const statusMatch = activeStatus === 'all' || p.status === activeStatus
-    return sectorMatch && statusMatch
+    const searchMatch =
+      normalizedQuery === '' || p.title.toLowerCase().includes(normalizedQuery)
+    return sectorMatch && statusMatch && searchMatch
   })
 
   const totalPages = Math.ceil(filteredProjects.length / PAGE_SIZE)
@@ -47,6 +52,43 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
     <div>
       {/* Filter bar */}
       <div className="mb-12 space-y-5">
+        {/* Search */}
+        <div className="mx-auto max-w-sm">
+          <label className="relative flex items-center border-b border-navy/20">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="h-4 w-4 shrink-0 text-mid-grey"
+              aria-hidden="true"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.3-4.3m0 0a7 7 0 10-9.9-9.9 7 7 0 009.9 9.9z" />
+            </svg>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => { setSearchQuery(e.target.value); setPage(0) }}
+              placeholder="Search projects"
+              aria-label="Search projects by name"
+              className="w-full bg-transparent px-3 py-2.5 font-body text-sm text-navy caret-brand-red placeholder:text-mid-grey/70 focus:outline-none focus-visible:outline-none focus:ring-0"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => { setSearchQuery(''); setPage(0) }}
+                className="shrink-0 p-1 text-mid-grey transition-colors hover:text-brand-red"
+                aria-label="Clear search"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-3.5 w-3.5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
+          </label>
+        </div>
+
         {/* Status pills */}
         <div className="flex flex-wrap justify-center gap-3">
           {statusOptions.map((option) => (
@@ -188,7 +230,9 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
       {filteredProjects.length === 0 && (
         <div className="py-24 text-center">
           <p className="font-body text-lg text-mid-grey">
-            No projects found matching these filters.
+            {normalizedQuery
+              ? `No projects found matching "${searchQuery.trim()}".`
+              : 'No projects found matching these filters.'}
           </p>
         </div>
       )}
