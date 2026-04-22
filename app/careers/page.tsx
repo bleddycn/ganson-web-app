@@ -252,12 +252,12 @@ export default function CareersPage() {
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
             <div className="mt-8">
-              <a
-                href="mailto:careers@ganson.ie?subject=Speculative Application"
+              <button
+                type="button"
                 className="inline-flex items-center justify-center bg-brand-red px-8 py-4 font-body text-sm font-medium text-white transition-colors duration-300 hover:bg-brand-red-dark"
               >
                 Send Your CV
-              </a>
+              </button>
             </div>
           </ScrollReveal>
         </div>

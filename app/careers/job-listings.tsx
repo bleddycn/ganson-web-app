@@ -96,6 +96,33 @@ export default function JobListings({ jobs }: JobListingsProps) {
                       {job.description}
                     </p>
 
+                    {job.salary && (
+                      <p className="mt-4 font-body text-sm text-dark-grey">
+                        <span className="font-medium text-navy">Salary: </span>
+                        {job.salary}
+                      </p>
+                    )}
+
+                    {/* Responsibilities */}
+                    {job.responsibilities && job.responsibilities.length > 0 && (
+                      <div className="mt-6">
+                        <h4 className="font-display text-lg text-navy">
+                          The Role
+                        </h4>
+                        <ul className="mt-3 space-y-2">
+                          {job.responsibilities.map((item, i) => (
+                            <li
+                              key={i}
+                              className="flex items-start gap-2 font-body text-sm text-dark-grey"
+                            >
+                              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
                     {/* Requirements */}
                     <div className="mt-6">
                       <h4 className="font-display text-lg text-navy">
@@ -132,14 +159,14 @@ export default function JobListings({ jobs }: JobListingsProps) {
                       </ul>
                     </div>
 
-                    {/* Apply button */}
+                    {/* Apply button — intentionally inert */}
                     <div className="mt-8">
-                      <a
-                        href={`mailto:careers@ganson.ie?subject=Application: ${job.title}`}
+                      <button
+                        type="button"
                         className="inline-flex items-center justify-center bg-brand-red px-8 py-4 font-body text-sm font-medium text-white transition-colors duration-300 hover:bg-brand-red-dark"
                       >
                         Apply Now
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </motion.div>

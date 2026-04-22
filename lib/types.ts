@@ -57,9 +57,11 @@ export interface JobListing {
   type: 'full-time' | 'part-time' | 'contract'
   department: string
   description: string
+  responsibilities?: string[]
   requirements: string[]
   benefits: string[]
   posted: string
+  salary?: string
 }
 
 export interface ClientLogo {

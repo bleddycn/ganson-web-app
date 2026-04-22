@@ -31,72 +31,15 @@ export default function ContactForm() {
     message: '',
   })
 
-  const [errors, setErrors] = useState<FormErrors>({})
-  const [submitted, setSubmitted] = useState(false)
-
-  function validate(): boolean {
-    const newErrors: FormErrors = {}
-
-    if (!formData.name.trim()) {
-      newErrors.name = 'Name is required'
-    }
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required'
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address'
-    }
-    if (!formData.message.trim()) {
-      newErrors.message = 'Message is required'
-    }
-
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
+  const errors: FormErrors = {}
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-
-    if (validate()) {
-      console.log('Contact form submission:', formData)
-      setSubmitted(true)
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        projectType: '',
-        message: '',
-      })
-    }
+    // Submission intentionally disabled — button remains visible but does nothing.
   }
 
   function handleChange(field: keyof FormData, value: string) {
     setFormData((prev) => ({ ...prev, [field]: value }))
-    if (errors[field]) {
-      setErrors((prev) => {
-        const next = { ...prev }
-        delete next[field]
-        return next
-      })
-    }
-  }
-
-  if (submitted) {
-    return (
-      <div className="py-12 text-center">
-        <h3 className="font-display text-2xl text-white">Thank you for your message.</h3>
-        <p className="mt-4 font-body text-lg text-cream">
-          We&apos;ll be in touch within 24 hours.
-        </p>
-        <button
-          type="button"
-          onClick={() => setSubmitted(false)}
-          className="mt-8 inline-block font-body text-sm text-brand-red transition-colors duration-300 hover:text-brand-red-light"
-        >
-          Send another message
-        </button>
-      </div>
-    )
   }
 
   const inputClasses =

@@ -737,6 +737,68 @@ export const projects: readonly Project[] = [
     gallery: ['/assets/projects/the-keep/01.webp', '/assets/projects/the-keep/02.webp', '/assets/projects/the-keep/03.webp', '/assets/projects/the-keep/04.webp'],
     featured: false,
   },
+  {
+    slug: 'lidl-castlereagh',
+    title: 'Lidl Castlereagh',
+    client: 'Lidl',
+    sector: 'commercial',
+    status: 'completed',
+    location: 'Castlereagh',
+    year: '2022',
+    description:
+      'Construction of a new Lidl retail store, including all associated site development and infrastructure works.',
+    longDescription:
+      'Construction of a new Lidl retail store, including all associated site development and infrastructure works.\n\nThe project comprises full groundworks, car parking, access roads, drainage systems, and landscaping, along with the complete installation of mechanical and electrical services to deliver a modern, fully operational retail environment.\n\nExternal works also included upgrades to the surrounding road network, with the introduction of a new junction, right-hand turn lane, and traffic light system to improve traffic flow along Montgomery Road and Castlereagh Road.',
+    image: '/assets/projects/lidl-castlereagh/01.webp',
+    gallery: [
+      '/assets/projects/lidl-castlereagh/01.webp',
+      '/assets/projects/lidl-castlereagh/02.webp',
+      '/assets/projects/lidl-castlereagh/03.webp',
+      '/assets/projects/lidl-castlereagh/04.webp',
+      '/assets/projects/lidl-castlereagh/05.webp',
+      '/assets/projects/lidl-castlereagh/06.webp',
+    ],
+    featured: false,
+  },
+  {
+    slug: 'lidl-boucher-road',
+    title: 'Lidl Boucher Road',
+    client: 'Lidl NI',
+    sector: 'commercial',
+    status: 'completed',
+    location: 'Belfast',
+    year: '2025',
+    description:
+      'Construction of a new flagship Lidl store at Boucher Road, South Belfast, representing a significant investment in the region’s retail infrastructure.',
+    longDescription:
+      'Construction of a new flagship Lidl store at Boucher Road, South Belfast, representing a significant investment in the region’s retail infrastructure.\n\nLocated within one of Belfast’s retail corridors, the development delivers a modern, state-of-the-art supermarket designed to Lidl’s latest specifications, providing high-quality retail space for customers and staff.\n\nThe project forms part of Lidl’s continued expansion across Northern Ireland, enhancing local retail provision and contributing to the ongoing development of the Boucher Road area.',
+    image: '/assets/projects/lidl-boucher-road/01.webp',
+    gallery: [
+      '/assets/projects/lidl-boucher-road/01.webp',
+      '/assets/projects/lidl-boucher-road/02.webp',
+      '/assets/projects/lidl-boucher-road/03.webp',
+      '/assets/projects/lidl-boucher-road/04.webp',
+      '/assets/projects/lidl-boucher-road/05.webp',
+      '/assets/projects/lidl-boucher-road/06.webp',
+    ],
+    featured: false,
+  },
+  {
+    slug: 'lidl-newry',
+    title: 'Lidl Newry',
+    client: 'Lidl NI',
+    sector: 'commercial',
+    status: 'completed',
+    location: 'Newry',
+    year: '2021',
+    description:
+      'Fit-out and redevelopment of a new Lidl store within the Buttercrane Shopping Centre, transforming a long-vacant retail unit in the heart of Newry city.',
+    longDescription:
+      'Fit-out and redevelopment of a new Lidl store within the Buttercrane Shopping Centre, transforming a long-vacant retail unit in the heart of Newry city.\n\nThe 2,190m² store includes a spacious sales area, modern retail layout, and Lidl’s latest concept design, incorporating wide aisles, enhanced customer facilities, and improved staff amenities.\n\nThe project delivers a high-quality shopping environment with upgraded features including an expanded bakery offering and in-store coffee facilities, contributing to the revitalisation of a key city centre location.',
+    image: '/assets/projects/lidl-newry/01.webp',
+    gallery: ['/assets/projects/lidl-newry/01.webp'],
+    featured: false,
+  },
 ]
 
 export function getProjectBySlug(slug: string): Project | undefined {
