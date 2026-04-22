@@ -27,7 +27,7 @@ export default function CookieBanner() {
           This website does not use cookies or track your browsing activity.
           Your privacy is important to us.{' '}
           <Link
-            href="/policies"
+            href="/privacy-policy"
             className="font-medium text-brand-red underline-offset-2 hover:underline"
           >
             Read our Privacy Policy

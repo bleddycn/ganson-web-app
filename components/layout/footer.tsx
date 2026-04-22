@@ -29,7 +29,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mb-4 max-w-xs text-sm leading-relaxed text-cream/80">
-              Building excellence across Ireland and the UK since 2004.
+              Building excellence across Ireland and the UK since 2003.
             </p>
             <p className="text-xs text-cream/50">
               ISO 9001:2008 | ISO 14001:2004
@@ -102,10 +102,10 @@ export default function Footer() {
               </a>
               <br />
               <a
-                href="mailto:info@gansonuk.co.uk"
+                href="mailto:info@ganson.co.uk"
                 className="text-sm text-cream/70 transition-colors duration-300 hover:text-brand-red"
               >
-                info@gansonuk.co.uk
+                info@ganson.co.uk
               </a>
             </div>
           </div>

@@ -7,7 +7,7 @@ import Image from 'next/image'
 export const metadata = {
   title: 'About',
   description:
-    'Learn about Ganson Building & Civil Engineering — founded in 2004, delivering construction excellence across Ireland and the UK.',
+    'Learn about Ganson Building & Civil Engineering — founded in 2003, delivering construction excellence across Ireland and the UK.',
 }
 
 const founders = team.slice(0, 2)
@@ -81,7 +81,7 @@ export default function AboutPage() {
             <div className="mb-12 flex items-center gap-6 md:mb-16">
               <div className="h-px w-12 bg-brand-red md:w-20" />
               <span className="font-body text-sm uppercase tracking-widest text-brand-red">
-                Est. 2004
+                Est. 2003
               </span>
             </div>
             <h2 className="font-display text-4xl leading-none text-navy md:text-5xl lg:text-6xl">
@@ -103,7 +103,7 @@ export default function AboutPage() {
             <div className="space-y-8 border-l-2 border-sand pl-8 md:pl-10">
               <ScrollReveal delay={0.25}>
                 <p className="font-body text-lg leading-relaxed text-dark-grey">
-                  Founded in 2004 by Paul McQuaid and David Rogers, both Civil
+                  Founded in 2003 by Paul McQuaid and David Rogers, both Civil
                   Engineering graduates of Queen&apos;s University Belfast,
                   Ganson was built on a singular vision: to redefine industry
                   standards through technical excellence and genuine partnership.

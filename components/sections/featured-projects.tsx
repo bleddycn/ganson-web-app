@@ -13,11 +13,19 @@ const sectorLabels: Record<string, string> = {
   commercial: 'Commercial',
   residential: 'Residential',
   'hotel-leisure': 'Hotel, Leisure & Student',
-  'civil-engineering': 'Civil Engineering',
 }
 
+const FEATURED_ORDER = [
+  'carechoice-nursing-home-parnell-road',
+  'st-lawrence-o-tooles-dublin',
+  'circle-housing-inchicore',
+] as const
+
 export default function FeaturedProjects() {
-  const projects = getFeaturedProjects()
+  const featured = getFeaturedProjects()
+  const projects = FEATURED_ORDER
+    .map((slug) => featured.find((p) => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => p !== undefined)
 
   return (
     <section className="noise-overlay relative bg-navy py-24 md:py-32">

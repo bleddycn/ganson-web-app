@@ -4,7 +4,6 @@ export type Sector =
   | 'commercial'
   | 'residential'
   | 'hotel-leisure'
-  | 'civil-engineering'
 
 export type ProjectStatus = 'completed' | 'current'
 

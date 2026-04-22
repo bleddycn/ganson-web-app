@@ -4,7 +4,7 @@ export const COMPANY_NAME = 'Ganson Building & Civil Engineering Ltd'
 export const COMPANY_SHORT = 'Ganson'
 export const COMPANY_URL = 'https://ganson.ie'
 export const COMPANY_EMAIL = 'info@ganson.ie'
-export const COMPANY_FOUNDED = '2004'
+export const COMPANY_FOUNDED = '2003'
 
 export const offices: Office[] = [
   {
@@ -25,7 +25,7 @@ export const offices: Office[] = [
     country: 'United Kingdom',
     countryCode: 'GB',
     phone: '+44 (0)20 3961 6560',
-    email: 'info@gansonuk.co.uk',
+    email: 'info@ganson.co.uk',
   },
 ]
 
@@ -43,5 +43,4 @@ export const sectors = [
   { value: 'commercial', label: 'Commercial' },
   { value: 'residential', label: 'Residential' },
   { value: 'hotel-leisure', label: 'Hotel, Leisure & Student' },
-  { value: 'civil-engineering', label: 'Civil Engineering' },
 ] as const

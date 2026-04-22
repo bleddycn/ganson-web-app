@@ -51,7 +51,7 @@ const jsonLd = {
   url: "https://ganson.ie",
   description:
     "Construction company specialising in healthcare, education, commercial, and civil engineering projects.",
-  foundingDate: "2004",
+  foundingDate: "2003",
   address: [
     {
       "@type": "PostalAddress",

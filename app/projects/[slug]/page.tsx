@@ -11,7 +11,6 @@ const sectorLabels: Record<string, string> = {
   commercial: 'Commercial',
   residential: 'Residential',
   'hotel-leisure': 'Hotel, Leisure & Student',
-  'civil-engineering': 'Civil Engineering',
 }
 
 export function generateStaticParams() {
