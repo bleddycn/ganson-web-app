@@ -382,7 +382,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'Construction of a large-scale residential development comprising 163 apartments across three six-storey blocks, with a mix of one, two, and three-bedroom units.\n\nThe scheme is built over a podium slab with basement car parking for 88 vehicles and extensive bicycle storage. Landscaped podium and external areas include communal open spaces and dedicated children’s play areas, delivering a high-quality living environment.',
     image: '/assets/projects/donabate/01.webp',
-    gallery: ['/assets/projects/donabate/01.webp', '/assets/projects/donabate/02.webp'],
+    gallery: ['/assets/projects/donabate/01.webp', '/assets/projects/donabate/02.webp', '/assets/projects/donabate/03.webp'],
     featured: false,
   },
   {
@@ -509,8 +509,8 @@ export const projects: readonly Project[] = [
       'Construction of a landmark dual-branded Marriott hotel development in Belfast’s Titanic Quarter, comprising a total of 228 bedrooms, including 135 Aloft hotel rooms and 93 Residence Inn aparthotel suites designed for extended stays.',
     longDescription:
       'Construction of a landmark dual-branded Marriott hotel development in Belfast’s Titanic Quarter, comprising a total of 228 bedrooms, including 135 Aloft hotel rooms and 93 Residence Inn aparthotel suites designed for extended stays.\n\nLocated within the heart of the city’s waterfront regeneration area, adjacent to Titanic Belfast and the SSE Arena, the development forms part of the wider transformation of the historic docklands into a major mixed-use destination.\n\nThe project includes a shared ground-floor arrival experience with reception, lobby, and bar/café facilities serving both brands, alongside a fully equipped gym, back-of-house facilities, and integrated car parking. The Residence Inn element provides studio and one-bedroom suites with kitchen and living spaces, while the Aloft hotel delivers a contemporary, technology-driven hospitality offering.\n\nExternally, the scheme incorporates high-quality public realm and landscaped areas, enhancing connectivity within the Titanic Quarter and contributing to the wider urban regeneration strategy. The development is designed to achieve high sustainability standards, targeting BREEAM Excellent and LEED Gold accreditation in line with Marriott’s environmental objectives.',
-    image: '/assets/projects/hamilton-dock-hotel-belfast/placeholder.webp',
-    gallery: ['/assets/projects/hamilton-dock-hotel-belfast/placeholder.webp'],
+    image: '/assets/projects/hamilton-dock-hotel-belfast/01.webp',
+    gallery: ['/assets/projects/hamilton-dock-hotel-belfast/01.webp'],
     featured: false,
   },
   {
@@ -526,7 +526,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'This project delivers a new 4+ star hotel on Pembroke Street, opposite Fitzwilliam Square, with 112 rooms across eight floors. The design responds to its tight urban context through stepped massing and internal courtyards that maximise daylight and create private terraces.\n\nPublic spaces include a double-height entrance foyer, bar, and breakfast area, while the façade uses red brick, sandstone, and terracotta to complement neighbouring buildings. Construction is currently underway following site clearance and groundworks.',
     image: '/assets/projects/earls-hotel-pembroke-st-dublin/01.webp',
-    gallery: ['/assets/projects/earls-hotel-pembroke-st-dublin/01.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/02.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/03.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/04.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/05.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/06.webp'],
+    gallery: ['/assets/projects/earls-hotel-pembroke-st-dublin/01.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/02.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/03.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/04.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/05.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/06.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/07.webp', '/assets/projects/earls-hotel-pembroke-st-dublin/08.webp'],
     featured: false,
   },
   {
@@ -541,8 +541,8 @@ export const projects: readonly Project[] = [
       'Construction of a 151-bedroom nursing home across four floors, providing modern, purpose-built residential care facilities.',
     longDescription:
       'Construction of a 151-bedroom nursing home across four floors, providing modern, purpose-built residential care facilities.\n\nThe development includes full clinical and support accommodation such as commercial kitchens, laundry facilities, day rooms, and nursing stations. External works feature a landscaped courtyard garden to the rear, with car parking and bicycle storage provided to the front.',
-    image: '/assets/projects/crumlin-nursing-home/placeholder.webp',
-    gallery: ['/assets/projects/crumlin-nursing-home/placeholder.webp'],
+    image: '/assets/projects/crumlin-nursing-home/01.webp',
+    gallery: ['/assets/projects/crumlin-nursing-home/01.webp'],
     featured: false,
   },
   {
@@ -557,8 +557,8 @@ export const projects: readonly Project[] = [
       'Construction of a new state-of-the-art GAA stadium in Dundalk, providing a permanent home for Louth county teams and a key sporting and community facility for the region.',
     longDescription:
       'Construction of a new state-of-the-art GAA stadium in Dundalk, providing a permanent home for Louth county teams and a key sporting and community facility for the region.\n\nThe development is being delivered in phases and will ultimately provide a 14,000-capacity stadium, including a covered seated stand, standing terraces, full-size playing pitch, modern floodlighting, and supporting facilities such as dressing rooms, ancillary accommodation, and car parking.\n\nPhase one delivers the core stadium infrastructure, including a 4,000+ seat stand, pitch, and essential facilities, with further phases enhancing capacity and amenities through additional terraces and training facilities.\n\nLocated in Dundalk, the project forms a major investment in sports infrastructure and is designed to support both elite county-level competition and wider community use, contributing to the long-term development of Gaelic Games in the region.',
-    image: '/assets/projects/louth-gaa-stadium/placeholder.webp',
-    gallery: ['/assets/projects/louth-gaa-stadium/placeholder.webp'],
+    image: '/assets/projects/louth-gaa-stadium/01.webp',
+    gallery: ['/assets/projects/louth-gaa-stadium/01.webp'],
     featured: false,
   },
   {
@@ -574,7 +574,7 @@ export const projects: readonly Project[] = [
     longDescription:
       'Construction of a new educational campus at Kilbride, Arklow, comprising a three-storey post-primary school for approximately 350 pupils and a two-storey 16-classroom primary school, together with associated external works on a greenfield site.\n\nThe development includes full site clearance and preparation, installation of construction compounds and access routes, and the delivery of all civil and building works including earthworks, reinforced concrete foundations, structural frame, precast elements, blockwork, and full mechanical and electrical installations.\n\nExternal works form a significant element of the project and include new car parking areas, hard and soft play areas, drainage infrastructure, a foul pumping station, and the construction of new internal and external road networks with dedicated access and egress arrangements.',
     image: '/assets/projects/kilbride-education-campus/01.webp',
-    gallery: ['/assets/projects/kilbride-education-campus/01.webp', '/assets/projects/kilbride-education-campus/02.webp', '/assets/projects/kilbride-education-campus/03.webp', '/assets/projects/kilbride-education-campus/04.webp', '/assets/projects/kilbride-education-campus/05.webp', '/assets/projects/kilbride-education-campus/06.webp', '/assets/projects/kilbride-education-campus/07.webp', '/assets/projects/kilbride-education-campus/08.webp'],
+    gallery: ['/assets/projects/kilbride-education-campus/01.webp', '/assets/projects/kilbride-education-campus/02.webp', '/assets/projects/kilbride-education-campus/03.webp', '/assets/projects/kilbride-education-campus/04.webp', '/assets/projects/kilbride-education-campus/05.webp', '/assets/projects/kilbride-education-campus/06.webp', '/assets/projects/kilbride-education-campus/07.webp', '/assets/projects/kilbride-education-campus/08.webp', '/assets/projects/kilbride-education-campus/09.webp'],
     featured: false,
   },
   {
@@ -605,8 +605,8 @@ export const projects: readonly Project[] = [
       'This project involves the construction of James McSweeney House, a new four-storey residential development on a brownfield site at Berkley Street, Dublin 7. The scheme provides 35 one-bedroom apartments along with community rooms and essential building services.',
     longDescription:
       'This project involves the construction of James McSweeney House, a new four-storey residential development on a brownfield site at Berkley Street, Dublin 7. The scheme provides 35 one-bedroom apartments along with community rooms and essential building services.\n\nThe development also includes an ESB substation, plant rooms, external bin stores, and new boundary treatments, alongside landscaping and associated site works to create a well-integrated urban residential environment.',
-    image: '/assets/projects/james-mcsweeney-house-apartments/placeholder.webp',
-    gallery: ['/assets/projects/james-mcsweeney-house-apartments/placeholder.webp'],
+    image: '/assets/projects/james-mcsweeney-house-apartments/01.webp',
+    gallery: ['/assets/projects/james-mcsweeney-house-apartments/01.webp'],
     featured: false,
   },
   {
