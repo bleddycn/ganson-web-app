@@ -589,8 +589,8 @@ export const projects: readonly Project[] = [
       'Construction of a 274-bedroom purpose-built student accommodation development comprising two six-storey blocks arranged around a landscaped courtyard.',
     longDescription:
       'Construction of a 274-bedroom purpose-built student accommodation development comprising two six-storey blocks arranged around a landscaped courtyard.\n\nThe scheme includes a mix of cluster apartments and self-contained studios, all with en-suite facilities, alongside ground-floor retail units. Communal amenities include a gym, study areas, meeting rooms, reception, and a screening space, with landscaped roof terraces enhancing the overall offering.',
-    image: '/assets/projects/bakers-corner-student-residential/placeholder.webp',
-    gallery: ['/assets/projects/bakers-corner-student-residential/placeholder.webp'],
+    image: '/assets/projects/bakers-corner-student-residential/01.webp',
+    gallery: ['/assets/projects/bakers-corner-student-residential/01.webp'],
     featured: false,
   },
   {
@@ -797,6 +797,70 @@ export const projects: readonly Project[] = [
       'Fit-out and redevelopment of a new Lidl store within the Buttercrane Shopping Centre, transforming a long-vacant retail unit in the heart of Newry city.\n\nThe 2,190m² store includes a spacious sales area, modern retail layout, and Lidl’s latest concept design, incorporating wide aisles, enhanced customer facilities, and improved staff amenities.\n\nThe project delivers a high-quality shopping environment with upgraded features including an expanded bakery offering and in-store coffee facilities, contributing to the revitalisation of a key city centre location.',
     image: '/assets/projects/lidl-newry/01.webp',
     gallery: ['/assets/projects/lidl-newry/01.webp'],
+    featured: false,
+  },
+  {
+    slug: 'st-josephs-mercy-primary-school-navan',
+    title: 'St. Joseph\'s Mercy Primary School',
+    client: 'Department of Education and Skills',
+    sector: 'education',
+    status: 'current',
+    location: 'Navan',
+    year: '2026',
+    description:
+      'Extension and refurbishment of the existing school campus, delivering upgraded teaching facilities within a live operational environment.',
+    longDescription:
+      'The project at St. Joseph’s Mercy Primary School comprises a significant extension and refurbishment of the existing school campus, delivering upgraded teaching facilities within a live operational environment.\n\nThe works include the demolition of an existing two-storey toilet block, GP hall annex, and associated structures, alongside the removal of prefabricated accommodation. A new 8-classroom extension with ancillary teaching and support spaces will be constructed, while the existing school building will undergo a comprehensive refurbishment to provide 10 upgraded classrooms and modernised facilities throughout.\n\nThe development also incorporates associated site works, including landscaping and external improvements, enhancing the overall school environment. The project is carefully phased to ensure the school remains fully operational during construction, requiring detailed coordination and management within a live educational setting.',
+    image: '/assets/projects/st-josephs-mercy-primary-school-navan/01.webp',
+    gallery: ['/assets/projects/st-josephs-mercy-primary-school-navan/01.webp'],
+    featured: false,
+  },
+  {
+    slug: 'st-thomas-jns-tallaght',
+    title: 'St. Thomas JNS Tallaght',
+    client: 'Department of Education and Skills',
+    sector: 'education',
+    status: 'current',
+    location: 'Dublin',
+    year: '2026',
+    description:
+      'Redevelopment of St. Thomas’ Junior National School under the Department of Education’s ADAPT Schools Programme, delivering a modern, purpose-built primary school campus.',
+    longDescription:
+      'The redevelopment of St. Thomas’ Junior National School forms part of the Department of Education’s ADAPT Schools Programme, delivering a modern, purpose-built primary school campus.\n\nThe project comprises the demolition of the existing school buildings and the construction of a new c. 4,998 sq.m part two- and three-storey primary school. The new facility will provide 27 mainstream classrooms, a 3-class Special Educational Needs (SEN) unit, and a full range of ancillary teaching and support spaces.\n\nWorks also include the provision of temporary accommodation to enable phased construction on a live school site, ensuring uninterrupted operation throughout the build programme.\n\nExternally, the development incorporates new play areas, staff parking, set-down spaces, cycle parking, boundary upgrades, and full site landscaping, along with associated infrastructure and service connections.\n\nDelivered under a Public Works Contract, the scheme is carefully phased to facilitate safe construction within an active school environment while delivering a high-quality, future-focused learning facility.',
+    image: '/assets/projects/st-thomas-jns-tallaght/01.webp',
+    gallery: ['/assets/projects/st-thomas-jns-tallaght/01.webp'],
+    featured: false,
+  },
+  {
+    slug: 'st-catherines-kilcoole',
+    title: 'St. Catherine\'s, Kilcoole',
+    client: 'Department of Education and Skills',
+    sector: 'education',
+    status: 'current',
+    location: 'Kilcoole',
+    year: '2026',
+    description:
+      'A new purpose-built c. 6,250 m² special educational needs school, designed to accommodate approximately 158 pupils within a modern, inclusive learning environment.',
+    longDescription:
+      'A new purpose-built c. 6,250 m² special educational needs school, designed to accommodate approximately 158 pupils within a modern, inclusive learning environment.\n\nThe development comprises a split-level, two-storey building arranged in two interconnected blocks, delivering 25 classrooms alongside a comprehensive suite of specialist teaching, therapy, and support spaces. A key feature of the project is the inclusion of a hydrotherapy pool, supporting the complex needs of students.\n\nThe scheme also includes extensive external works, incorporating dedicated set-down and circulation areas for minibuses and vehicles, 102 car parking spaces, a range of play and sensory environments including soft play areas, a ballcourt, and a multisensory garden, along with associated landscaping, site infrastructure, and access roads.\n\nThis project represents a significant investment in specialist education infrastructure, combining high-quality architectural design with tailored clinical and educational facilities to support a diverse student population.',
+    image: '/assets/projects/st-catherines-kilcoole/01.webp',
+    gallery: ['/assets/projects/st-catherines-kilcoole/01.webp'],
+    featured: false,
+  },
+  {
+    slug: 'kilcoole-nursing-home',
+    title: 'Kilcoole Nursing Home',
+    client: 'Altere Development Managers',
+    sector: 'healthcare',
+    status: 'current',
+    location: 'Kilcoole',
+    year: '2026',
+    description:
+      'Construction of a 109-bedroom nursing home across three floors, providing modern, purpose-built residential care facilities.',
+    longDescription:
+      'Construction of a 109-bedroom nursing home across three floors, providing modern, purpose-built residential care facilities.\n\nThe development includes full clinical and support accommodation such as commercial kitchens, laundry facilities, day rooms, and nursing stations. External works feature a landscaped courtyard garden to the rear, with car parking and bicycle storage provided to the front.',
+    image: '/assets/projects/kilcoole-nursing-home/01.webp',
+    gallery: ['/assets/projects/kilcoole-nursing-home/01.webp'],
     featured: false,
   },
 ]
