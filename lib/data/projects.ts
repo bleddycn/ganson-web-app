@@ -761,6 +761,7 @@ export const projects: readonly Project[] = [
       '/assets/projects/lidl-castlereagh/06.webp',
     ],
     featured: false,
+    hidden: true,
   },
   {
     slug: 'lidl-boucher-road',
