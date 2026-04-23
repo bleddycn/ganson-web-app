@@ -224,6 +224,7 @@ export const projects: readonly Project[] = [
     image: '/assets/projects/scoil-phadraig-clane/placeholder.webp',
     gallery: ['/assets/projects/scoil-phadraig-clane/placeholder.webp'],
     featured: false,
+    hidden: true,
   },
   {
     slug: 'carechoice-nursing-home-trim',
@@ -304,6 +305,7 @@ export const projects: readonly Project[] = [
     image: '/assets/projects/dunshaughlin-nursing-home/placeholder.webp',
     gallery: ['/assets/projects/dunshaughlin-nursing-home/placeholder.webp'],
     featured: false,
+    hidden: true,
   },
   {
     slug: 'moorehall-nursing-home',
@@ -798,6 +800,7 @@ export const projects: readonly Project[] = [
     image: '/assets/projects/lidl-newry/01.webp',
     gallery: ['/assets/projects/lidl-newry/01.webp'],
     featured: false,
+    hidden: true,
   },
   {
     slug: 'st-josephs-mercy-primary-school-navan',
@@ -865,14 +868,16 @@ export const projects: readonly Project[] = [
   },
 ]
 
+export const visibleProjects: readonly Project[] = projects.filter((p) => !p.hidden)
+
 export function getProjectBySlug(slug: string): Project | undefined {
   return projects.find((project) => project.slug === slug)
 }
 
 export function getFeaturedProjects(): Project[] {
-  return projects.filter((project) => project.featured)
+  return projects.filter((project) => project.featured && !project.hidden)
 }
 
 export function getProjectsBySector(sector: Sector): Project[] {
-  return projects.filter((project) => project.sector === sector)
+  return projects.filter((project) => project.sector === sector && !project.hidden)
 }

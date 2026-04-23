@@ -20,6 +20,7 @@ export interface Project {
   image: string
   gallery: string[]
   featured: boolean
+  hidden?: boolean
 }
 
 export interface TeamMember {

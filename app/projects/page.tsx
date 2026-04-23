@@ -2,7 +2,7 @@ import Image from 'next/image'
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
 import ProjectFilter from '@/components/ui/project-filter'
-import { projects } from '@/lib/data/projects'
+import { visibleProjects } from '@/lib/data/projects'
 
 export const metadata = {
   title: 'Projects',
@@ -64,7 +64,7 @@ export default function ProjectsPage() {
       {/* Filter + Grid */}
       <section className="section-light bg-ivory py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-          <ProjectFilter projects={projects} />
+          <ProjectFilter projects={visibleProjects} />
         </div>
       </section>
     </>

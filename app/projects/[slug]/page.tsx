@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import ProjectGallery from '@/components/ui/project-gallery'
-import { projects } from '@/lib/data/projects'
+import { projects, visibleProjects } from '@/lib/data/projects'
 
 const sectorLabels: Record<string, string> = {
   healthcare: 'Healthcare',
@@ -14,7 +14,7 @@ const sectorLabels: Record<string, string> = {
 }
 
 export function generateStaticParams() {
-  return projects.map((p) => ({ slug: p.slug }))
+  return visibleProjects.map((p) => ({ slug: p.slug }))
 }
 
 export async function generateMetadata({
@@ -42,9 +42,9 @@ export default async function ProjectPage({
     notFound()
   }
 
-  // Find the next project (wrap around to first)
-  const currentIndex = projects.indexOf(project)
-  const nextProject = projects[(currentIndex + 1) % projects.length]
+  // Find the next project (wrap around to first), skipping hidden projects
+  const currentIndex = visibleProjects.indexOf(project)
+  const nextProject = visibleProjects[(currentIndex + 1) % visibleProjects.length]
 
   // Split longDescription into paragraphs
   const paragraphs = project.longDescription

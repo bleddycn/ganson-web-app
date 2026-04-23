@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { projects } from '@/lib/data/projects'
+import { visibleProjects } from '@/lib/data/projects'
 import { news } from '@/lib/data/news'
 
 export const dynamic = 'force-static'
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
   ]
 
-  const projectPages = projects.map((project) => ({
+  const projectPages = visibleProjects.map((project) => ({
     url: `${baseUrl}/projects/${project.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
