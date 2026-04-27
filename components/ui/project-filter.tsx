@@ -36,13 +36,23 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
 
   const normalizedQuery = searchQuery.trim().toLowerCase()
 
-  const filteredProjects = projects.filter((p) => {
-    const sectorMatch = activeSector === 'all' || p.sector === activeSector
-    const statusMatch = activeStatus === 'all' || p.status === activeStatus
-    const searchMatch =
-      normalizedQuery === '' || p.title.toLowerCase().includes(normalizedQuery)
-    return sectorMatch && statusMatch && searchMatch
-  })
+  const filteredProjects = projects
+    .filter((p) => {
+      const sectorMatch = activeSector === 'all' || p.sector === activeSector
+      const statusMatch = activeStatus === 'all' || p.status === activeStatus
+      const searchMatch =
+        normalizedQuery === '' || p.title.toLowerCase().includes(normalizedQuery)
+      return sectorMatch && statusMatch && searchMatch
+    })
+    .sort((a, b) => {
+      // All Sectors view: current projects first, then completed (each group by year desc).
+      // Specific sector view: pure chronological — newest first.
+      if (activeSector === 'all') {
+        if (a.status === 'current' && b.status !== 'current') return -1
+        if (a.status !== 'current' && b.status === 'current') return 1
+      }
+      return parseInt(b.year, 10) - parseInt(a.year, 10)
+    })
 
   const totalPages = Math.ceil(filteredProjects.length / PAGE_SIZE)
   const paginatedProjects = filteredProjects.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
@@ -178,8 +188,8 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
 
-                {/* Gradient overlay — matching homepage featured projects */}
-                <div className="absolute inset-0 bg-gradient-to-t from-navy from-10% via-navy/80 via-55% to-transparent transition-opacity duration-500" />
+                {/* Subtle bottom shadow for status badge contrast at top */}
+                <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-navy/40 to-transparent" />
 
                 {/* Status indicator badge — top right */}
                 <div className="absolute right-4 top-4 z-10">
@@ -203,17 +213,17 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
                   </span>
                 </div>
 
-                {/* Content overlay */}
-                <div className="absolute bottom-0 left-0 right-0 z-10 p-6">
-                  <span className="mb-2 inline-block font-body text-xs uppercase tracking-wider text-brand-red">
+                {/* Frosted info bar — text gets dedicated readable surface */}
+                <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-6 py-5 backdrop-blur-md">
+                  <span className="mb-1 inline-block font-body text-xs uppercase tracking-wider text-brand-red-light">
                     {sectorLabels[project.sector] ?? project.sector}
                   </span>
                   <h3 className="truncate font-display text-xl text-white">
                     {project.title}
                   </h3>
-                  <div className="mt-2 flex items-center gap-3 overflow-hidden font-body text-sm text-cream/80">
+                  <div className="mt-1.5 flex items-center gap-3 overflow-hidden font-body text-sm text-cream/90">
                     <span className="truncate">{project.client}</span>
-                    <span className="shrink-0 text-brand-red" aria-hidden="true">
+                    <span className="shrink-0 text-brand-red-light" aria-hidden="true">
                       &middot;
                     </span>
                     <span className="shrink-0">{project.location}</span>

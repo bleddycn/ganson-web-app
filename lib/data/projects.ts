@@ -61,8 +61,8 @@ export const projects: readonly Project[] = [
       'Successfully delivered in a high-traffic Dublin City location, acting as both Main Contractor and Project Supervisor Construction Stage (PSCS).',
     longDescription:
       'Successfully delivered in a high-traffic Dublin City location, acting as both Main Contractor and Project Supervisor Construction Stage (PSCS).\n\nA proactive HSEQ approach was embedded from tender stage, with thorough planning, risk assessments, and full regulatory compliance, including registration with the HSA and EPA. All site personnel were fully inducted, supported by a dedicated on-site Health & Safety Officer and ongoing supervision.\n\nRobust site management included weekly HSEQ audits, daily toolbox talks, and regular coordination meetings, ensuring all activities were carried out safely and efficiently. Strong collaboration with subcontractors and timely close-out of any non-conformances contributed to a well-managed, compliant project delivered to a high standard.',
-    image: '/assets/projects/st-lawrence-o-tooles-dublin/01.webp',
-    gallery: ['/assets/projects/st-lawrence-o-tooles-dublin/01.webp', '/assets/projects/st-lawrence-o-tooles-dublin/02.webp', '/assets/projects/st-lawrence-o-tooles-dublin/03.webp', '/assets/projects/st-lawrence-o-tooles-dublin/04.webp', '/assets/projects/st-lawrence-o-tooles-dublin/05.webp', '/assets/projects/st-lawrence-o-tooles-dublin/06.webp'],
+    image: '/assets/projects/st-lawrence-o-tooles-dublin/03.webp',
+    gallery: ['/assets/projects/st-lawrence-o-tooles-dublin/03.webp', '/assets/projects/st-lawrence-o-tooles-dublin/02.webp', '/assets/projects/st-lawrence-o-tooles-dublin/01.webp', '/assets/projects/st-lawrence-o-tooles-dublin/04.webp', '/assets/projects/st-lawrence-o-tooles-dublin/05.webp', '/assets/projects/st-lawrence-o-tooles-dublin/06.webp'],
     featured: true,
   },
   {
@@ -735,8 +735,8 @@ export const projects: readonly Project[] = [
       'Refurbishment and redevelopment of a prominent city centre building, formerly occupied by BHS, transforming the space into a modern mixed-use development.',
     longDescription:
       'Refurbishment and redevelopment of a prominent city centre building, formerly occupied by BHS, transforming the space into a modern mixed-use development.\n\nThe project included the reconfiguration of the ground floor into multiple retail units, along with a partial change of use on the upper floors to accommodate leisure uses. Significant façade upgrades were delivered along Castle Lane, Castle Arcade, and Cornmarket, alongside internal alterations to improve layout and circulation.',
-    image: '/assets/projects/the-keep/01.webp',
-    gallery: ['/assets/projects/the-keep/01.webp', '/assets/projects/the-keep/02.webp', '/assets/projects/the-keep/03.webp', '/assets/projects/the-keep/04.webp'],
+    image: '/assets/projects/the-keep/04.webp',
+    gallery: ['/assets/projects/the-keep/04.webp', '/assets/projects/the-keep/02.webp', '/assets/projects/the-keep/03.webp', '/assets/projects/the-keep/01.webp'],
     featured: false,
   },
   {

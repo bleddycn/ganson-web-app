@@ -21,7 +21,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src="/assets/hero/hero-bg.jpg"
+          src="/assets/hero/DB_GANSON_HERO.webp"
           alt=""
           fill
           priority

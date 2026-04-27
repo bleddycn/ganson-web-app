@@ -2,7 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { getFeaturedProjects } from '@/lib/data/projects'
+import { projects } from '@/lib/data/projects'
+import type { Project } from '@/lib/types'
 import ScrollReveal from '@/components/animations/scroll-reveal'
 import StaggerText from '@/components/animations/stagger-text'
 import { cn } from '@/lib/utils'
@@ -16,16 +17,15 @@ const sectorLabels: Record<string, string> = {
 }
 
 const FEATURED_ORDER = [
-  'carechoice-nursing-home-parnell-road',
+  'the-keep',
   'st-lawrence-o-tooles-dublin',
-  'circle-housing-inchicore',
+  'room2-hotel-belfast',
 ] as const
 
 export default function FeaturedProjects() {
-  const featured = getFeaturedProjects()
-  const projects = FEATURED_ORDER
-    .map((slug) => featured.find((p) => p.slug === slug))
-    .filter((p): p is NonNullable<typeof p> => p !== undefined)
+  const orderedProjects = FEATURED_ORDER
+    .map((slug) => projects.find((p) => p.slug === slug))
+    .filter((p): p is Project => p !== undefined)
 
   return (
     <section className="noise-overlay relative bg-navy py-24 md:py-32">
@@ -45,36 +45,31 @@ export default function FeaturedProjects() {
           />
         </div>
 
-        {/* Asymmetric project grid */}
+        {/* Asymmetric grid — hero left, 2 stacked right */}
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:grid-rows-2">
-          {/* Card 1 — large, spans left column, both rows */}
-          {projects[0] && (
-            <ScrollReveal
-              delay={0.1}
-              className="lg:row-span-2"
-            >
+          {/* Hero — The Keep, spans both rows on the left */}
+          {orderedProjects[0] && (
+            <ScrollReveal delay={0.1} className="lg:row-span-2">
               <ProjectCard
-                project={projects[0]}
+                project={orderedProjects[0]}
                 className="h-[400px] lg:h-full"
               />
             </ScrollReveal>
           )}
 
-          {/* Card 2 — medium, right column top */}
-          {projects[1] && (
+          {/* Right column — 2 stacked tiles */}
+          {orderedProjects[1] && (
             <ScrollReveal delay={0.2}>
               <ProjectCard
-                project={projects[1]}
+                project={orderedProjects[1]}
                 className="h-[400px] lg:h-[340px]"
               />
             </ScrollReveal>
           )}
-
-          {/* Card 3 — medium, right column bottom */}
-          {projects[2] && (
+          {orderedProjects[2] && (
             <ScrollReveal delay={0.3}>
               <ProjectCard
-                project={projects[2]}
+                project={orderedProjects[2]}
                 className="h-[400px] lg:h-[340px]"
               />
             </ScrollReveal>
@@ -100,7 +95,7 @@ function ProjectCard({
   project,
   className,
 }: {
-  project: ReturnType<typeof getFeaturedProjects>[number]
+  project: Project
   className?: string
 }) {
   return (
@@ -111,27 +106,23 @@ function ProjectCard({
         className
       )}
     >
-      {/* Background image */}
       <Image
         src={project.image}
         alt={project.title}
         fill
         className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-        sizes="(max-width: 1024px) 100vw, 50vw"
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
       />
 
-      {/* Gradient overlay — strong fade covering bottom 60% for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-t from-navy from-10% via-navy/80 via-55% to-transparent transition-opacity duration-500" />
-
-      {/* Content overlay */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 p-6 md:p-8">
-        <span className="mb-2 inline-block font-body text-xs uppercase tracking-wider text-brand-red">
+      {/* Frosted info bar — text gets dedicated readable surface */}
+      <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-6 py-5 backdrop-blur-md md:px-8 md:py-6">
+        <span className="mb-1 inline-block font-body text-xs uppercase tracking-wider text-brand-red-light">
           {sectorLabels[project.sector] ?? project.sector}
         </span>
         <h3 className="font-display text-2xl text-white md:text-3xl">
           {project.title}
         </h3>
-        <p className="mt-2 font-body text-sm text-cream">
+        <p className="mt-1.5 font-body text-sm text-cream/90">
           {project.client} &middot; {project.location}
         </p>
       </div>

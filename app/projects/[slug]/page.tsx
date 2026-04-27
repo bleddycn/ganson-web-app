@@ -76,7 +76,7 @@ export default async function ProjectPage({
         />
 
         {/* Navy gradient overlay — matching homepage hero strength */}
-        <div className="absolute inset-0 bg-linear-to-r from-navy/95 via-navy/80 to-navy/50" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy/85 via-navy/70 to-navy/40" />
         {/* Top gradient for header/nav readability */}
         <div className="absolute inset-x-0 top-0 h-40 bg-linear-to-b from-navy/70 to-transparent" />
         {/* Bottom gradient for text area */}

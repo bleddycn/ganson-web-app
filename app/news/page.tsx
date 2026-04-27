@@ -33,7 +33,7 @@ export default function NewsPage() {
           sizes="100vw"
           priority
         />
-        <div className="absolute inset-0 bg-navy/80" />
+        <div className="absolute inset-0 bg-navy/70" />
         <div className="noise-overlay pointer-events-none absolute inset-0" />
         <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <ScrollReveal delay={0.1}>
