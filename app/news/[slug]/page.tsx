@@ -40,56 +40,45 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
 
   return (
     <>
-      {/* Back Navigation */}
-      <div className="section-dark bg-navy">
-        <div className="mx-auto max-w-7xl px-6 pt-8 md:px-12 lg:px-16">
-          <Link
-            href="/news"
-            className="inline-flex items-center font-body text-sm text-brand-red transition-colors duration-300 hover:text-brand-red-light"
-          >
-            &larr; Back to News
-          </Link>
-        </div>
-      </div>
-
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-navy">
-        <div className="relative aspect-[16/9] md:aspect-[21/9]">
-          <Image
-            src={article.image}
-            alt={article.title}
-            fill
-            className="object-cover"
-            sizes="100vw"
-            priority
+      {/* Title Block */}
+      <section className="bg-navy pt-28 pb-14 md:pt-36 md:pb-20">
+        <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
+          <ScrollReveal delay={0.1}>
+            <span className="font-body text-xs uppercase tracking-wider text-brand-red-light">
+              {article.category}
+            </span>
+          </ScrollReveal>
+          <StaggerText
+            text={article.title}
+            className="mt-3 max-w-4xl text-3xl text-white md:text-5xl lg:text-6xl"
+            tag="h1"
+            delay={0.2}
           />
-          <div className="absolute inset-0 bg-navy/70" />
-          <div className="absolute inset-0 flex items-end">
-            <div className="mx-auto w-full max-w-7xl px-6 pb-12 md:px-12 md:pb-16 lg:px-16">
-              <ScrollReveal delay={0.1}>
-                <span className="font-body text-xs uppercase tracking-wider text-brand-red">
-                  {article.category}
-                </span>
-              </ScrollReveal>
-              <StaggerText
-                text={article.title}
-                className="mt-3 max-w-4xl text-3xl text-white md:text-5xl lg:text-6xl"
-                tag="h1"
-                delay={0.2}
-              />
-              <ScrollReveal delay={0.5}>
-                <span className="mt-4 inline-block font-body text-sm text-cream/80">
-                  {formatDate(article.date)}
-                </span>
-              </ScrollReveal>
-            </div>
-          </div>
+          <ScrollReveal delay={0.5}>
+            <span className="mt-4 inline-block font-body text-sm text-cream/80">
+              {formatDate(article.date)}
+            </span>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Article Content */}
-      <section className="section-light py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-6 md:px-12 lg:px-16">
+      <section className="section-light pt-12 pb-16 md:pt-16 md:pb-24">
+        <div className="mx-auto max-w-4xl px-6 md:px-12 lg:px-16">
+          {/* Lead image — first element of the story */}
+          <div className="relative aspect-[16/9] overflow-hidden bg-sand">
+            <Image
+              src={article.image}
+              alt={article.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              priority
+            />
+          </div>
+        </div>
+
+        <div className="mx-auto mt-12 max-w-3xl px-6 md:mt-16 md:px-12 lg:px-16">
           <ScrollReveal>
             <p className="mb-8 font-body text-sm text-mid-grey">
               By {article.author} &middot; {formatDate(article.date)}

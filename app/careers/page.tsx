@@ -199,8 +199,8 @@ export default function CareersPage() {
           <div className="mt-16 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
             {benefits.map((benefit, i) => (
               <ScrollReveal key={benefit.title} delay={0.05 + i * 0.05}>
-                <div className="group flex h-full flex-col items-center justify-center border-t-2 border-brand-red bg-white/5 px-6 py-12 text-center transition-colors duration-300 hover:bg-white/10">
-                  <div className="mb-6 text-brand-red">
+                <div className="group flex h-full flex-col items-center justify-center border-t border-brand-red/40 bg-white/5 px-6 py-12 text-center transition-colors duration-300 hover:border-brand-red/70 hover:bg-white/10">
+                  <div className="mb-6 text-cream/85 transition-colors duration-300 group-hover:text-brand-red-light">
                     {benefit.icon}
                   </div>
                   <h3 className="font-display text-lg text-white md:text-xl">
@@ -252,12 +252,12 @@ export default function CareersPage() {
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
             <div className="mt-8">
-              <button
-                type="button"
+              <a
+                href="mailto:info@ganson.ie?subject=CV%20Submission"
                 className="inline-flex items-center justify-center bg-brand-red px-8 py-4 font-body text-sm font-medium text-white transition-colors duration-300 hover:bg-brand-red-dark"
               >
                 Send Your CV
-              </button>
+              </a>
             </div>
           </ScrollReveal>
         </div>

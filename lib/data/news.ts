@@ -2,64 +2,52 @@ import type { NewsArticle } from '../types'
 
 export const news: readonly NewsArticle[] = [
   {
-    slug: 'ganson-secures-intel-data-centre-contract',
-    title: 'Ganson Secures \u20ac28m Intel Data Centre Contract',
-    date: '2024-01-15',
+    slug: 'meet-the-new-directors',
+    title: 'Meet the Directors Leading Our Next Chapter',
+    date: '2026-04-25',
     excerpt:
-      'Ganson Building & Civil Engineering has been awarded a \u20ac28m contract by Intel Ireland for the construction of a new data centre facility on its Leixlip campus in Co. Kildare.',
+      'Ganson announces a series of key leadership appointments — promoted from within — that strengthen our foundation and position the business for significant growth in the years ahead.',
     content:
-      "Ganson Building & Civil Engineering Ltd has been awarded a \u20ac28 million contract by Intel Ireland for the construction of a new data centre facility at the company's campus in Leixlip, Co. Kildare. The appointment follows a competitive tender process and represents one of the largest single contracts in Ganson's 20-year history.\n\nThe new facility will provide 2,400 square metres of white space across two data halls, designed to Tier III resilience standards. The project scope includes the reinforced-concrete shell and core structure, building envelope, and coordination of specialist mechanical, electrical, and fire suppression fit-out packages. Construction is scheduled to commence immediately, with completion targeted for late 2024.\n\nManaging Director Paul McQuaid said: \"We are delighted to have been selected by Intel Ireland for this strategically important project. It is a testament to our track record in delivering high-specification facilities on demanding programmes. Our team has significant experience in the data centre sector and we look forward to bringing that expertise to the Intel campus.\"\n\nThe contract is expected to support over 200 construction jobs at peak activity and will draw on Ganson's established supply chain of specialist subcontractors and suppliers in the high-tech construction sector.",
-    image: '/assets/news/news-data-centre.jpg',
-    author: 'Ganson Communications',
-    category: 'Contract Award',
-  },
-  {
-    slug: 'st-vincents-hospital-wing-opens-ahead-of-schedule',
-    title: "St. Vincent's Hospital Wing Opens Ahead of Schedule",
-    date: '2023-11-28',
-    excerpt:
-      "The new acute care wing at St. Vincent's University Hospital has been officially opened, with Ganson handing over the facility two weeks ahead of the contractual completion date.",
-    content:
-      "The new wing extension at St. Vincent's University Hospital in south Dublin was officially opened today by the Minister for Health, marking the completion of an 18-month construction programme delivered by Ganson Building & Civil Engineering. The \u20ac14.5 million project was handed over two weeks ahead of schedule.\n\nThe four-storey facility provides 4,200 square metres of new clinical space, including a 32-bed acute medical assessment unit, expanded outpatient suites, and a dedicated ambulatory care centre. The building has been designed to the latest HSE standards for infection prevention and incorporates HEPA-filtered ventilation throughout.\n\nGanson's Operations Director, Siobh\u00e1n O'Neill, commented: \"Delivering a project of this scale on an occupied hospital campus requires exceptional planning and coordination. I am immensely proud of our team, who maintained an unbroken safety record while ensuring that patient care in the adjacent wards was never disrupted. Handing over early is a reflection of the collaborative spirit between our site team, the design consultants, and the HSE estates division.\"\n\nThe hospital's Chief Executive praised Ganson for their professionalism throughout the build, noting that the construction team's sensitivity to the clinical environment was exemplary. The new wing is expected to treat an additional 15,000 patients per year, significantly reducing waiting times for acute medical assessment in the south Dublin area.",
-    image: '/assets/news/news-hospital.jpg',
-    author: 'Ganson Communications',
-    category: 'Project Completion',
-  },
-  {
-    slug: 'ganson-celebrates-20-years',
-    title: 'Ganson Celebrates 20 Years of Building Excellence',
-    date: '2024-06-01',
-    excerpt:
-      'Ganson Building & Civil Engineering marks its 20th anniversary in 2024, having grown from a two-person operation to one of Ireland\'s most respected mid-tier building contractors.',
-    content:
-      "Ganson Building & Civil Engineering Ltd is celebrating its 20th anniversary this year, marking two decades since co-founders Paul McQuaid and David Rogers established the company in 2004. From a two-person startup working on small residential projects in the north-east, Ganson has grown into a nationally recognised building and civil engineering contractor with offices in Balbriggan and Castlewellan.\n\nOver the past 20 years, Ganson has delivered more than 150 projects with a combined value exceeding \u20ac400 million. The company's portfolio spans healthcare, education, commercial, retail, tourism, high-tech, refurbishment, and civil engineering sectors. Key milestones include the company's first \u20ac10m+ contract in 2012, its expansion into Northern Ireland in 2015, and its appointment to several public-sector frameworks including the HSE, OPW, and Education Authority NI panels.\n\nPaul McQuaid reflected on the journey: \"When David and I started Ganson, our ambition was simple \u2014 to build a company that delivered outstanding projects and treated people fairly. Twenty years on, those values haven't changed. What has changed is the scale and complexity of the work we undertake, and the exceptional team of people who make it possible. Every milestone we've reached is a credit to their dedication.\"\n\nTo mark the anniversary, Ganson has announced a series of community initiatives including a bursary programme for civil engineering students at Dundalk Institute of Technology and a partnership with Habitat for Humanity Ireland. The company currently employs 85 people directly and supports several hundred additional jobs through its supply chain.",
-    image: '/assets/news/news-celebration.jpg',
+      "We are thrilled to announce a series of key leadership appointments that reflect our commitment to excellence and our ambitious vision for the future of Ganson. These appointments will strengthen our foundation and position us for significant growth in the years ahead.\n\nWith continued support from our founders David Rogers and Paul McQuaid, Luke Howard is appointed Managing Director, Paul Campbell as Commercial Director, Brian Duffy as Finance Director, with Noel Heuston and Niall McKenna as Construction Directors across the business.\n\nEach appointment is a promotion from within — a continuation of the philosophy that has shaped Ganson since 2004 and the key to ensuring we consistently deliver the highest standards of safety, quality, and project excellence, now and into the future.\n\nThis announcement is a major milestone for Ganson, and we are confident that this leadership structure will drive our continued growth and evolution within the industry.\n\nWishing the team and the business the very best of luck and ongoing success.",
+    image: '/assets/news/director-appointments.webp',
     author: 'Ganson Communications',
     category: 'Company News',
   },
   {
-    slug: 'castlewellan-community-college-breaks-ground',
-    title: 'New Community College Breaks Ground in Castlewellan',
-    date: '2024-03-11',
+    slug: 'ganson-main-sponsor-ciob-student-challenge-2026',
+    title: 'Ganson Announced as Main Sponsor of CIOB Ireland Student Challenge 2026',
+    date: '2026-04-22',
     excerpt:
-      'Construction has officially commenced on the new Castlewellan Community College, a \u20ac8.5m Passivhaus-standard school that will serve 600 post-primary pupils in the Mournes area.',
+      'Ganson is proud to continue its collaboration with the Chartered Institute of Building (CIOB) as the Main Sponsor of the CIOB Ireland Student Challenge 2026, taking place at SETU Waterford.',
     content:
-      "A ground-breaking ceremony has taken place at the site of the new Castlewellan Community College in Co. Down, marking the formal commencement of construction on the \u20ac8.5 million project. The ceremony was attended by representatives from the Education Authority Northern Ireland, local elected members, and the school's board of governors.\n\nGanson Building & Civil Engineering is delivering the new 5,500 square metre school, which will accommodate 600 post-primary pupils in 24 general-purpose classrooms, four specialist STEM laboratories, a sports hall, and a performing arts studio. Notably, the building is being constructed to Passivhaus energy performance standards, making it one of the first post-primary schools in Northern Ireland to achieve this certification.\n\nContracts Manager Conor Murphy, who is leading the project for Ganson, said: \"This is a fantastic project for the Castlewellan community and we are delighted to be delivering it. The Passivhaus standard presents interesting construction challenges, particularly around airtightness and thermal bridge-free detailing, but our team has prepared thoroughly and we are confident of delivering a building that the school and wider community will be proud of for generations to come.\"\n\nThe school is scheduled for completion in early 2025, with the aim of welcoming pupils for the start of the next academic year. During the construction phase, the project will support approximately 120 jobs on site.",
-    image: '/assets/news/news-school.jpg',
+      "Ganson is proud to continue its collaboration with the Chartered Institute of Building (CIOB) as the Main Sponsor of the CIOB Ireland Student Challenge 2026.\n\nThe annual CIOB Student Challenge is a highly regarded competition that brings together students from colleges across Ireland, providing them with an opportunity to develop their skills, think innovatively, and gain valuable insight into real-world construction scenarios. The initiative plays an important role in supporting the next generation of construction professionals as they begin their careers in the industry.\n\nThe 2026 event is set to take place at South East Technological University (SETU), Waterford, and promises to be another exciting and engaging competition. With less than two months to go, anticipation is building for what is always a standout event in the academic and construction calendar.\n\nGanson is committed to supporting education and industry development, and is delighted to play a key role in fostering emerging talent within the sector.",
+    image: '/assets/news/ciob-student-challenge.webp',
+    author: 'Ganson Communications',
+    category: 'Sponsorship',
+  },
+  {
+    slug: 'dunshaughlin-schools-construction-commences',
+    title: 'Construction Commences on New Primary and Post-Primary Schools in Dunshaughlin',
+    date: '2026-04-15',
+    excerpt:
+      'Construction works have commenced on new primary and post-primary school developments in Dunshaughlin, Co. Meath — a major investment in educational infrastructure to support the continued growth of the local community.',
+    content:
+      "Ganson Building & Civil Engineering is pleased to announce the commencement of construction works on new primary and post-primary school developments in Dunshaughlin, Co. Meath. This significant project represents a major investment in educational infrastructure to support the continued growth of the local community.\n\nThe development is located on a 4.18-hectare site accessed from the R147, south of Dunshaughlin, and will provide high-quality educational facilities with a combined capacity for approximately 1,343 pupils and staff.\n\nThe post-primary school, situated on a 2.40-hectare site, will accommodate 1,000 pupils and 75 staff. The facility will include 37 classrooms, a range of specialist teaching rooms including home economics, science, art, and technology, a PE hall, and a four-classroom Special Educational Needs (SEN) unit. External works will comprise six ball courts and extensive landscaping.\n\nThe primary school, located on a 1.78-hectare site, will provide accommodation for 248 pupils and 20 staff. The two-storey building will include eight classrooms, a two-class SEN base, a general purpose hall, support teaching spaces, and a range of external amenities including junior play areas, secure SEN play areas, a sensory garden, and an outdoor classroom.\n\nBoth developments will include associated infrastructure such as car and bicycle parking, drop-off areas, pedestrian and cycle links, ESB substations, and all related site development works.\n\nGanson Building & Civil Engineering is proud to have been appointed as Main Contractor and looks forward to delivering modern, high-quality educational facilities that will serve the Dunshaughlin community for years to come.",
+    image: '/assets/news/dunshaughlin-schools.webp',
     author: 'Ganson Communications',
     category: 'Project Update',
   },
   {
-    slug: 'm1-junction-upgrade-reaches-milestone',
-    title: 'M1 Junction Upgrade Reaches Completion Milestone',
-    date: '2023-09-18',
+    slug: 'women-in-construction-louth-stadium-visit',
+    title: 'Women in Construction Site Visit at Louth Stadium',
+    date: '2026-04-04',
     excerpt:
-      'The new grade-separated interchange at Junction 4 on the M1 motorway is now substantially complete, with the bridge deck over the mainline carriageway successfully installed.',
+      'Ganson welcomed members of Women in Construction Ireland to our Louth Stadium project for a site visit and seminar — the first cross-border collaboration between Women in Construction Ireland and the Women in Construction Network.',
     content:
-      "A major milestone has been reached on the M1 Junction 4 Upgrade project near Donabate, Co. Dublin, with the successful installation of the bridge deck over the M1 mainline carriageway. The operation, which required a full overnight closure of the motorway, was completed without incident by the Ganson construction team.\n\nThe \u20ac18 million project, commissioned by Transport Infrastructure Ireland, involves the replacement of the existing at-grade roundabout with a new grade-separated interchange. The works include the two-span composite bridge, new slip roads, and a signalised junction with the R132. Ganson has also completed 45,000 cubic metres of earthworks and installed 1,200 linear metres of stormwater attenuation infrastructure.\n\nSenior Project Manager Declan Walsh commented: \"Installing the bridge beams over a live motorway carrying over 70,000 vehicles per day is one of the most complex operations in road construction. Months of planning went into ensuring that the closure window was used as efficiently as possible, and I am pleased to report that we completed the lift 90 minutes ahead of schedule, allowing the motorway to reopen well before the Monday morning rush.\"\n\nThe remaining works, including road surfacing, lighting installation, and the construction of 3.2 kilometres of segregated cycle track, are progressing well and the project remains on programme for full completion in mid-2024.",
-    image: '/assets/news/news-motorway.jpg',
+      "Ganson was delighted to welcome members of Women in Construction Ireland to our Louth Stadium project last week for a site visit and seminar. The event marked a significant milestone as the first cross-border collaboration between Women in Construction Ireland and the Women in Construction Network.\n\nThe visit provided attendees with a valuable opportunity to experience the project first-hand, with a guided tour of the site showcasing the progress to date and offering insight into the construction works underway. The strong engagement and enthusiasm from participants highlighted the importance of initiatives such as this in encouraging greater female participation across the industry.\n\nThe day also featured an informative seminar session, delivering valuable perspectives and fostering discussion around careers and opportunities in construction. Ganson would like to extend sincere thanks to Lyndsey Thompson for coordinating the event, to our Site Manager Frank and the wider project team for facilitating the visit, and to Jodie Duffy for delivering an excellent seminar. It was also a pleasure to welcome David Rogers on the day.\n\nGanson is proud to support initiatives that promote inclusion and help inspire the next generation of talent within the construction sector.",
+    image: '/assets/news/women-in-construction-site-visit.webp',
     author: 'Ganson Communications',
-    category: 'Project Update',
+    category: 'Community',
   },
 ]
 
