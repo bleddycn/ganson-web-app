@@ -22,6 +22,12 @@ const FEATURED_ORDER = [
   'circle-housing-inchicore',
 ] as const
 
+const featuredLabels: Record<string, string> = {
+  'the-keep': 'The Keep',
+  'st-lawrence-o-tooles-dublin': "St Laurence O'Toole",
+  'circle-housing-inchicore': 'Inchicore',
+}
+
 export default function FeaturedProjects() {
   const orderedProjects = FEATURED_ORDER
     .map((slug) => projects.find((p) => p.slug === slug))
@@ -114,17 +120,17 @@ function ProjectCard({
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
       />
 
-      {/* Frosted info bar — text gets dedicated readable surface */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-5 py-4 backdrop-blur-md md:px-6 md:py-5">
-        <span className="mb-0.5 inline-block font-body text-[10px] uppercase tracking-wider text-brand-red-light">
-          {sectorLabels[project.sector] ?? project.sector}
-        </span>
-        <h3 className="font-display text-lg text-white md:text-xl">
-          {project.title}
-        </h3>
-        <p className="mt-0.5 font-body text-xs text-cream/90">
-          {project.client} &middot; {project.location}
-        </p>
+      {/* Frosted info bar — single-line label */}
+      <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-5 py-3 backdrop-blur-md md:px-6 md:py-4">
+        <div className="flex items-center gap-2 truncate">
+          <span className="font-display text-base leading-none text-white md:text-lg">
+            {featuredLabels[project.slug] ?? project.title}
+          </span>
+          <span className="translate-y-px font-body text-[10px] leading-none uppercase tracking-wider md:text-xs">
+            <span className="text-light-grey" aria-hidden="true">&middot;</span>{' '}
+            <span className="text-brand-red-light">{sectorLabels[project.sector] ?? project.sector}</span>
+          </span>
+        </div>
       </div>
     </Link>
   )
