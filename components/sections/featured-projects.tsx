@@ -19,7 +19,7 @@ const sectorLabels: Record<string, string> = {
 const FEATURED_ORDER = [
   'the-keep',
   'st-lawrence-o-tooles-dublin',
-  'room2-hotel-belfast',
+  'circle-housing-inchicore',
 ] as const
 
 export default function FeaturedProjects() {
@@ -115,14 +115,14 @@ function ProjectCard({
       />
 
       {/* Frosted info bar — text gets dedicated readable surface */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-6 py-5 backdrop-blur-md md:px-8 md:py-6">
-        <span className="mb-1 inline-block font-body text-xs uppercase tracking-wider text-brand-red-light">
+      <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-5 py-4 backdrop-blur-md md:px-6 md:py-5">
+        <span className="mb-0.5 inline-block font-body text-[10px] uppercase tracking-wider text-brand-red-light">
           {sectorLabels[project.sector] ?? project.sector}
         </span>
-        <h3 className="font-display text-2xl text-white md:text-3xl">
+        <h3 className="font-display text-lg text-white md:text-xl">
           {project.title}
         </h3>
-        <p className="mt-1.5 font-body text-sm text-cream/90">
+        <p className="mt-0.5 font-body text-xs text-cream/90">
           {project.client} &middot; {project.location}
         </p>
       </div>
