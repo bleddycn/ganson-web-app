@@ -213,21 +213,14 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
                   </span>
                 </div>
 
-                {/* Frosted info bar — text gets dedicated readable surface */}
-                <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-4 py-3 backdrop-blur-md">
+                {/* Frosted info bar — sector + title only */}
+                <div className="absolute bottom-0 left-0 right-0 z-10 bg-navy/55 px-4 py-2.5 backdrop-blur-md">
                   <span className="mb-0.5 inline-block font-body text-[10px] uppercase tracking-wider text-brand-red-light">
                     {sectorLabels[project.sector] ?? project.sector}
                   </span>
                   <h3 className="truncate font-display text-sm text-white md:text-base">
                     {project.title}
                   </h3>
-                  <div className="mt-0.5 flex items-center gap-2 overflow-hidden font-body text-[11px] text-cream/90">
-                    <span className="truncate">{project.client}</span>
-                    <span className="shrink-0 text-brand-red-light" aria-hidden="true">
-                      &middot;
-                    </span>
-                    <span className="shrink-0">{project.location}</span>
-                  </div>
                 </div>
               </Link>
             </motion.div>
