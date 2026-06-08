@@ -2,6 +2,20 @@ import type { NewsArticle } from '../types'
 
 export const news: readonly NewsArticle[] = [
   {
+    slug: 'marriott-hotel-hamilton-dock-complete',
+    title: 'Ganson Delivers Marriott Hotel at Hamilton Dock',
+    date: '2026-06-08',
+    excerpt:
+      'Ganson has completed the new Marriott Hotel at Hamilton Dock — a landmark waterfront development delivering a world-class branded hospitality offering on programme and to specification.',
+    content:
+      "We are proud to announce the successful completion of the new Marriott Hotel at Hamilton Dock, marking another landmark achievement for Ganson and a transformative addition to the local waterfront.\n\nThis prestigious project sees a world-class Marriott-branded hotel rise at Hamilton Dock, bringing a new standard of hospitality to the area. From groundworks through to fit-out, the Ganson team navigated the unique challenges of a dockside location to deliver a high-quality build on programme and to specification.\n\nThe development is set to become a key destination for both leisure and business travellers, cementing Hamilton Dock's status as a thriving, modern quarter. Ganson is delighted to have played a central role in bringing this vision to life, and we look forward to seeing the positive impact this landmark project will have on the local community and economy.",
+    image: '/assets/news/marriott-hamilton-dock.webp',
+    author: 'Ganson Communications',
+    category: 'Project Update',
+    video: '/assets/news/marriott-hamilton-dock.mp4',
+    videoPoster: '/assets/news/marriott-hamilton-dock-poster.jpg',
+  },
+  {
     slug: 'meet-the-new-directors',
     title: 'Meet the Directors Leading Our Next Chapter',
     date: '2026-04-25',

@@ -51,9 +51,11 @@ export default function TeamGrid({ members }: TeamGridProps) {
                 <p className="mt-1 font-body text-sm uppercase tracking-wider text-cream/70">
                   {selected.role}
                 </p>
-                <p className="mt-5 font-body text-base leading-relaxed text-cream/90">
-                  {selected.bio}
-                </p>
+                <div className="mt-5 space-y-4 font-body text-base leading-relaxed text-cream/90">
+                  {selected.bio.split('\n\n').map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </div>
                 {selected.linkedin && (
                   <a
                     href={selected.linkedin}

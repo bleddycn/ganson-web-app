@@ -100,6 +100,25 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
               </ScrollReveal>
             ))}
           </div>
+
+          {article.video && (
+            <ScrollReveal>
+              <figure className="mt-12 md:mt-16">
+                <div className="relative aspect-video overflow-hidden bg-navy">
+                  <video
+                    className="h-full w-full"
+                    controls
+                    preload="none"
+                    playsInline
+                    poster={article.videoPoster}
+                  >
+                    <source src={article.video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </figure>
+            </ScrollReveal>
+          )}
         </div>
       </section>
 

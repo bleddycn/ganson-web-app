@@ -161,14 +161,14 @@ export default function AboutPage() {
             {founders.map((founder, i) => (
               <ScrollReveal key={founder.name} delay={0.1 * (i + 1)}>
                 {i > 0 && <div className="mb-12 h-px bg-white/10 md:mb-16" />}
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-[200px_1fr] md:gap-12 lg:gap-16">
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-[260px_1fr] md:gap-12 lg:gap-16">
                   <div className="relative aspect-3/4 w-40 overflow-hidden rounded-sm bg-sand/20 md:w-full">
                     <Image
                       src={founder.image}
                       alt={founder.name}
                       fill
                       className="object-cover object-top"
-                      sizes="200px"
+                      sizes="260px"
                     />
                   </div>
                   <div className="flex flex-col justify-center">
@@ -178,9 +178,11 @@ export default function AboutPage() {
                     <p className="mt-1 font-body text-sm uppercase tracking-wider text-brand-red">
                       {founder.role}
                     </p>
-                    <p className="mt-4 max-w-2xl font-body text-base leading-relaxed text-cream/80">
-                      {founder.bio}
-                    </p>
+                    <div className="mt-4 max-w-2xl space-y-4 font-body text-base leading-relaxed text-cream/80">
+                      {founder.bio.split('\n\n').map((para, i) => (
+                        <p key={i}>{para}</p>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </ScrollReveal>

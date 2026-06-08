@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-sand/20 pt-8 sm:flex-row">
           <p className="text-xs text-cream/50">
-            &copy; 2024 Ganson Building &amp; Civil Engineering Ltd. All rights reserved.
+            &copy; 2026 Ganson Building &amp; Civil Engineering Ltd. All rights reserved.
           </p>
           <Link
             href="/privacy-policy"

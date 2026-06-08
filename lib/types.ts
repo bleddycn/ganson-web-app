@@ -42,6 +42,8 @@ export interface NewsArticle {
   image: string
   author: string
   category: string
+  video?: string
+  videoPoster?: string
 }
 
 export interface Policy {
